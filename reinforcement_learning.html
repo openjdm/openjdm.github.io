@@ -1,0 +1,737 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reinforcement learning &#8212; OpenJDM</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Interactions between AI decision support systems and human JDM" href="jdm_and_ai.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">OpenJDM</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   OpenJDM
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Heuristics and biases
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="anchoring_and_adjustment.html">
+   The Anchoring and Adjustment Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="availability_bias.html">
+   The Availability Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sunk_cost.html">
+   Sunk Costs in Consumer Decision Making
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hindsight_bias.html">
+   Hindsight Bias
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="illusory_correlations.html">
+   Illusory correlations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Consumer decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mental_accounting.html">
+   Mental accounting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="option_paralysis.html">
+   When Less is More: Option Paralysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="psychology_of_spending.html">
+   The Psychology of Spending
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Varieties of judgment and decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="affective_forecasting.html">
+   Affective Forecasting: Predicting Non-Formulaic Emotions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="decisions_under_pressure.html">
+   JDM Under Pressure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="political_decision_making.html">
+   Political Decision Making
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Neuroscientific approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="neural_basis_of_simple_decisions.html">
+   The neural basis of simple decisions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroforecasting.html">
+   Neuroforecasting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuromarketing.html">
+   The evolving field of neuromarketing
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Computational approaches
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="jdm_and_ai.html">
+   Interactions between AI decision support systems and human JDM
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Reinforcement learning
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/reinforcement_learning.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Reinforcement learning
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview-of-reinforcement-learning-history">
+   Overview of reinforcement learning history
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#computational-methods-overview">
+     Computational methods overview
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#influence-of-computational-research-on-dopamine-studies">
+     Influence of Computational Research on Dopamine Studies
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="reinforcement-learning">
+<h1>Reinforcement learning<a class="headerlink" href="#reinforcement-learning" title="Permalink to this headline">¶</a></h1>
+<p>Theo Culhane &amp; Jessica Zhang</p>
+<p>Reinforcement learning, or learning through trial and error, is a
+central part of our understanding of how humans make judgements and
+decisions. It has recently gained public interest due to advances in
+artificial intelligence based on the principles behind learning by trial
+and error. In this chapter, we will start out with a brief look at the
+history of thinking on reinforcement learning in Psychology, including
+the work of Rescorla and Wagner in 1972 on how reinforcement affects
+Pavlovian conditioning, followed by a look at the history of
+reinforcement learning becoming an important part of research on
+artificial intelligence, looking at Sutton and Barto’s <em>Reinforcement
+Learning</em> from 1998. Then, we will examine computational methods of
+reinforcement learning and how they have evolved since the first edition
+of Sutton and Barto’s book. We will then consider how our understanding
+of reinforcement learning has evolved with advances in knowledge about
+the dopamine system, looking both at the history of dopamine studies and
+modern thinking about the dopamine system as it relates to reinforcement
+learning, and finally explore the ways in which dopamine studies and
+computational research have influenced one another.</p>
+</div>
+<div class="section" id="overview-of-reinforcement-learning-history">
+<h1>Overview of reinforcement learning history<a class="headerlink" href="#overview-of-reinforcement-learning-history" title="Permalink to this headline">¶</a></h1>
+<p>Much of the current understanding of how reinforcement learning works
+stems from the ideas first formalized in Rescorla and Wagner’s 1972
+paper <em>A theory of Pavlovian conditioning: Variations in the
+effectiveness of reinforcement and nonreinforcement</em>. Though Rescorla
+and Wagner were studying classical conditioning and not decision making,
+their theory of how conditioning affects how an animal (or human) judges
+the value of a particular situation has become the basis for the more
+complex formulations of how a human judges a situation and decides the
+optimal action. Their formula, called the Rescorla Wagner Model, has
+several complex parameters, but simplified for brevity posits the
+equation that:</p>
+<div class="math notranslate nohighlight">
+\[v\_X^{t+1} = v\_X^t + alpha(v\_X^{observed\_t} - v\_X^t)\]</div>
+<p>where <span class="math notranslate nohighlight">\(v\_X^{t}\)</span> is the estimation of value of situation X at time t,
+<span class="math notranslate nohighlight">\(\\alpha\)</span> is some constant between 0 and 1 that determines the tradeoff
+between speed and stability of an estimate, and <span class="math notranslate nohighlight">\(v\_X^{observed\_t}\)</span> is
+an observation of how valuable situation X is in a particular instance t
+(Rescorla and Wagner 1972). This basic premise has then been
+incorporated into algorithms such as temporal difference learning, which
+incorporates an aspect of future actions and past actions into an
+estimate of the value of a particular circumstance, which is used in
+reinforcement learning to decide what action should be taken in order to
+maximize expected value (Sutton and Barto 2018). This idea of looking
+into the past and future was then taken to another level in the Q
+Learning algorithm, in which the specific action taken from a particular
+state is also taken into account in the evaluation of the expected
+reward, instead of just trying to estimate the particular value that a
+state has independent of what is then done in that state.<span
+class="Apple-converted-space"> </span></p>
+<p>In Q Learning, we build up a table of the expected value of taking every
+particular state-action pair in a given system, systematically
+downweighting expected values further in the future to represent our
+uncertainty about the future. We then decide what actions we should take
+using this table, generally using some kind of system that takes the
+action with the highest expected value most of the time, and tests out
+other actions to make sure our estimates for them are correct a small
+amount of the time (Sutton and Barto 2018). (Licensed under creative
+commons. Originally published at <a class="reference external" href="https://en.wikipedia.org/wiki/File:Q-Learning_Matrix_Initialized_and_After_Training.png"><span
+class="s2">https://en.wikipedia.org/wiki/File:Q-Learning_Matrix_Initialized_and_After_Training.png</span></a>
+by LearnDataSci, 2018. No changes made beside resizing)</p>
+<p>More recently, as Q learning is used in more complex environments,
+building a table that contains all possible state-action pairs is
+infeasible, since the complexity leads to too many state-action pairs
+for a computer to realistically store. Therefore, more recent Q learning
+models, such as that used by Google in Alpha Go, which beat human
+grandmasters in the board game Go, have used more complex systems, such
+as deep neural networks, to estimate the expected value of actions. This
+allows a model that generalizes to states or state-action pairs that it
+has never seen before, and is able to generalize state-action pairs it
+has seen before so it never needs to explicitly store each one. This
+greatly increases the efficiency of the model, at the possible cost of
+accuracy. However, because the efficiency is so much greater, modern
+thinking is that this possible decrease in accuracy is worth it.</p>
+<div class="section" id="computational-methods-overview">
+<h2>Computational methods overview<a class="headerlink" href="#computational-methods-overview" title="Permalink to this headline">¶</a></h2>
+<p>One of the simplest types of computational reinforcement learning is
+called the Multi Armed Bandit. In this problem, let us imagine that we
+have a machine with k possible levers, each of which, when pulled, will
+give a random reward with a specific mean. Before pulling any levers, we
+have no knowledge of what reward this might be, but we know we want to
+maximize the long term reward we get. Therefore, we must determine which
+levers to pull, and decide our tradeoff between exploiting the best
+lever we have found and trying to find out whether another lever might
+be better in the long term. For a more concrete example, imagine a
+machine with two levers, one of which gives a random reward uniformly
+between 1 and 10 when pulled, and one of which gives a reward of 3 90%
+of the time and 200 the other 10% of the time. If we started out pulling
+each lever 4 times, we might expect to see perhaps a reward of 2, 6, 8,
+and 4 from the first lever, and 4 rewards of 3 from the second lever.
+Therefore, we might conclude that, to maximize our reward, we should
+pull the first lever and get our mean of 5 reward, leaving on the table
+the actual expected reward from lever 2 of 22.7 had we bothered to just
+keep exploring. However, if instead lever 2 had just always given a
+reward of 3, our first 4 trials would have been the same, and our choice
+of always choosing lever 1 would be the correct one. This illustrates
+the basic premise of the MAB, which then prescribes complex mathematical
+formulas to optimize this exploration/exploitation tradeoff (Sutton and
+Barto 2018).<span class="Apple-converted-space"> </span></p>
+<p>This then brings us to another important concept in computational
+reinforcement learning, which is the distinction between online and
+offline learning. In offline learning, we are given a pre-existing
+dataset, and attempt to decide on the best actions to take at any
+particular time using only that dataset. By contrast, in online
+learning, we see new examples to learn about one at a time, and try to
+learn as they come in, and then apply this new learning to inform our
+exploration of what actions we should test out. This is more akin to
+what humans do, but has several drawbacks. For one, because learning
+starts when the first example is seen, there is the possibility that
+learning will start off in the wrong direction, and then since future
+learning is informed by the earlier learning, the entire learning
+process may go down an improper path, and only end up back the right
+path with a certain amount of luck, but no guarantee. Secondly, because
+the entire dataset isn’t seen before learning occurs, the results can be
+a lot less stable. In other words, since the basic makeup of the dataset
+is likely to change over time, the results of learning can become
+outdated, or random anomalies in the data can take the learning down an
+unexpected path, similar to the first drawback. However, because it is
+more alike with how humans learn, online learning is more informative
+for studying human reinforcement learning and decision making than
+offline learning is.</p>
+</div>
+<div class="section" id="influence-of-computational-research-on-dopamine-studies">
+<h2>Influence of Computational Research on Dopamine Studies<a class="headerlink" href="#influence-of-computational-research-on-dopamine-studies" title="Permalink to this headline">¶</a></h2>
+<p>Reinforcement learning has its roots in animal learning in psychology,
+which examines the relationship between events and animal responses to
+them. The concept of reinforcement learning can be thought of as the
+strengthening of relationships between events that result in animal
+satisfaction and those animal responses, and the weakening of
+relationships between events that cause animal discomfort and those
+responses.<span class="Apple-converted-space"> </span></p>
+<p>Reinforcement learning research is valuable because it is a parallel to
+animal decision-making and can help us understand our decision-making
+processes in the face of reward and punishment. Instrumental
+conditioning in animal behavior, or conditioning that involves
+increasing the probability of reward and decreasing the probability of
+punishment, is the essence of how reinforcement learning works
+(Dickinson 2010). Pavlovian conditioning, or classical conditioning, is
+considered a prototype for prediction learning within reinforcement
+learning (Niv 2009). The behavioral processes behind conditioning are
+computationally complex, and reinforcement learning provides a framework
+for understanding them. This means that reinforcement learning models
+both provide an explanation for animal behavior, help generate
+predictions based on optimal behavior, and suggest actions to achieve
+optimization.</p>
+<p>Reinforcement learning models also help build an understanding of
+dopamine, a neurotransmitter involved in many neurological disorders
+including Parkinson’s disease, schizophrenia, and depression (Bhandari
+2019). This understanding has implications for potentially treating
+these conditions, which could ameliorate the lives of hundreds of
+thousands of people worldwide. Specifically, studies of animal brains
+via electrophysiological recordings, lesion studies, and pharmacological
+manipulations have linked reinforcement learning to particular neural
+substrates including dopamine while revealing that reward prediction
+errors exist (Niv 2009).<span class="Apple-converted-space"> </span></p>
+<p>The process in which reward prediction errors are generated is a key
+aspect of temporal difference learning, a reinforcement learning process
+that extends the Rescorla-Wagner model to also account for the timing of
+different events. In this process, a learning system aims to estimate
+the values of different states based on predicted rewards or punishments
+(Niv 2009). Temporal difference prediction errors occur when unpredicted
+significant events happen and are similar to dopamine reward prediction
+errors (Niv 2009). Dopamine neurons fire early in training in response
+to an unexpected reward, known as an unconditioned stimulus, but not
+once that stimulus becomes expected, or conditioned, over time (Niv
+2009). When a reward is expected and not fulfilled, dopamine neuron
+firings dip below the baseline, and this is known as a negative reward
+prediction error (Niv 2009). It is notable that dopaminergic responses
+and temporal difference learning are both able to account for delayed
+rewards and discounted future rewards. Thus, examining the nuances in
+temporal difference prediction errors is useful because it allows us to
+better understand dopamine reward prediction errors, which helps
+pinpoint dopaminergic targets in a medical context.<span
+class="Apple-converted-space"> </span></p>
+<p>Reinforcement learning has been powerful in bringing together
+computation, algorithm, and implementation, and the ways in which it has
+facilitated our understanding of neurological investigations has been
+invaluable (Niv 2009). As reinforcement learning and neurological
+research continue to inform one another, we may consider how the synergy
+of the two can accelerate breakthroughs in other fields.</p>
+<p><span class="s3">(Licensed under creative commons. Originally published
+at <a class="reference external" href="https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg"><span
+class="s1">https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg</span></a>
+by Megajuice, 2017. No changes made)</span></p>
+<p><a class="reference external" href="https://techvidvan.com/tutorials/reinforcement-learning/">https://techvidvan.com/tutorials/reinforcement-learning/</a></p>
+<p><span
+class="s1"><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0022249608001181">https://www.sciencedirect.com/science/article/pii/S0022249608001181</a></span><span
+class="s3"> (1)</span></p>
+<p><span
+class="s1"><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/B9780125264303500039">https://www.sciencedirect.com/science/article/pii/B9780125264303500039</a></span><span
+class="s3"> (2)</span></p>
+<p><span
+class="s1"><a class="reference external" href="https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-68706-1_343">https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-68706-1_343</a></span><span
+class="s3"> (3)</span></p>
+<p><span
+class="s1"><a class="reference external" href="https://www.webmd.com/mental-health/what-is-dopamine">https://www.webmd.com/mental-health/what-is-dopamine</a></span><span
+class="s3"> (4)</span></p>
+<p><span
+class="s1"><a class="reference external" href="https://www.researchgate.net/figure/Reward-prediction-error-responses-at-the-time-of-reward-right-and-reward-predicting_fig2_302578615">https://www.researchgate.net/figure/Reward-prediction-error-responses-at-the-time-of-reward-right-and-reward-predicting_fig2_302578615</a></span></p>
+<p><span class="s3">Good overview of reinforcement learning: <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/B9780125264303500039"><span
+class="s1">https://www.sciencedirect.com/science/article/pii/B9780125264303500039</span></a></span></p>
+<p>Neural correlates of RL:</p>
+<p><span
+class="s1"><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0022249608001181">https://www.sciencedirect.com/science/article/pii/S0022249608001181</a></span></p>
+<p>Rescorla and Wagner’s original paper. The basis for a lot of modern
+thinking about RL:</p>
+<p><span
+class="s1"><a class="reference external" href="https://www.researchgate.net/publication/233820243_A_theory_of_Pavlovian_conditioning_Variations_in_the_effectiveness_of_reinforcement_and_nonreinforcement">https://www.researchgate.net/publication/233820243_A_theory_of_Pavlovian_conditioning_Variations_in_the_effectiveness_of_reinforcement_and_nonreinforcement</a></span></p>
+<p><strong>Notes - Source 1: use it for an overview of RL</strong></p>
+<p>●<span class="Apple-tab-span"> </span>RL is an optimization problem that
+aims to find an action or a strategy for producing actions that is
+optimal</p>
+<p>●<span class="Apple-tab-span"> </span>3 types of RL: nonassociative<span
+class="Apple-converted-space"> </span></p>
+<p>○<span class="Apple-tab-span"> </span>Nonassociative: disturbances -&gt;
+process -&gt; critic -&gt; reinforcement signal -&gt; learning system</p>
+<ul class="simple">
+<li><p>■<span class="Apple-tab-span"> </span>Stochastic learning automata
+(see math in source 1)</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Linear reward penalty</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Critic signal doesn’t
+determine the best action, it only evaluates the action taken</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Exploitation vs exploration</p></li>
+</ul>
+<p>○<span class="Apple-tab-span"> </span>Associative: associative mapping
+between stimuli and actions with best consequences)</p>
+<ul class="simple">
+<li><p>■<span class="Apple-tab-span"> </span>Associative search unit</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Selective bootstrap (unit
+receives reinforcement signal and updates weights) and associative
+reward</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Stochastic real-valued unit</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Weight perturbation: gradient
+descent learning</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>RL networks</p></li>
+</ul>
+<p>○<span class="Apple-tab-span"> </span>Sequential: associative mapping
+with complex problems and non-immediate consequences)</p>
+<ul class="simple">
+<li><p>■<span class="Apple-tab-span"> </span>Optimal control problems</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Samuel’s checker player</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Adaptive critic unit and <strong>TD
+methods</strong></p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Dynamic programming</p></li>
+</ul>
+<p><strong>Notes - Source 2: discuss neuroscience + computational perspectives</strong></p>
+<p>●<span class="Apple-tab-span"> </span>Electrophysiological recordings
+and functional imaging of decision making revealed a key reinforcement
+learning signal in the brain - TD reward prediction error</p>
+<p>●<span class="Apple-tab-span"> </span>Discusses dopamine signals</p>
+<p>●<span class="Apple-tab-span"> </span>Pavlovian condition: prediction
+learning</p>
+<p>●<span class="Apple-tab-span"> </span>Instrumental conditioning:
+selecting actions that increase the probability of rewarding events and
+decrease the probability of aversive events</p>
+<p>●<span class="Apple-tab-span"> </span>RL: normative framework to
+interpret animal conditioning</p>
+<p>●<span class="Apple-tab-span"> </span>RL framework</p>
+<p>○<span class="Apple-tab-span"> </span><strong>Rescorla-Wagner model</strong>:
+learning occurs only when events violate expectations, and predictions
+due to different stimuli are summed to form total prediction</p>
+<ul class="simple">
+<li><p>■<span class="Apple-tab-span"> </span>Error correcting learning rule</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Shortcomings: doesn’t extend
+to second order conditioning</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Learning is a conditioning
+trial<span class="Apple-converted-space"> </span></p></li>
+</ul>
+<p>○<span class="Apple-tab-span"> </span><strong>TD learning</strong>: Pavlovian
+conditioning, Rescorla-Wagner model + accounting for timing</p>
+<ul class="simple">
+<li><p>■<span class="Apple-tab-span"> </span>Goal: estimate values of
+different states or situations in terms of future rewards predicted</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>actor/critic methods</p></li>
+<li><p>■<span class="Apple-tab-span"> </span>State-action values</p></li>
+</ul>
+<p>●<span class="Apple-tab-span"> </span>Neural correlates of RL</p>
+<p>○<span class="Apple-tab-span"> </span>Dopamine, acetylcholine, serotonin</p>
+<p>○<span class="Apple-tab-span"> </span>Dopamine is most widely studied -
+<strong>Wolfram Schultz and monkey experiment</strong></p>
+<ul class="simple">
+<li><p>■<span class="Apple-tab-span"> </span><strong>Reward prediction error
+hypothesis</strong></p></li>
+<li><p>■<span class="Apple-tab-span"> </span>Neural substrates: learning
+and action selection in the basal ganglia modulated by phasic
+dopaminergic signals</p></li>
+</ul>
+<p>○<span class="Apple-tab-span"> </span>Evidence for multiple RL systems
+in the brain</p>
+<p>●<span class="Apple-tab-span"> </span>Challenges remain</p>
+<ul class="simple">
+<li><p>○<span class="Apple-tab-span"> </span>Understanding true
+relationship between responses of dopamine neurons to stimuli and
+reward prediction</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>Hierarchical structure of
+complex tasks</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>TD learning and dependence on
+temporal representations</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>Extinction</p></li>
+</ul>
+<p><strong>Notes - Source 3: discuss origins + computational methods</strong></p>
+<p>●<span class="Apple-tab-span"> </span>Pavlovian Conditioning</p>
+<ul class="simple">
+<li><p>○<span class="Apple-tab-span"> </span>Relies on the “associative
+strength” of stimuli</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>When an unconditioned stimulus
+is paired with a conditioned stimulus, the conditioned stimulus will
+begin to generate a conditioned response</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>The strength of conditioning
+is partially determined by the degree to which a reward is seen as a
+good reward</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>Conditioning is also dependent
+on what other stimuli are also present</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>ExpectedValue<sup>n+1</sup> =
+ExpectedValue<sup>n</sup> +
+LearningRate*(ObservedValue<sup>n</sup> -
+ExpectedValue<sup>n</sup>)</p></li>
+</ul>
+<p><span class="s1"><strong>Chapter Proposal</strong></span></p>
+<p><strong>Introduction:<span class="Apple-converted-space"> </span></strong></p>
+<p>Reinforcement learning, or learning through trial and error, is a
+central part of our understanding of how humans make judgements and
+decisions. It has recently gained public interest due to advances in
+artificial intelligence based on the principles behind learning by
+doing. In this chapter, we will start out with a brief look at the
+history of thinking on reinforcement learning in Psychology, including
+the work of Rescorla and Wagner in 1972 on how reinforcement affects
+Pavlovian conditioning, followed by a look at the history of
+reinforcement learning becoming an important part of research on
+artificial intelligence, looking at Sutton and Barto’s <em>Reinforcement
+Learning</em> from 1998. We will then consider how our understanding of
+reinforcement learning has evolved with advances in knowledge about the
+dopamine system, looking both at the history of dopamine studies and
+modern thinking about the dopamine system as it relates to reinforcement
+learning. Then, we will examine computational methods of reinforcement
+learning and how they have evolved since the first edition of Sutton and
+Barto’s book, and finally explore the ways in which dopamine studies and
+computational research have influenced one another.</p>
+<p><strong>Outline:</strong></p>
+<p>●<span class="Apple-tab-span"> </span>Overview and brief history of RL:
+Source 1 + 3</p>
+<p>○<span class="Apple-tab-span"> </span>Original separation of<span
+class="Apple-converted-space"> </span></p>
+<ul class="simple">
+<li><p>■<span class="Apple-tab-span"> </span>1. Rescorla Wagner/Trial and
+error<span class="Apple-converted-space"> </span></p></li>
+<li><p>■<span class="Apple-tab-span"> </span>2. Dynamic programming, sort
+of merged with TD Learning</p></li>
+</ul>
+<p>○<span class="Apple-tab-span"> </span>Invention of Q-Learning</p>
+<p>○<span class="Apple-tab-span"> </span>Creation of TD-Gammon</p>
+<p>○<span class="Apple-tab-span"> </span>AlphaGo/AlphaGo Zero/Alpha Zero</p>
+<p>●<span class="Apple-tab-span"> </span>Overview and brief history of
+dopamine studies, reward prediction error hypothesis: Source 2</p>
+<p>●<span class="Apple-tab-span"> </span>Computational methods of RL:
+Source 1, 2, + 3</p>
+<ul class="simple">
+<li><p>○<span class="Apple-tab-span"> </span>Multi-Armed Bandit</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>MDPs</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>Online Vs Offline</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>Monte Carlo</p></li>
+<li><p>○<span class="Apple-tab-span"> </span>TD Learning</p></li>
+</ul>
+<p>●<span class="Apple-tab-span"> </span>Discussion of how RL and dopamine
+pathways are similar: Source 2</p>
+<p><span class="s3">Source 1: <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/B9780125264303500039"><span
+class="s1">https://www.sciencedirect.com/science/article/pii/B9780125264303500039</span></a></span></p>
+<p><span class="s4">Source 2: <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0022249608001181"><span
+class="s2">https://www.sciencedirect.com/science/article/pii/S0022249608001181</span></a></span></p>
+<p><span class="s3">Source 3: <a class="reference external" href="https://www.researchgate.net/publication/233820243_A_theory_of_Pavlovian_conditioning_Variations_in_the_effectiveness_of_reinforcement_and_nonreinforcement"><span
+class="s1">https://www.researchgate.net/publication/233820243_A_theory_of_Pavlovian_conditioning_Variations_in_the_effectiveness_of_reinforcement_and_nonreinforcement</span></a></span></p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="jdm_and_ai.html" title="previous page">Interactions between AI decision support systems and human JDM</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Psych 154 community<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

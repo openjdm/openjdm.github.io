@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The neural basis of simple decisions &#8212; OpenJDM</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Neuroforecasting" href="neuroforecasting.html" />
+    <link rel="prev" title="Political Decision Making" href="political_decision_making.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">OpenJDM</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   OpenJDM
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Heuristics and biases
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="anchoring_and_adjustment.html">
+   The Anchoring and Adjustment Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="availability_bias.html">
+   The Availability Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sunk_cost.html">
+   Sunk Costs in Consumer Decision Making
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hindsight_bias.html">
+   Hindsight Bias
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="illusory_correlations.html">
+   Illusory correlations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Consumer decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mental_accounting.html">
+   Mental accounting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="option_paralysis.html">
+   When Less is More: Option Paralysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="psychology_of_spending.html">
+   The Psychology of Spending
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Varieties of judgment and decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="affective_forecasting.html">
+   Affective Forecasting: Predicting Non-Formulaic Emotions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="decisions_under_pressure.html">
+   JDM Under Pressure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="political_decision_making.html">
+   Political Decision Making
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Neuroscientific approaches
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   The neural basis of simple decisions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroforecasting.html">
+   Neuroforecasting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuromarketing.html">
+   The evolving field of neuromarketing
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Computational approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="jdm_and_ai.html">
+   Interactions between AI decision support systems and human JDM
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="reinforcement_learning.html">
+   Reinforcement learning
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/neural_basis_of_simple_decisions.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="the-neural-basis-of-simple-decisions">
+<h1>The neural basis of simple decisions<a class="headerlink" href="#the-neural-basis-of-simple-decisions" title="Permalink to this headline">¶</a></h1>
+<p>Austin Brotman &amp; Kyler Presho</p>
+<p>Introduction</p>
+<p>We encounter perceptual decisions every day. Is this shirt red or
+orange? Which direction is that bird flying? Am I driving faster or
+slower than the car in front of me? Generally, they are answers to the
+question “What state of the world is most consistent with what my senses
+perceive?” As simple as this question might seem, understanding how the
+brain arrives at an answer has been an important area of research for
+understanding the neuroscience of judgement and decision making. Beneath
+the surface are questions about how the brain represents, integrates,
+and utilizes uncertain information filtered through the nervous system.
+Efforts on this front have uncovered probable mechanisms facilitating
+information representation, evidence accumulation, and termination of
+decisions in several areas of the brain, as well as theoretical models
+of how perceptual decisions are made.</p>
+<p>To better illustrate the decision making process, we will contextualize
+the course of a perceptual decision with an experimental scenario
+frequently used to investigate the phenomenon: the direction
+discrimination task. A participant (often a monkey) is positioned in
+front of a cluster of moving dots. The movement of a subset of the dots
+is correlated, while the remainder move randomly. The participant is
+trained to judge which direction the correlated set of dots is moving
+and indicate their decision via eye movement. During the experiment,
+researchers are able to record neural activity from the agent’s brain.
+An advantage to this experimental design is that researchers can vary
+the uncertainty of the environmental stimulus. They do so by varying the
+strength with which the dots’ movement is correlated. Additionally, they
+can model non-binary decisions by expanding the number of directions the
+dots are able to move. We will reference this scenario as we outline a
+decision’s underlying representation and interpretation, the process of
+integrating information, and termination.</p>
+<p>Caption: Examples of moving dot stimuli at different correlation levels.
+Arrows indicate motion. Correlated and uncorrelated dots are
+distinguished for the purposes of this example.</p>
+<p>Caption: Stages of the motion discrimination task. First, the subject
+fixates on a fixation point. Next, the moving dot stimulus is displayed
+around the fixation point. Finally, the participant indicates a decision
+by directing an eye movement to one of the targets.</p>
+<p>Representation of Information</p>
+<p>Regardless of the stage of the decision making process, it is important
+to understand the way neural activity represents information. The most
+commonly examined metric for neural activity is firing rate. In the case
+of a single neuron, this is straightforward. Neurons in the middle
+temporal lobe (MT or V5), for example, are selective for motion in a
+particular direction along with the speed of that motion. When dots
+within the neuron’s receptive field appear to be moving in its preferred
+direction, the firing rate of the neuron will increase. As the motion
+appears to orient in a direction progressively further from that which
+the neuron selects for, its firing rate will decrease. This is
+especially evident as the correlation of the moving dots is increased.
+The information coded by these single neurons can, impressively, be
+highly indicative of the subject’s decision. The earliest work on
+perceptual decision making, Newsome, Britton, and Movshon (Newsome et
+al., 1989) analyzed recordings from single neurons in MT. They found
+that the recordings taken from individual neurons (selected for
+responsiveness to motion) were comparable in accuracy to the actual
+choices of the monkeys studied. Salzman et al. (1990) then found that
+altering neural firing rates of MT columns using microstimulation
+significantly and reliably pushes the distribution of decisions towards
+that column’s preferred direction. While the application area of this
+stimulation extends beyond a single neuron, evidence suggests the
+additional neurons activated are functionally similar to the target.
+This implies that the information represented by these neural firing
+rates is causally connected to the subject’s perceptual decision.</p>
+<p>In the previously mentioned studies as well as other literature, the
+activity levels of single neurons are strikingly predictive of subjects’
+decisions (as well as the relationship between difficulty and
+performance). The brain has access to a number of these signals and most
+likely pools their inputs to form a decision. This raises an important
+question: if the brain has access to highly predictive signals, why
+isn’t actual decision performance noticeably better than that of
+individual neurons? Work by Britten et al. (1992) suggests that pooling
+uncorrelated neural signals should substantially increase the accuracy
+of decisions. As pools grow larger, the pooling of noisy inputs should
+allow better detection of weak signals. This, however, would contradict
+observed data showing that single neurons perform as well as decision
+makers. Based on this contradiction, they conclude that decisions must
+be made using a small number of independent signals, or a larger pool of
+correlated signals. Zohary et al. (1994) found a weak correlation among
+pooled neurons and established that this shared variability
+asymptotically limits the improvement offered by pooling the noisy
+neural signals. In light of these limits, decision performance similar
+to that of individual neurons is an expected consequence of pooling
+neurons for the perceptual decisions we discuss.</p>
+<p>There is good reason to think this pooling of neurons offers important
+benefits for perceptual decisions. Rather than having to rely on a
+sufficiently large number of spikes to occur in any one neuron,
+estimating the density of spikes across the pool allows for a faster
+approximation of firing rate. Furthermore, collecting from a pool allows
+an estimation of spike rate even during gaps in a single neuron’s spikes
+(Shadlen and Kiani, 2013). This is clearly desirable given the time
+sensitive nature of many perceptual decisions.</p>
+<p>Interpretation as a Decision Variable</p>
+<p>One important way of interpreting the neural dynamics discussed above is
+by transformation into a decision variable (DV). This is a quantity over
+which the brain can apply a decision rule between two options, <em>A</em> and
+<em>B</em>. As the DV’s value increases, so does the support for option <em>A</em> as
+opposed to <em>B</em> (or vice versa) under the decision rule. It is not the
+decision itself, but a representation of accumulated evidence. Its
+neural correlates may be found in different parts of the brain depending
+on the kind of decision at hand, and its formation involves a
+transformation from the raw activations.</p>
+<p>In the context of our motion discrimination task, constructing the DV
+often involves applying a transformation to averaged activations of
+pools neurons. Area MT, for example, makes use of comparison and
+integration. These are the subtraction of different pools of competing
+neurons and the accumulation of their activations over time,
+respectively. Comparison allows us to quantify the degree of belief and
+integration allows us to understand processing over timescales longer
+than an individual perceptual event as noted in Shadlen and Kiani
+(2013).</p>
+<p>Studies of the lateral intraparietal cortex (LIP) bear out the existence
+of these transformations. Shadlen and Newsome (1996) suggests a subset
+of directionally sensitive neurons within LIP encode information that is
+neither a direct encoding of sensory information, nor directly
+responsible for moving a subject’s eyes. Instead, the firing rates of
+these neurons in area LIP seem to reflect the slow integration of
+incoming sensory information, rising in proportion to the strength of
+the motion signal in the preferred direction (coherence in our motion
+discrimination task). This activity has been interpreted as evidence
+that neurons in area LIP act as information accumulators, though
+literature on the subject is mixed. Microstimulation of the areas in
+question has shown indications that LIP activity causally affect
+decision performance by Hanks, Ditterich, and Shadlen (2006). These
+conclusions are complicated, however, by findings from Katz et al.
+(2016) showing that inactivation of the same areas does not affect task
+performance. It remains unclear whether activity in area LIP is causally
+related to direction descrimination, or how significant its contribution
+might be if so.</p>
+<p>This highlights an important consideration when analyzing neural
+correlates: signals that seem highly correlated with the decision
+performance of a subject may be byproducts rather than causes of the
+eventual decision.</p>
+<p>Evidence Accumulation</p>
+<p>A crucial factor in decision making is the ability to evaluate the
+relevant evidence at-hand in order to make the best perceived decision.
+Experimental data from Kiani &amp; Shadlen (2009) shows that as time passes
+and agents are exposed to greater amounts of pertinent evidence, the DV
+trends further toward one decision threshold or another until one
+boundary is crossed. However, this process is not quite so simple, as
+the duration of the time it takes to make a decision can extend beyond
+the natural integration time for sensory receptors (resources for
+gathering evidence). This suggests that evidence accumulation is not the
+only factor taken into account in the decision making process before
+termination is achieved. Time, for example, may play a role when
+evidence is incomplete or slowly received. There is multi-trial evidence
+to suggest that accumulation is better represented by a gradual change
+in neural activity along the lines of Kiani &amp; Shadlen’s integration
+models than a sudden change in brain state. The pattern of gradual
+accumulation visible when averaging multiple trials, though, must be
+balanced with observations from Latimer et al. (2016) that individual
+neurons may progress through step-like changes during single trials. One
+exception to gradual accumulation may be in situations where the agent
+has a change of mind; in this case, observations of neural activity tend
+to show rapid brain state changes (inverting the direction of the DV)
+consistent with what one might expect from such an event.</p>
+<p>In order to account for both the amount of time and information
+accumulated towards making a decision, a number of theoretical models
+have been developed in recent decades. Of these, the predictions from
+sequential sampling models have been especially effective at matching
+experimental data. These models characterize the process of making a
+decision as a noisy accumulation of evidence from a starting point that
+terminates upon reaching a response criteria. Two examples are the Drift
+Diffusion Model (Ratcliff and McCoon, 2008) and the Leaky Competitive
+Accumulator Model (Usher and McClelland, 2001).<span
+class="Apple-converted-space"> </span></p>
+<p>Termination</p>
+<p>Finally, a decision in progress must terminate to be realized as a
+decision. Functioning as the stopping rule based on relevant evidence
+and/or time, termination occurs after a decision variable reaches or
+crosses a certain threshold. In other words, once an agent is exposed to
+the necessary amount of relevant information or given enough time to
+make a decision, neural signals reach a level of activation that allows
+the decision-making process to end (terminate).<span
+class="Apple-converted-space"> </span></p>
+<p>Behavioral data produced by Shadlen &amp; Kiani (2013) appears to support
+this threshold-based theory of termination as well. In an experiment
+focused on using eye movement as decision-making criteria, they show
+evidence of an expected increased firing rate in the LIP immediately
+preceding eye movement (the decision being made). When the participants
+(monkeys, in this case) decided to make the choice handled by the
+observed section of the LIP, the activation presumably passed an
+activation level or threshold that led to the actual decision being
+made–but when the monkeys chose the other available option, this
+threshold was not crossed in that same area.<span
+class="Apple-converted-space"> </span></p>
+<p>This mechanism, although simple, is essential to the decision-making
+process. It allows an agent to take their interpretation of the DV,
+time, and accumulated evidence and produce an actual decision or action.
+Without setting a threshold for neural activation, there would be no
+reason for the brain to stop evaluating new data and as such may never
+come to make an actual decision.<span
+class="Apple-converted-space"> </span></p>
+<p>References</p>
+<p>Newsome, W. T., Britten, K. H. &amp; Movshon, J. A. (1989).<span
+class="Apple-converted-space">  </span>Neuronal correlates of a
+perceptual decision. <em>Nature</em>, 341(6237):52–54. <a class="reference external" href="https://doi.org/10.1038/341052a0.C"><span
+class="s1">https://doi.org/10.1038/341052a0.C</span></a>.<span
+class="Apple-converted-space"> </span></p>
+<p>Salzman, D., Britten, K. H., &amp; Newsome, W. T. (1990).<span
+class="Apple-converted-space">  </span>Cortical microstimulation
+influences perceptual judgements of motion direction. <em>Nature</em>,
+346(6280):174–177. <a class="reference external" href="https://doi.org/10.1038/346174a0"><span
+class="s1">https://doi.org/10.1038/346174a0</span></a>.</p>
+<p>Britten, K.H., Shadlen, M. N., Newsome, W. T., &amp; Movshon, J. A. (1992).
+The analysis of visual motion: a comparison of neuronal and
+psychophysical performance. <em>Journal of Neuroscience</em>,
+12(12):4745–4765.<span class="Apple-converted-space">  </span><a class="reference external" href="https://www.jneurosci.org/content/12/12/4745"><span
+class="s1">https://www.jneurosci.org/content/12/12/4745</span></a>.</p>
+<p>Zohary, E., Shadlen, M. N., &amp; Newsome, W. T. (1994). Correlated neuronal
+discharge rate and its implications for psychophysical performance.
+<em>Nature</em>, 370(6485):140–143. <a class="reference external" href="https://doi.org/10.1038/370140a0.2"><span
+class="s1">https://doi.org/10.1038/370140a0</span></a>.</p>
+<p>Hanks, T. D., Ditterich, J., &amp; Shadlen, M. N. (2006). Microstimulation
+of macaque area LIP affects decision-making in a motion discrimination
+task. <em>Nature neuroscience</em>, 9(5), 682–689. <a class="reference external" href="https://doi.org/10.1038/nn1683"><span
+class="s1">https://doi.org/10.1038/nn1683</span></a></p>
+<p>Katz, L. N., Yates, J. L., Pillow, J. W., &amp; Huk, A. C. (2016).
+Dissociated functional significance of decision-related activity in the
+primate dorsal stream. <em>Nature</em>, 535(7611), 285–288. <a class="reference external" href="https://doi.org/10.1038/nature18617"><span
+class="s1">https://doi.org/10.1038/nature18617</span></a><span
+class="Apple-converted-space"> </span></p>
+<p>Shadlen, M. N., &amp; Kiani, R. (2013). Decision making as a window on
+cognition. <em>Neuron</em>, 80(3):791–806. <a class="reference external" href="https://doi.org/10.1016/j.neuron"><span
+class="s1">https://doi.org/10.1016/j.neuron</span></a><span
+class="Apple-converted-space"> </span></p>
+<p>Shadlen, M. N. &amp; Newsome, W. T. (1996).<span
+class="Apple-converted-space">  </span>Motion perception: seeing and
+deciding. <em>Proceedings of the National Academy of Sciences</em>,
+93(2):628–633.<span class="Apple-converted-space">  </span><a class="reference external" href="https://www.pnas.org/content/93/2/628.4"><span
+class="s1">https://www.pnas.org/content/93/2/628</span></a>.</p>
+<p>Kiani, R., &amp; Shadlen, M. (2009). Representation of Confidence Associated
+with a Decision by Neurons in the Parietal Cortex. <em>Science</em>, 324(5928),
+759–764.</p>
+<p>Latimer, K., Yates, J., Meister, M., Huk, A., &amp; Pillow, J. (2015).
+Single-trial spike trains in parietal cortex reveal discrete steps
+during decision-making. <em>Science</em>, 349(6244), 184–187.</p>
+<p>Ratcliff, R., &amp; McKoon, G. (2008). The Diffusion Decision Model: Theory
+and Data for Two-Choice Decision Tasks. <em>Neural Computation</em>, 20 (4):
+873–922. <a class="reference external" href="https://doi.org/10.1162/neco.2008.12-06-420"><span
+class="s1">https://doi.org/10.1162/neco.2008.12-06-420</span></a><span
+class="Apple-converted-space"> </span></p>
+<p>Usher, M., &amp; McClelland, J. L. (2001). The time course of perceptual
+choice: The leaky, competing accumulator model. <em>Psychological Review</em>,
+108(3):550-592. 10.1037/0033-295X.108.3.550<span
+class="Apple-converted-space"> </span></p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="political_decision_making.html" title="previous page">Political Decision Making</a>
+    <a class='right-next' id="next-link" href="neuroforecasting.html" title="next page">Neuroforecasting</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Psych 154 community<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

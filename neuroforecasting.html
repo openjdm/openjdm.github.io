@@ -1,0 +1,613 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neuroforecasting &#8212; OpenJDM</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The evolving field of neuromarketing" href="neuromarketing.html" />
+    <link rel="prev" title="The neural basis of simple decisions" href="neural_basis_of_simple_decisions.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">OpenJDM</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   OpenJDM
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Heuristics and biases
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="anchoring_and_adjustment.html">
+   The Anchoring and Adjustment Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="availability_bias.html">
+   The Availability Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sunk_cost.html">
+   Sunk Costs in Consumer Decision Making
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hindsight_bias.html">
+   Hindsight Bias
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="illusory_correlations.html">
+   Illusory correlations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Consumer decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mental_accounting.html">
+   Mental accounting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="option_paralysis.html">
+   When Less is More: Option Paralysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="psychology_of_spending.html">
+   The Psychology of Spending
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Varieties of judgment and decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="affective_forecasting.html">
+   Affective Forecasting: Predicting Non-Formulaic Emotions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="decisions_under_pressure.html">
+   JDM Under Pressure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="political_decision_making.html">
+   Political Decision Making
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Neuroscientific approaches
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="neural_basis_of_simple_decisions.html">
+   The neural basis of simple decisions
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Neuroforecasting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuromarketing.html">
+   The evolving field of neuromarketing
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Computational approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="jdm_and_ai.html">
+   Interactions between AI decision support systems and human JDM
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="reinforcement_learning.html">
+   Reinforcement learning
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/neuroforecasting.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-neuroforecasting">
+   Introduction to Neuroforecasting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brain-regions-and-circuits-associated-with-consumer-choice">
+   Brain Regions and Circuits Associated with Consumer Choice
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#real-world-applications-of-the-research">
+   Real-world applications of the research
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ethics-of-neuroforecasting">
+   Ethics Of Neuroforecasting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="neuroforecasting">
+<h1>Neuroforecasting<a class="headerlink" href="#neuroforecasting" title="Permalink to this headline">¶</a></h1>
+<p>Annella Charee Tucker &amp; Julia Lebovitz</p>
+<p>Neuroforecasting research measures individual brain activity while
+completing decision making tasks to forecast aggregate responses. For
+our chapter, we plan to share a history of neuroforecasting, identify
+key brain regions and circuits, and comment on ethical concerns.</p>
+<p>For this chapter, we interviewed Professor Brian Knutson, one of the
+pioneers and leading researchers in the Neuroforecasting field to better
+understand the importance of his / the field’s research.</p>
+<div class="section" id="introduction-to-neuroforecasting">
+<h2>Introduction to Neuroforecasting<a class="headerlink" href="#introduction-to-neuroforecasting" title="Permalink to this headline">¶</a></h2>
+<p>In general to forecast is to make a statement about the future.
+Neuroforecasting is seeking to make a statement about future choices
+by analyzing the neural processes of individuals. This is
+accomplished by looking at brain circuits using fMRI. Neural data is
+collected from an individual while making decisions, and this
+information is used to forecast how an unrelated person will respond
+in the same situation. Researchers are seeking to use individual
+neural data to forecast aggregate choices.</p>
+<p>The process that determines neural activity and the neural process
+that describes decision making are both explored within
+neuroforecasting. Functional magnetic resonance imaging, fMRI, is a
+technology that detects blood flow. Increased blood flow to a region
+of the brain indicates activity. Brian Knutson, the co-lead of the
+NeuroChoice Initiative of the Stanford Wu Tsai Neurosciences
+Institute has contributed to research using fMRI to scan the neural
+activity of study participants watching online videos. Knutson
+conducted neuroforecasting research intending to predict the
+potential popularity of online videos. Study participants
+simultaneously watched videos and were prompted by researchers with
+questions about the video. Questions were formulated to expose the
+participants’ opinions of the video. These verbal responses did not
+forecast the future popularity of videos, but brain responses did
+(Kubota). “If we examine our subjects’ choices to watch the video or
+even their reported responses to the videos, they don’t tell us
+about the general response online. Only brain activity seems to
+forecast a video’s popularity on the internet,” explained Knutson.
+The key takeaway? Brain activity matters and can reveal more than
+reported responses.</p>
+<p>Brain activity reveals responses people are sometimes unable or
+unwilling to share. Verbal responses are not always accurate or
+insightful. The use of fMRI to gather data makes neuroforecasting
+applicable to fields such as marketing and economics. The concept
+actually evolved from neuroeconomics. Brain activity can predict the
+extent to which someone likes a product or what option someone might
+choose. A leading researcher in the field, Alex Genevsky predicted
+that “…we are getting close to a time when biologically based and
+neural measurements will play a significant role in mainstream
+marketing.”</p>
+<p>Neuroforecasting research suggests that consumer choice may be more
+affectively-driven than reflective. It is important to note
+limitations with neuroforecasting research, primarily the research
+cited using fMRI technology. One major limitation comes with the
+expense of fMRI technology. Due to the cost and long amounts of time
+needed in the scanner, neuroimaging research has relatively small
+sample sizes. Further, as the machine is immobile, neuroforecasting
+research may not be able to actually replicate real-world
+scenarios.</p>
+</div>
+<div class="section" id="brain-regions-and-circuits-associated-with-consumer-choice">
+<h2>Brain Regions and Circuits Associated with Consumer Choice<a class="headerlink" href="#brain-regions-and-circuits-associated-with-consumer-choice" title="Permalink to this headline">¶</a></h2>
+<p>In this section, we will detail findings from individual
+neuroforecasting studies as well as a systematic review to
+demonstrate neural regions, and perhaps brain circuits, implicated
+in this field.</p>
+<p>Fig 1: Brief Overview of Brain Areas Implicated in Neuroforecasting
+Research. More opaque regions (OFC and Insula) represent brain
+regions that are deeper in the brain. Generated Brain Image is a
+rough estimate to show a schema of literature findings.
+<a class="reference external" href="http://neurosynth.org/">neurosynth.org</a> used to
+generate model neural activity.</p>
+<p>A landmark study in this field was conducted by Berns and
+Moore (2012) who used fMRI technology to measure neural activity
+when participants were exposed to different songs with the intent to
+track popularity. Two years after the researchers measured brain
+activity while listening to songs, they used brain activity and
+“liking” ratings to predict which songs became a “hit.” They found
+that while subjective ratings did not predict which songs may become
+hits, nucleus accumbens (NAcc) activity did. The average song
+likeability had significant path coefficients in both the
+orbitofrontal cortex (OFC) and NAcc; while the NAcc and OFC path was
+significant, only the NAcc predicted ‘liking.’ The medial prefrontal
+cortex (mPFC) + NAcc activity forecasted aggregate downloaded songs
+2 years later. x Their research was one of the first to demonstrate
+that neural activity may provide hidden information and could be
+more reliable than self-report measures.</p>
+<p>Berns, G. S., &amp; Moore, S.
+E. (2012). A neural predictor of cultural popularity. <em>Journal of
+Consumer Psychology</em>, <em>22</em>(1), 154–160.
+<a class="reference external" href="https://doi.org/10.1016/j.jcps.2011.05.001">https://doi.org/10.1016/j.jcps.2011.05.001</a></p>
+<p>Knutson and colleagues (2007) used event-related fMRI to measure
+neural activity while individuals completed tasks related to gain
+and loss anticipation. They found different brain regions correlated
+with and predicted different aspects of individual consumer choice.
+They found: The nucleus accumbens (NAcc) activity was correlated
+with product preference; insula activity occurred when participants
+were exposed to excessive prices; the mesial prefrontal cortex
+(mPFC) activity preceded the purchase decision. These areas are
+important leading up to the purchasing decision and activation
+across the circuit occurs prior to an individual consumer’s
+decision.</p>
+<p>Falk, Berkman, and Lieberman (2012) showed participants different
+ads from campaigns geared at quitting smoking to measure the
+individual and population-level success of each advertising
+campaign. They found that the mPFC was most highly correlated with
+and predictive of both individual and aggregate behavior change to
+stop smoking. The mPFC has also been found to be correlated with a
+number of implicit preferences and judgements as well as
+considerations of personally relevant future goals.</p>
+<p>Tusche, Bode, and
+Haynes (2010) measured neural activity and self-report liking in two
+experimental groups – high attention and low attention – while
+individuals were exposed to cars. Insula and mPFC activity predicted
+consumer choice under both conditions, suggesting that these areas
+are important in consumer choice even when an individual was not
+closely attending to objects.</p>
+<p>Kühn, Strelow, and Gallinat (2016) measured neural activity while
+individuals viewed six different chocolate bars. NAcc activity was
+associated with product preference. High prices were associated with
+both increased insula activity and decreased mOFC activity. Insula
+activity predicted a decision to not buy the product while NAcc and
+mOFC activity predicted decisions to buy the product.</p>
+<p><em>Fig. 2. From Knutson and Genevsky, 2018:
+“Affective-integration-motivation (AIM) framework aligned with
+proposed gradient of choice generalization. Ascending circuits
+(right) implement component functions that integrate affective and
+other responses to motivate choice (center). Although higher
+integrative circuits may promote choice consistency within
+individuals, lower affective circuits may show broader
+generalization in forecasting choice across individuals (left).</em></p>
+<p>In a systematic review, Knutson and Genevsky found that in 8 studies
+forecasting aggregate choice with functional MRI before 2017, the
+NAcc, mPFC, or combination of the two regions acted as an aggregate
+outcome forecaster. Further, the NAcc, mPFC, and amygdala helped to
+forecast individual choice. This suggests that subcortical regions
+(particularly the NAcc) coupled with cortical regions (particularly
+the mPFC) are implicated in consumer choice. Their review indicated
+that not all regions used to predict individual choice could also be
+scaled to predict aggregate choice. They developed the
+affect-integration-motivation (AIM) framework, which suggests that
+neural signals are first effectively evaluated, then integrated, and
+finally translated into a motivated choice to avoid or act. They
+specifically expect that “neural signals from evolutionarily
+conserved affective circuits are cortically integrated with
+individual contextually relevant concerns and then relayed to motor
+preparatory circuits that can support motivated choice behavior”
+(112). As noted in the interview with Dr. Knutson, this circuit may
+be considered motivational as the NAcc and mPFC are both innervated
+by dopamine, a neurotransmitter important for wanting. Yet, more
+studies are needed to fully elucidate this circuit and understand
+<em>when</em> and <em>why</em> neuroforecsting works.</p>
+</div>
+<div class="section" id="real-world-applications-of-the-research">
+<h2>Real-world applications of the research<a class="headerlink" href="#real-world-applications-of-the-research" title="Permalink to this headline">¶</a></h2>
+<p>In our interview with Dr. Knutson, he recognized a general lag
+between this research and “real-world” applications. He commented
+that he (and people he was worked with) have acted as consultants
+for some marketing companies, but so far, to our knowledge this
+research has not directly had real-world applications. This is
+likely due to how new the field of neuroforecasting is. What this
+research does show is that certain brain regions may be able to
+predict both individual and aggregate choice. For example, Dr.
+Knutson noted that images of smiling individuals may boost NAcc
+activity. Neuroimaging may inform the economic and marketing fields
+as it could provide insight into hidden information and perhaps why
+people act <em>irrationally</em> at times.</p>
+<p>The potential impact of neuroforecasting is interdisciplinary. Since
+the birth of the field in 2010 with the article “A Neural Predictor
+of Cultural Popularity” by Sarah Moore and Greg Berns studying
+neural imaging to predict the popularity of songs, the prospect of
+using neuroforecasting to sell has been at the forefront. A study
+using Kickstarter, a crowdfunding platform, investigated the success
+of project funding campaigns based on the neural responses of
+investors. Brain activity proved to be a better indicator of project
+funding success than reported responses of the study participants
+(Berns, 2012). Marketers are seeking to get into the minds of their
+consumers, and brain imaging allows them to understand
+decision-making processes.</p>
+<p>Another field to be implicated by neuroforecasting is economics.
+Economists use models to explain patterns and trends, but these
+models are sometimes limited by the assumption that humans are
+‘rational’ beings. Neuroforecasting models may help uncover hidden
+information that could help inform economic models.The intersection
+of neuroforecasting and economics supports economists in building
+models that take into account human behavior. While the intersection
+of the two disciplines is interesting, an economist does not
+necessarily have to become a neuroscience expert. “An economist who
+examines neural variables would not necessarily require extensive
+knowledge of neural processes; instead, he might simply rely on
+neuroeconomics to identify and collect the relevant data.”
+(Bernheim, 2013)</p>
+</div>
+<div class="section" id="ethics-of-neuroforecasting">
+<h2>Ethics Of Neuroforecasting<a class="headerlink" href="#ethics-of-neuroforecasting" title="Permalink to this headline">¶</a></h2>
+<p>While neuroforecasting has interesting applications, it also has
+potentially harmful implications. The insight brain imaging using
+fMRI can offer is tremendous, and in the wrong hands could be
+detrimental. One concern is how “sin” industries like alcohol and
+tobacco could utilize forecasting. Knowledge about addiction can be
+abused by the profit-driven industries and perpetuate addictions.
+Industry in general and the commercialization of brain imaging is a
+major issue as well. As marketing professionals discover how the
+information can be applied in practice they will likely be
+interested in developing in-house studies. Further, an individual’s
+privacy is of concern as neuroforecasting suggests ‘hidden
+information.’ However, using neuroforecasting to predict aggregate
+outcomes and not individuals has tremendous marketing / economic
+potential.</p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p>Berkman, E. T., &amp; Falk, E. B. (2013). Beyond Brain Mapping: Using
+Neural Measures to Predict Real-World Outcomes. <em>Current directions
+in psychological science</em>, <em>22</em>(1), 45–50. <a class="reference external" href="https://doi.org/10.1177/0963721412469394"><span
+class="s3">https://doi.org/10.1177/0963721412469394</span></a></p>
+<p>Berns, G. S., &amp; Moore, S. E. (2012). A neural predictor of cultural
+popularity. <em>Journal of Consumer Psychology</em>, <em>22</em>(1), 154–160.
+<a class="reference external" href="https://doi.org/10.1016/j.jcps.2011.05.001">https://doi.org/10.1016/j.jcps.2011.05.001</a><span
+class="Apple-converted-space"> </span></p>
+<p>Bernheim, B.D. (2008). <em>Neuroeconomics: a sober (but hopeful)
+appraisal</em>. AEJ: Microeconomics, in press.</p>
+<p>Falk, E. B., Berkman, E. T., &amp; Lieberman, M. D. (2012). From neural
+responses to population behavior: neural focus group predicts
+population-level media effects. <em>Psychological science</em>, <em>23</em>(5),
+439–445. <a class="reference external" href="https://doi.org/10.1177/0956797611434964"><span
+class="s3">https://doi.org/10.1177/0956797611434964</span></a></p>
+<p>Genevsky, Alexander et al. “When Brain Beats Behavior:
+Neuroforecasting Crowdfunding Outcomes.” <em>The Journal of
+neuroscience : the official journal of the Society for Neuroscience</em>
+vol. 37,36 (2017): 8625-8634. doi:10.1523/JNEUROSCI.1633-16.2017</p>
+<p>Knutson, B., &amp; Genevsky, A. (2018). Neuroforecasting Aggregate
+Choice. <em>Current directions in psychological science</em>, <em>27</em>(2),
+110–115. <a class="reference external" href="https://doi.org/10.1177/0963721417737877">https://doi.org/10.1177/0963721417737877</a></p>
+<p>Knutson, B., Rick, S., Wimmer, G. E., Prelec, D., &amp; Loewenstein, G.
+(2007). Neural predictors of purchases. <em>Neuron</em>, <em>53</em>(1), 147–156.
+<a class="reference external" href="https://doi.org/10.1016/j.neuron.2006.11.010"><span
+class="s3">https://doi.org/10.1016/j.neuron.2006.11.010</span></a></p>
+<p>Kühn, S., Strelow, E., &amp; Gallinat, J. (2016). Multiple “buy
+buttons”in the brain: Forecasting chocolate sales at point of-sale
+based on functional brain activation using fMRI.NeuroImage, 136,
+122–128. doi:10.1016/j.neuroimage.2016.05.021</p>
+<p>Tusche, A., Bode, S., &amp; Haynes, J. D. (2010). Neural responses to
+unattended products predict later consumer choices. <em>The Journal of
+neuroscience : the official journal of the Society for
+Neuroscience</em>, <em>30</em>(23), 8024–8031. <a class="reference external" href="https://doi.org/10.1523/JNEUROSCI.0064-10.2010"><span
+class="s3">https://doi.org/10.1523/JNEUROSCI.0064-10.2010</span></a></p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="neural_basis_of_simple_decisions.html" title="previous page">The neural basis of simple decisions</a>
+    <a class='right-next' id="next-link" href="neuromarketing.html" title="next page">The evolving field of neuromarketing</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Psych 154 community<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

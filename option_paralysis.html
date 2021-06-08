@@ -1,0 +1,608 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>When Less is More: Option Paralysis &#8212; OpenJDM</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Psychology of Spending" href="psychology_of_spending.html" />
+    <link rel="prev" title="Mental accounting" href="mental_accounting.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">OpenJDM</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   OpenJDM
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Heuristics and biases
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="anchoring_and_adjustment.html">
+   The Anchoring and Adjustment Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="availability_bias.html">
+   The Availability Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sunk_cost.html">
+   Sunk Costs in Consumer Decision Making
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hindsight_bias.html">
+   Hindsight Bias
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="illusory_correlations.html">
+   Illusory correlations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Consumer decision making
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mental_accounting.html">
+   Mental accounting
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   When Less is More: Option Paralysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="psychology_of_spending.html">
+   The Psychology of Spending
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Varieties of judgment and decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="affective_forecasting.html">
+   Affective Forecasting: Predicting Non-Formulaic Emotions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="decisions_under_pressure.html">
+   JDM Under Pressure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="political_decision_making.html">
+   Political Decision Making
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Neuroscientific approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="neural_basis_of_simple_decisions.html">
+   The neural basis of simple decisions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroforecasting.html">
+   Neuroforecasting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuromarketing.html">
+   The evolving field of neuromarketing
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Computational approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="jdm_and_ai.html">
+   Interactions between AI decision support systems and human JDM
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="reinforcement_learning.html">
+   Reinforcement learning
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/option_paralysis.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#option-paralysis">
+   Option Paralysis
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examples">
+   Examples
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#analysis-paralysis">
+     Analysis Paralysis
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#buyers-remorse">
+     Buyer’s Remorse
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#combatting-option-paralysis">
+   Combatting Option Paralysis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#choice-architecture">
+     Choice Architecture
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary">
+   Summary
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="when-less-is-more-option-paralysis">
+<h1>When Less is More: Option Paralysis<a class="headerlink" href="#when-less-is-more-option-paralysis" title="Permalink to this headline">¶</a></h1>
+<p>Real Woods &amp; Darnell Carson</p>
+<p><strong>In A Bit of a Jam</strong></p>
+<blockquote>
+<div><p>Imagine this: You walk into your local grocery store on a Saturday
+afternoon, ready to shop. As you enter, you are beckoned over a
+display table and asked to taste test from a selection of jams.
+Depending on the day, the researchers could present you with as few
+as six jams or as many as 24! How does the number of options
+influence your likeliness to stop at the booth? And how does it
+impact the likelihood that you’ll end up buying one of the jams?</p>
+</div></blockquote>
+<p>This is precisely what researchers Mark Lepper and Sheena Iyengar
+–from Stanford University and Columbia University, respectively –
+set out to discover (Iyengar &amp; Lepper, 2000). With the help of some
+research assistants, they set up shop in a Menlo Park grocery store
+and asked people to stop at their displays of “exotic” jams, meaning
+flavors other than your typical strawberry or grape. They wanted to
+know how the number of options would affect the customers’
+decision-making.</p>
+<p>From this study and two others reported within the same paper,
+Lepper and Iyengar found that, in general, people were more
+attracted to the possibility of having more choice. People were more
+likely to stop at the display of 30 jams than the display of 6 jams.
+However, they found that what they called the “initial
+attractiveness of selections” did not influence subsequent buying
+behavior. They found the opposite: people presented with fewer
+choices were more likely to buy one of the jams.</p>
+<p>Underlying this experiment was the <strong><em>choice overload</em> hypothesis.</strong>
+This chapter will define choice overload, also known as “option
+paralysis,” and provide some examples of how it manifests in our
+decision-making.</p>
+<div class="section" id="option-paralysis">
+<h2>Option Paralysis<a class="headerlink" href="#option-paralysis" title="Permalink to this headline">¶</a></h2>
+<p><strong>Option paralysis</strong>, or <strong>overchoice</strong>, is a state characterized by
+too many choices causing an impaired ability to decide due to
+internally conflicting desires or a conflicting unknown about the
+value that each selection might fulfill. Intuitively, we assume more
+choices are better because they allow us to analyze the differential
+value between each alternative and gear your decision toward the
+choice that best fulfills your desires. But, how many choices are
+too many? What happens when, in analyzing your options, you find
+that multiple choices might bring the same fulfillment, might
+fulfill different desires equally, or you simply can not entirely
+grasp what you desire. Option paralysis can lead to other psychological outcomes,
+such as <em>analysis paralysis</em> (see below) and <em>buyer’s remorse</em> (see
+below).</p>
+<p>Not all encounters with multiple choices result in an inability to
+decide. Certain preconditions are required before a state of option
+paralysis is experienced. The absence of prior bias is necessary
+because, despite the number of choices one may have, a decision can
+be made without any conflicting desires when there is a clear
+initial bias towards a particular choice (Scheibehenne et al., 2010).
+Quality equivalence is
+also necessary for option paralysis to occur (Scheibehenne et al., 2010).
+If one analyzes their
+choices and finds that one option is clearly better than the rest,
+they won’t reach a state of option paralysis. Lastly, unfamiliarity
+is sometimes necessary for option paralysis to occur (Iyengar &amp;
+Lepper, 2000). If an individual has experienced the same or similar
+set of choices before, they have likely learned which option is best
+suited for them. This was behind the reasoning of removing defaults
+from the jam study. The researchers didn’t want people to base their
+choices on flavors with which they were likely familiar. This is not
+to say that option paralysis is impossible if you have previously
+experienced the same set of choices. The individual may have
+different preferences the next time around, or they may have never
+decided.</p>
+<p>We see the effects of overchoice most often as consumers in a
+capitalist economic system. If you’ve ever walked into a grocery
+store, you know that there are countless products on shelves that
+serve more-or-less similar functions. If you shop online, the
+variety grows to an almost limitless extent. The amount of choice
+here can seem appealing at first but can also make decisions much
+harder. We can only process so many items simultaneously, and our
+options can be under even more pressure if there are other
+constraints like a time crunch.</p>
+<p>To make a purchase, they must first select an assortment of
+products, and then they must choose from that assortment. Variety
+and complexity impact the consumer’s final decision on which product
+to buy, if at all (Townsend &amp; Khan, 2014). Variety is the positive
+aspect of this process because consumers want more options when
+trying to decide. Complexity, however, is the negative aspect of
+this process because too much variety increases the complexity of
+decision-making. When there is too much complexity, consumers may
+put off or opt-out of the decision.</p>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="analysis-paralysis">
+<h3>Analysis Paralysis<a class="headerlink" href="#analysis-paralysis" title="Permalink to this headline">¶</a></h3>
+<p><strong>Analysis paralysis</strong> is a state that is very closely
+linked to overchoice. It describes the act of overthinking or
+overanalyzing a situation so much that you become unable to make a
+decision. The person thinking about the decision may be so worried
+about whether their decision is the best decision that they never
+come to one in the first place (Kurien et al., 2014).</p>
+<p>We see this because so few
+people decided to take the jams in the study we’ve been discussing.
+They were presented with many more jams at the display than people
+in the limited-choice condition but sampled about the same number of
+jams, just under two jams. Already, the table, they are faced with
+the issue of choosing which jams to sample. In the jam aisle, they
+are faced with this decision again, but potentially also with a
+sense of doubt concerning whether they tried the right flavors. In
+the end, very few can come to a final decision to buy a jam, unsure
+that their choice will be the correct one.</p>
+</div>
+<div class="section" id="buyers-remorse">
+<h3>Buyer’s Remorse<a class="headerlink" href="#buyers-remorse" title="Permalink to this headline">¶</a></h3>
+<p><strong>Buyer’s remorse</strong> refers to
+the sense of regret a consumer makes after a purchase. This regret
+is not limited to purchases of choosing between many options;
+buyer’s remorse can also come from purchasing expensive items.
+Buyer’s remorse stems from the cognitive dissonance that comes from
+having to make difficult decisions (Sweeney et al., 2000). Many
+factors affect buyer’s remorse, but let’s focus on the role
+overchoice plays.</p>
+<p>Let’s revisit our jam
+experiment from the beginning of the chapter. You walk into your
+local grocery store and are invited to a display of jams, either 6
+or 24 in number. Afterward, you have the opportunity to go and buy
+the jams. Given your display exposure, how likely are you to buy the
+jam, and how satisfied are you with your purchase afterward?</p>
+<p>According to the 2000 Iyengar &amp;
+Lepper study, 30% of the people who visited the 6-jam display bought
+a jam, significantly higher than the 3% of people who saw the 24-jam
+display that purchased a jam. It could be that the people presented
+with so many options had a hard time deciding the first place, which
+we’ll look at in the next section.</p>
+<p>The people in the
+limited-choice condition were more likely to buy the jam and were
+more likely to be satisfied with their choice. In a similar study
+with chocolates, researchers found that people presented with more
+extensive choices were much more dissatisfied with their decisions
+than those in limited choice conditions.</p>
+<p>Here, overchoice has led to the
+manifestation of buyer’s remorse. People in the limited choice
+condition are most likely more sure of the choice they’ve made from
+already limited options, and therefore more secure and satisfied
+with their decision. However, people in the extensive choice
+condition might spend time wondering if the choice they made was the
+right one, given the number of similarly appealing options.</p>
+</div>
+</div>
+<div class="section" id="combatting-option-paralysis">
+<h2>Combatting Option Paralysis<a class="headerlink" href="#combatting-option-paralysis" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="choice-architecture">
+<h3>Choice Architecture<a class="headerlink" href="#choice-architecture" title="Permalink to this headline">¶</a></h3>
+<p><strong>Choice architecture</strong> is concerned with the ways
+choices are presented to consumers and how those presentations end
+up impacting the decision-making process. Option paralysis is just
+one of the outcomes of choice architecture, and understanding how it
+operates can help us better understand how to nudge consumers
+towards specific outcomes. The number of choices is just one factor
+that can impact decision-making. Other things that impact this
+process include descriptions of the options or the presence of
+“defaults.”</p>
+<p>The researchers made sure to remove flavors we may consider to be
+“defaults,” like grape and strawberry in the jam study. They were
+worried that these flavors would affect the study’s findings because
+people would just default to jam options they are used to instead of
+trying more “exotic” flavors. By removing these options, they
+removed the ability of people to default to what they already knew,
+and we got a better sense of how decision-making works for similarly
+appealing unknowns.</p>
+<p>Manipulating the choice architecture in experiments allows
+experimenters to measure what differences these changes make in
+consumer outcomes, which helps them understand how to best present
+the choices in a real-world setting.</p>
+</div>
+</div>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>Overchoice and option paralysis explain to us the reasoning behind
+the adage, “less is more.” According to a 1965 study, a consumer can
+only process 7 items at a time (Miller, 1965). When we are presented
+with too wide a variety of options, our brains need strategies to
+aid in the decision-making process. In the real world, this results
+in people either putting off a purchase or deciding not to purchase
+altogether.</p>
+<p>In addition to option paralysis, people can also experience
+conditions such as buyer’s remorse and analysis paralysis due to
+decision-making. Studying choice architecture and how people respond
+to changes in the ways choices are presented can help us better
+understand how to achieve the results for which we are aiming. The
+tough decisions that these situations present can be alleviated with
+the help of heuristics and past knowledge. In the next chapter, you
+learn about sunk cost and how that also factors into the
+decision-making process.</p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Iyengar, Sheena S.; Lepper, Mark R. (2000). “When choice is
+demotivating: Can one desire too much of a good thing?” (PDF).
+Journal of Personality and Social Psychology. 79 (6): 995–1006.
+doi:10.1037/0022-3514.79.6.995. PMID 11138768. Archived from the
+original (PDF) on 2013-11-30.</p></li>
+<li><p>Kurien, R., Paila, A. R., &amp; Nagendra, A. (2014). Application of
+Paralysis Analysis Syndrome in Customer Decision Making. Procedia
+Economics and Finance, 11, 323–334. <a class="reference external" href="https://doi.org/10.1016/s2212-5671(14)00200-7"><span
+class="s5">https://doi.org/10.1016/s2212-5671(14)00200-7</span></a></p></li>
+<li><p><span class="Apple-converted-space"> </span>Miller, George A.
+(1956). “The magical number seven, plus or minus two: some limits on
+our capacity for processing information”. Psychological Review. 63
+(2): 81–97. CiteSeerX 10.1.1.308.8071. doi:10.1037/h0043158. PMID
+13310704.<span class="Apple-converted-space"> </span></p></li>
+<li><p>Scheibehenne, B., Todd, P. M., &amp; Greifeneder, R. (2010). Can there
+ever be too many options? A meta‐analytic review of choice overload.
+Journal of Consumer Research, 37(3), 409-425. doi:10.1086/651235</p></li>
+<li><p>Sweeney, Jillian; Douglas Hausknecht; Geoffrey Soutar (May 2000).
+“Cognitive Dissonance after Purchase: A Multidimensional Scale”.
+Psychology &amp; Marketing. 17 (5): 369–385.
+doi:10.1002/(sici)1520-6793(200005)17:5&lt;369::aid-mar1&gt;<a class="reference external" href="http://3.0.co">3.0.co</a>;2-g</p></li>
+<li><p>Townsend, Claudia; Kahn, Barbara E. (2014). “The “Visual Preference
+Heuristic”: The Influence of Visual versus Verbal Depiction on
+Assortment Processing, Perceived Variety, and Choice Overload”.
+Journal of Consumer Research. 40 (5): 993–1015. doi:10.1086/673521.
+S2CID 6758197.</p></li>
+<li></li>
+</ol>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="mental_accounting.html" title="previous page">Mental accounting</a>
+    <a class='right-next' id="next-link" href="psychology_of_spending.html" title="next page">The Psychology of Spending</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Psych 154 community<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

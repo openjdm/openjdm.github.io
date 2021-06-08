@@ -1,0 +1,675 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Availability Heuristic &#8212; OpenJDM</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sunk Costs in Consumer Decision Making" href="sunk_cost.html" />
+    <link rel="prev" title="The Anchoring and Adjustment Heuristic" href="anchoring_and_adjustment.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">OpenJDM</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   OpenJDM
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Heuristics and biases
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="anchoring_and_adjustment.html">
+   The Anchoring and Adjustment Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   The Availability Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sunk_cost.html">
+   Sunk Costs in Consumer Decision Making
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hindsight_bias.html">
+   Hindsight Bias
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="illusory_correlations.html">
+   Illusory correlations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Consumer decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mental_accounting.html">
+   Mental accounting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="option_paralysis.html">
+   When Less is More: Option Paralysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="psychology_of_spending.html">
+   The Psychology of Spending
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Varieties of judgment and decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="affective_forecasting.html">
+   Affective Forecasting: Predicting Non-Formulaic Emotions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="decisions_under_pressure.html">
+   JDM Under Pressure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="political_decision_making.html">
+   Political Decision Making
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Neuroscientific approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="neural_basis_of_simple_decisions.html">
+   The neural basis of simple decisions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroforecasting.html">
+   Neuroforecasting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuromarketing.html">
+   The evolving field of neuromarketing
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Computational approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="jdm_and_ai.html">
+   Interactions between AI decision support systems and human JDM
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="reinforcement_learning.html">
+   Reinforcement learning
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/availability_bias.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discovering-the-availability-heuristic">
+   Discovering the Availability Heuristic
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-and-how-availability-heuristics-lead-to-errors">
+   Why and how Availability Heuristics Lead to ERRORS
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#heuristics-do-not-care-about-source-reliability">
+     Heuristics do not care about source reliability
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#impact-of-the-media">
+     Impact of the media
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#perceived-risk">
+   Perceived Risk
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#critique-of-the-heuristic-experienced-ease-of-recall-dominates-availability">
+   Critique of the Heuristic: Experienced Ease of Recall Dominates Availability
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="the-availability-heuristic">
+<h1>The Availability Heuristic<a class="headerlink" href="#the-availability-heuristic" title="Permalink to this headline">¶</a></h1>
+<p>Mathilda Kitzmann &amp; John Mistele</p>
+<p><strong>“Who should I vote
+for?”, “Is it gonna rain later? Should I carry an umbrella with me?”,
+“What should I invest into?”</strong></p>
+<p>We act based on more or less serious decisions every day. With our
+beliefs about uncertain events and our personal assessment of ambitious
+situations we take shortcuts for choosing quickly all the time. Our
+brain uses a limited number of heuristic principles to reduce complex
+judgmental situations to make it easier to evaluate decision. These
+heuristics can be useful and quick, as we cannot analyze and research
+every small decision in our lives. At the same time, shortcuts make us
+susceptible to personal biases and influences. These can limit our
+neutral perspective and lead to “severe and systematic errors” (Tversky
+and Kahnemann, <em>Judgement under Uncertainty</em>, 1124).</p>
+<p>This chapter explores the often-applied heuristics of availability. It
+is the cognitive decision rule through which people judge probability
+and frequency of an event or classification by availability, i.e. the
+“ease with which relevant instances come to mind” (Tversky and
+Kahnemann, <em>Availability</em>, 207). Availability heuristics can not only
+lead to easier and quicker decisions, but also biased and incorrect
+judgement. This cognitive decision rule was first labeled by researchers
+in psychology Amos Tversky and Daniel Kahnemann in 1973. They examined
+human heuristics and biases in a series of papers. In this series they
+introduced the cognitive shortcuts humans make with the assessing of
+availability in ten experiments. Kahnemann and Tversky are groundbreaking researchers of cognitive
+heuristics in decision making. Their pioneering role in the field of
+judgement and decision making led to Kahnemann winning the Nobel Prize
+in Economics in 2002, 6 years after Amos Tversky’s death.</p>
+<p>We will look at the psychological approach to the availability heuristic
+and its corresponding bias. Examples will be given for impairments of
+the cognitive decision strategy an intuitionally lacking interest in
+source reliability, media’s influence, and mistakes in perceived risk.
+Furthermore, we will discuss a critique about our experience influencing
+the heurisitc itself.</p>
+<div class="section" id="discovering-the-availability-heuristic">
+<h2>Discovering the Availability Heuristic<a class="headerlink" href="#discovering-the-availability-heuristic" title="Permalink to this headline">¶</a></h2>
+<p>The foundational studies on the Availability Heuristic
+were performed by Tversky and Kahneman, published in 1973 around the
+time of some of Tversky and Kahneman’s other work on cognitive biases.
+Tversky and Kahneman first showed that subjects are able to accurately
+assess the quantity of examples they could recall or construct (the
+“available” examples) in much less time than it took them to actually
+recall or construct those examples. Thus, assessments of availability
+are cheap and accurate enough to be useful, assuming availability is
+truly a good proxy for the real frequency or quantity of examples.</p>
+<p>Thus the intriguing cases are where availability fails as a proxy, yet
+humans still seem to use availability as the grounds for their frequency
+and quantity estimates yielding predictable errors. The following
+passages will summarize three such classes of tasks.</p>
+<p>The first class of estimation tasks where the availability heuristic led
+subjects astray was in mental construction tasks. Subjects were given
+the task of estimating how many ways a two-person subcommittee could be
+chosen from a group of ten people, then given the task of estimating how
+many ways an eight-person subcommittee could be chosen from a group of
+ten people. Any two-person subcommittee corresponds to exactly one
+eight-person subcommittee of all the people you previously excluded, so
+that these two quantities are mathematically identical. Despite this,
+respondents systematically gave larger answers for the number of
+possible two-person subcommittees than for the number of eight-person
+subcommittees. Two-person subcommittees are much easier to imagine; they
+somehow take up less mental space, so that such subcommittees feel more
+available and thus more frequent than their eight-person counterparts.</p>
+<p>The second class of tasks where availability distorts estimates involves
+salience. Subjects in two groups were given two lists of names, one of
+twenty less famous men and nineteen famous women, and one of twenty less
+famous women and nineteen famous men. One group was asked to recall as
+many names as they could; on average, 12.3 of 19 famous names were
+recalled and only 8.4 of 20 less famous names were recalled. The other
+group was asked to estimate the relative frequency of the genders in
+each list; 80 of 99 study participants erroneously asserted that the
+class consisting of the more famous names was more frequent. Thus, the
+more salient famous examples were more easily recalled, i.e. available,
+leading to an erroneous judgement of frequency.</p>
+<p>The third class of frequency estimation error lies in distortions of the
+search mechanism used. Kahneman and Tversky asked participants to judge
+the relative frequency of words in English with R as the first letter
+vs. R as the third letter. Despite R being more common as a third
+letter, more than two thirds of participants responded that R is more
+common as a first letter than as a third letter. The same effect was
+observed for K, L, N, and V. This can be explained by the availability
+of lexicographic orderings of words and the weight we place on first
+letters; when probing the mind for words beginning with R, for many it
+is clear where to look, as they have already been grouped. Not so for
+third letters; thus the less available example is erroneously judged as
+less frequent.</p>
+</div>
+<div class="section" id="why-and-how-availability-heuristics-lead-to-errors">
+<h2>Why and how Availability Heuristics Lead to ERRORS<a class="headerlink" href="#why-and-how-availability-heuristics-lead-to-errors" title="Permalink to this headline">¶</a></h2>
+<p>*Fig 1: Sketched model of a person judging a
+situation by the information hey can
+easily retrieve, here what they are presented by media.</p>
+<div class="section" id="heuristics-do-not-care-about-source-reliability">
+<h3>Heuristics do not care about source reliability<a class="headerlink" href="#heuristics-do-not-care-about-source-reliability" title="Permalink to this headline">¶</a></h3>
+<p>Imagination
+of an event alone has an effect on our perception of reality. Due to
+availability bias, simply imagining an event already leads to an
+increase in our “subjective likelihood” (Carroll 88) for its occurrence.
+While availability heuristics rely on our memory for forming an opinion
+about frequency, that is also the part where our judgement is most
+susceptible to errors, shortcuts and bias. This interference in our
+probability judgement even occurs as we are confronted with hypothetical
+or even obviously not actually happened events</p>
+<p>In 1976 John
+Carroll introduced a study of two experiments, showing that imagining an
+event could, in itself, sufficiently lead to a person experiencing it to
+be more likely. Carrol refers to work by Neisser from the same year, who
+proposed similarities in psychological processes between the activity of
+the brain imagining an object and directly seeing an object. In both
+mechanisms, an “anticipatory schema” modifies information and
+expectations, and samples the given input related to the objec. In his
+work, Carroll let participants imagine the event of either Ford or
+Carter winning the 1976 Presidential Election. In a second experiment
+participating students from the University of Pittsburgh are asked to
+imagine a good or bad season for their university’s football team. The
+participants were fully aware it was a highly hypothetical scenario.
+After imagining the given situation, the first experiment’s participants
+were asked which candidate they see to be more likely to eventually win
+the election. For the second experiment the participants evaluated
+firstly, if they thought that the football season of the given team was
+going to be a “good” one and secondly, they were supposed to give
+predictions for a postseason bowl bid. Only the instructions to imagine
+a specific event were enough to increase the expectation for the
+imagined outcome in reality.</p>
+<p>Participants
+had to imagine conditions, which seem to be capable of producing the
+event. Consequently, The event seems to be objectively easier to
+retrieve. This information is used in the heuristics of availability, to
+judge its likelihood. This interference in judging a certain probability
+or frequency can give even only posing a problem or asking a question
+the power to change the belief of a subject. The shortcut our brain
+makes to judge and evaluate a situation quickly using availability
+heuristics is not only susceptible to unconsciously occurring biases and
+errors. We can actively try to imagine possible scenarios over and over
+again and we can also be influenced by other parties’ suggestions of
+possible events, proposed as a problem or brought into consideration by
+asking a question about a possible occurrence. These suggestions can
+directly come from other people, but we also experience it often in the
+daily influence of TV, news and media in general.</p>
+</div>
+<div class="section" id="impact-of-the-media">
+<h3>Impact of the media<a class="headerlink" href="#impact-of-the-media" title="Permalink to this headline">¶</a></h3>
+<p>Information
+presented by the media influences our evaluation of salience. It keeps
+events present, and therefore changes our perception of recency, all
+factors on which our assessment of availability depends. Even
+advertising takes advantage of the availability bias. It does not matter
+if we may not like the way a specific product is promoted or might even
+perceive it sometimes as annoying. Still, advertisements–even annoying
+advertisements for products we hate serve the role of announcing the
+existence of a product. Problems about which we were unaware become
+visible through ads. The next time we buy something, we can see
+ourselves confronted with a problem we have an easily available solution
+for, due to what we read, saw, or heard before.  Additionally,
+media has a high influence on imaginability. As discussed in the
+previous section, events that are presented to us, even only
+hypothetically, can change our perceived likelihood of them actually
+happening.</p>
+<p>According to
+cultivation theory, one of the most prominent mass communication models,
+people see our social reality as more congruent with the reality
+presented by television, as they spend more time consuming TV (Potter
+and Riddle cited by Riddle 156). On a cognitive level, availability
+heuristics can explain this effect. With a more often and recent
+exposure to television, we construct easily accessible and relatable
+memory and connections to possible events and occurrences. Multiple
+studies see a clear correlation between the amount of TV watched and its
+impact on accessibility.</p>
+<p>Research by Karyn
+Riddle (2010) has investigated the influence of TV on social reality
+judgement, participants had to watch a specific television program. The
+exposure to violent programs differed between the groups of
+participating students in frequency, recency, and vividness. Frequency
+and vividness had a strong influence on the participants’ social
+beliefs. In the groups with the highest exposure to vivid violent
+programs, the estimates of crime and police immorality increased
+significantly. The study shows that the process of constructing
+judgements about the frequency of crime and violence in society can be
+influenced by the TV programs we are exposed to. In this way media
+strongly influences our perception, an effect that can be seen in many
+more aspects of our lives than the impact on social beliefs.</p>
+</div>
+</div>
+<div class="section" id="perceived-risk">
+<h2>Perceived Risk<a class="headerlink" href="#perceived-risk" title="Permalink to this headline">¶</a></h2>
+<p>Pioneering
+research on people’s perception of risks was conducted by Paul Slovic
+and Sarah Lichtenstein in 1985. They conducted a survey in which
+participants were asked to judge which of two causes of death were more
+frequent. Results of the study are also presented in Paul Kahnemann’s
+book <em>Thinking Fast and Slow</em>. In Slovic and Lichtenstein’s study, 80%
+of participants judged accidental death as more likely than strokes,
+even though strokes actually cause twice as many deaths. Tornadoes were
+seen as a more frequent cause of death than asthma, although death by
+asthma is 20 times as likely. Even though death by disease is 18 times
+as likely as accidental death, these two were considered to be about
+equally likely. Death by accidents was also judged to be more than 300
+times more likely than death by diabetes, even though four times as many
+people die from diabetes than they do by accidents. The study and its
+results are now widely considered as a “standard example of an
+availability bias” (Slovic and Liechtenstein, 1985, cited by Kahnemann
+138).</p>
+<p>These evaluations
+clearly show how estimates of deaths are influenced by media coverage.
+At the same time, the media do not shape what the public is interested
+in. Rather, the media is biased toward the public demand for “novelty and poignancy”
+(Kahnemann 138). Unusual events attract more attention than reports of
+people dying of heart disease, asthma, or diabetes. Our expectations
+about the frequency of occurrences are distorted by prevalence and
+emotional intensity.</p>
+<p>Availability
+biases can also directly help to explain the increase in insurance
+purchase and protective action after disaster. Kahnemann explains
+behaviors discovered by Howard Kunreuther in research of risk and
+insurance. After significant earthquakes, people in California tend to
+purchase insurance and adopt measures of protection in way higher rates.
+For example, they tie down their boiler to reduce a possible damage by
+an earthquake and maintain emergency supplies (Kahnemann 137). However,
+the memories become less present over time. Retrievability, time of
+occurrence and salience become less clear.</p>
+<p>As we see, images
+of events in the past and our available memories of them shape our
+expectations of the future. In this way individuals and even governments
+often design protective actions adequate to the worst experienced
+disaster. Already in pharaonic Egypt, societies tracked the high-water
+mark of floods to be prepared for the assumedly worst possible case
+(Kahnemann 137). The same still seems to be true for our modern methods
+of managing safety measurements against floods. Tversky and Kahnemann
+cite in their 1973 published paper the work <em>Hazard and choice
+perception in flood plain management</em> by Robert Kates (1962). Kates
+points out a basic reliance on experience to be a major limitation to
+use improved flood hazard information. Furthermore he writes, “Recently
+experienced floods appear to set an upper bound to the size of loss with
+which managers believe they ought to be concerned.” (Kates 140 cited by
+Kahnemann and Tversky, <em>Availability,</em> 230). As Kates argues, inability
+of individuals to imagine floods unlike any that have occurred is a main
+restriction on efficient prevention of destruction by flood.</p>
+<p>People’s
+assessment of availability is highly susceptible to shortcuts, errors,
+and biases. As discussed above, the fact that we heard, read, or
+generally perceived something before, makes it appear to us to happen
+more likely. It highlights the risk of bias by intense consumption of
+television or even fake news or hypothetical events. Perceiving these
+can change our assessment of frequency, likelihood, and finally
+influence our decision making. A high perceived risk of events, which
+are actually only low danger, such as chances of different causes of
+death, can shift our focus to be overcautious for rationally
+unreasonable events.</p>
+</div>
+<div class="section" id="critique-of-the-heuristic-experienced-ease-of-recall-dominates-availability">
+<h2>Critique of the Heuristic: Experienced Ease of Recall Dominates Availability<a class="headerlink" href="#critique-of-the-heuristic-experienced-ease-of-recall-dominates-availability" title="Permalink to this headline">¶</a></h2>
+<p>While Kahneman and Tversky proposed
+that the availability of examples is used as a means of determining the
+frequency of those examples, Schwarz et al (1991) point out that
+Kahneman and Tversky did not thoroughly investigate the mechanism by
+which availability operates. To interrogate this, the following study
+was conducted.</p>
+<p>Schwarz et al requested of two groups of subjects that they recall
+either N = 6 or N = 12 examples of times they were assertive. In this
+way, the subjects should have easily available examples of times they
+were assertive, and as such we might anticipate that those who generated
+twelve examples will rate themselves as more assertive than the
+six-example group. However, Schwarz et al observed instead that, in
+fact, it is the N = 6 group which considers itself more assertive; most
+subjects find it difficult to generate more than eight or so examples,
+and by subjecting the twelve-example group to the task of exceeding this
+number, their available examples, while more available, are colored by
+the relative difficulty with which they were attained. They rate
+themselves as <em>less</em> assertive. Thus, Schwarz et al demonstrate a
+context where experienced ease of recall, not availability, drives
+intuitive estimates of frequency, critiquing and refining the Kahneman
+and Tversky findings.</p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p>Carroll**,** John. “The effect of imagining an event on expectations for
+the event: An interpretation in terms of the availability heuristic”.
+<em>Journal of Experimental Social Psychology</em>. <strong>14</strong> (1): 88–96.</p>
+<p>Gabrielcik, A., &amp; Fazio, R. H. (1984). Priming and Frequency Estimation:
+A Strict Test of the Availability Heuristic. Personality and Social
+Psychology Bulletin, 10(1), 85–89.</p>
+<p>Kahneman, Daniel. <em>Thinking, Fast and Slow</em>. 2011. Print.</p>
+<p>Riddle, Karyn (2010). “Always on My Mind: Exploring How Frequent,
+Recent, and Vivid Television Portrayals Are Used in the Formation of
+Social Reality Judgments”. <em>Media Psychology</em>. 13 (2): 155–179.</p>
+<p>Schwarz, N. et al. (1991). “Ease of retrieval as information: Another
+look at the availability heuristic”. <em>Journal of Personality and Social
+Psychology, 61</em>(2), 195–202.</p>
+<p>Tversky, Amon; Kahnemann, Daniel. “Availability: A heuristic for judging
+frequency and probability” Cognitive Psychology, Volume 5, Issue 2,
+1973, 207-232</p>
+<p>Tversky, Amon; Kahnemann, Daniel. “Judgment under Uncertainty:
+Heuristics and Biases”. <em>Science,</em> Vol. 185, issue 4157, 1974, 1124-1131</p>
+<p>Wänke, Michaela, et al. (1995). “The availability heuristic revisited:
+Experienced ease of retrieval in mundane frequency estimates”. <em>Acta
+Psychologica</em>, Volume 89, Issue 1, 83-90.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="anchoring_and_adjustment.html" title="previous page">The Anchoring and Adjustment Heuristic</a>
+    <a class='right-next' id="next-link" href="sunk_cost.html" title="next page">Sunk Costs in Consumer Decision Making</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Psych 154 community<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

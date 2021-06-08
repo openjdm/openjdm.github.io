@@ -1,0 +1,665 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mental accounting &#8212; OpenJDM</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="When Less is More: Option Paralysis" href="option_paralysis.html" />
+    <link rel="prev" title="Illusory correlations" href="illusory_correlations.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">OpenJDM</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   OpenJDM
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Heuristics and biases
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="anchoring_and_adjustment.html">
+   The Anchoring and Adjustment Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="availability_bias.html">
+   The Availability Heuristic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sunk_cost.html">
+   Sunk Costs in Consumer Decision Making
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hindsight_bias.html">
+   Hindsight Bias
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="illusory_correlations.html">
+   Illusory correlations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Consumer decision making
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Mental accounting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="option_paralysis.html">
+   When Less is More: Option Paralysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="psychology_of_spending.html">
+   The Psychology of Spending
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Varieties of judgment and decision making
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="affective_forecasting.html">
+   Affective Forecasting: Predicting Non-Formulaic Emotions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="decisions_under_pressure.html">
+   JDM Under Pressure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="political_decision_making.html">
+   Political Decision Making
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Neuroscientific approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="neural_basis_of_simple_decisions.html">
+   The neural basis of simple decisions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroforecasting.html">
+   Neuroforecasting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuromarketing.html">
+   The evolving field of neuromarketing
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Computational approaches
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="jdm_and_ai.html">
+   Interactions between AI decision support systems and human JDM
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="reinforcement_learning.html">
+   Reinforcement learning
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/mental_accounting.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#first-component-perception-and-evaluation">
+   First Component: Perception and Evaluation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#second-component-budgeting">
+   Second Component: Budgeting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#third-component-making-financial-decisions-one-at-a-time-or-grouped-together">
+   Third Component: Making Financial Decisions One At A Time Or Grouped Together
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="mental-accounting">
+<h1>Mental accounting<a class="headerlink" href="#mental-accounting" title="Permalink to this headline">¶</a></h1>
+<p>Shelly Deng &amp; Brandon McGorty</p>
+<p>In behavioral economics, mental accounting refers to the set of
+rules describing how individuals value and spend money based on the
+money’s origin and on how one labels the money. For example, people
+may treat money intended for one category of purchases differently
+than money intended for another category. In evaluating and making
+financial decisions using mental accounting, people evaluate between
+options within a specific context and in relation to a reference
+point. With context in mind and using a reference point, people
+place money into different mental buckets. Specifically, individuals
+set up decision frames for money in different buckets, and for each,
+they evaluate different outcomes as they are relevant to the
+reference or neutral outcome. Since people put a mental label to
+money, the principle of fungibility, which states that any unit of
+money is substitutable, is violated.</p>
+<p>Mental accounting examples are prevalent throughout our daily lives.
+To give a simple example, suppose that John spends no more than $30
+for a bottle of wine normally, but since he won the lottery of $45
+this month, he decided to make a one-time purchase of a bottle that
+costs $45. This example is consistent with the idea that there
+exists different mental accounts for hard-earned money (i.e. from
+his salary) and for windfall money (i.e. for the lottery). This
+difference in labeling results in him spending money in a manner
+that is atypical of his normal spending behavior.</p>
+<p>With a basic introduction to mental accounting, the rest of this
+chapter will dive into mental accounting a little deeper.
+Specifically, mental accounting involves three components:
+perception and evaluation, budgeting, and choice bracketing. The
+first component, perception and evaluation, is concerned with how
+individuals perceive outcomes and evaluate decisions. The second
+component, budgeting, involves assigning different decisions to
+specific mental accounts. Finally, the third component of choice
+bracketing is concerned with evaluation of mental accounting and the
+frequency in which accounts are balanced. In this chapter, we will
+aim to understand these three components of mental accounting. We
+will end the chapter summarizing important points and review their
+implications, in hope to shed light on how we may use mental
+accounting to our advantage and combat irrational financial
+pitfalls.</p>
+<div class="section" id="first-component-perception-and-evaluation">
+<h2>First Component: Perception and Evaluation<a class="headerlink" href="#first-component-perception-and-evaluation" title="Permalink to this headline">¶</a></h2>
+<p>The way
+individuals perceive outcomes and evaluate decisions plays an
+important role in mental accounting. To understand the perception
+and evaluation component of mental accounting, we must understand
+how gains and losses are viewed and how individuals perform hedonic
+editing to maximize utility. Additionally, we need to understand
+transaction theory and how time affects financial decisions.</p>
+<p>First, we will use the value function from prospect theory to model
+the utility. The value function has three key features: gains and
+losses are thought of in relation to a reference point (usually the
+status quo), the value function is piecewise where the gain function
+is concave and the loss function is convex, and the value function
+adheres to loss aversion principles.</p>
+<p>Given a set of outcomes within the same mental account, individuals
+tend to perform hedonic framing to maximize utility (or pleasure)
+although there are exceptions to the hedonic framing hypothesis*.
+Generally, there are four principles of hedonic framing. First,
+individuals tend to segregate gains, which makes sense since the
+gain function is concave. Indeed, 64% of the research participants
+believe that someone who won two lottery tickets with the total
+value of $75 is happier than someone who won a single lottery worth
+$75 (Thaler, 1985, 1999). Second, individuals integrate losses.
+Because the loss function is convex, losing $30 and then losing $20
+is less preferred than losing $50 at once. In fact, credit cards may
+help reduce the mental cost of spending by directly integrating
+spending/losses (Thaler, 1985). Third, people tend to integrate
+smaller losses with larger gains. By combining smaller losses with
+larger gains, individuals can view the two outcomes as a single
+smaller gain, and this allows them to reduce the psychological
+penalty of loss aversion. Finally, people tend to segregate small
+gains from larger losses. For example, the majority of research
+subjects believe that Person A who has to pay $175 to repair a car
+is less happy than Person B who has to pay $200 to repair a car but
+who won $25 from an office football pool (Thaler, 1985).
+Intuitively, this makes sense because such segregation allows Person
+B to see the small winning as a silver lining. From the value
+function, this also makes sense since the gain function is the
+steepest at the origin. Combining small gains with larger losses
+would reduce the magnitude of displeasure. However, this reduction
+is less than the gain of utility from segregation of the smaller
+gain from the larger loss.</p>
+<p>Utility affects how individuals evaluate financial decisions. When
+making a purchase, consumers get acquisition utility as well as
+transaction utility. Acquisition utility is the measure of the value
+of the good relative to the price, and transaction utility is the
+measure of the value of the good as determined by the perceived
+value of the “deal” (Thaler, 1999). Thus, individuals may make
+irrational purchases simply because they are good deals. For
+example, many people end up buying items that they barely use. On
+the flip side, individuals also may give up buying an item even if
+it makes them better off because it has negative transaction
+utility. To illustrate, consumers typically have different reference
+price points for goods at different contexts. For example, consumers
+are typically willing to pay around $1 at a convenience store but
+$3.50 at Disney World for a standard-sized water bottle. With these
+reference price points in mind, they may not purchase the water for
+$2.50 at a convenience store even if they are really thirsty.</p>
+<p>Finally, the concept of time plays a role in how people make and
+evaluate financial decisions. First, advance purchases are
+considered investments, which allows consumers to decouple payment
+and consumption. Since payment is made at an earlier time, consumers
+do not have to bear the psychological pain of paying, thus allowing
+them to enjoy their goods as if they are free. Examples of advance
+purchases include buying a case of wine, paying for time-share
+properties, and the use of credit cards.</p>
+<p>Sunk cost, which pertains to financial decisions previously made,
+connects to advance purchases. To give an example, people exhibit
+the sunk cost effect when they sit through a movie that they
+dislike, simply because of the money that they paid to see it. Sunk
+cost has implications for mental accounting. Specifically in a
+research study by<span class="Apple-converted-space"> 
+</span>Kahneman and Tversky, subjects are less likely to buy a
+second ticket to a play after they lost their ticket than to
+purchase the ticket for the first time but after losing the same
+amount of money (1984). In either case, the consumer’s overall
+wealth will decrease by the same amount in both scenarios if they
+decide to watch the play. However, because consumers have different
+buckets and budgets for different outcomes, the sunk cost effect is
+activated, and they become more inclined to purchase a ticket in one
+scenario than the other.</p>
+</div>
+<div class="section" id="second-component-budgeting">
+<h2>Second Component: Budgeting<a class="headerlink" href="#second-component-budgeting" title="Permalink to this headline">¶</a></h2>
+<p>Mental accounting influences how people budget. Budgeting happens in
+three ways or levels. First, expenditures are grouped into budgets.
+For example, it is common to have separate budgets for food,
+housing, entertainment, and more. Second, wealth is allocated into
+different mental wealth accounts, and some common ones include
+checking, saving, and rainy-day. Finally, income is divided based on
+source. For example, it can be regular income (i.e. salary) or
+windfall (i.e. winning the lottery). These labeling of money can
+thus reduce flexibility in how money is spent.</p>
+<p>The grouping of expenditure into budgets involves two steps: booking
+and posting. First, the consumer must be aware of or register the
+expense. Second, the consumer must then classify that expense into
+the proper account. However, this booking and posting process
+inherently has a blindspotted pitfall: small expenditures tend to
+fall into the cracks and go unnoticed. For example, paying $0.50 in
+tip for a coffee may look innocent, but repeated enough, this can
+sum to a large amount. Businesses thus often may take advantage of
+such phenomenon to trick consumers into spending money, and examples
+in real life include the purchasing of iCloud storage or subscribing
+to Spotify. While individuals may budget expenditures to reduce
+spending (i.e. setting a maximum on a certain type of goods), being
+mindful of small expenses to ensure booking and posting of all
+expenses is necessary for effective execution of reducing
+spending.</p>
+<p>Wealth is often automatically placed into different accounts. People
+have different spending habits for different wealth accounts, and
+certain allocation of wealth allows individuals to enforce
+self-control in their expenditure. For example, people typically
+have little reservation spending current assets such as cash and
+checking accounts. Then they have increasing reservation about
+touching the funds in the current wealth bucket (saving accounts,
+stocks, bonds, mutual fund), home equity bucket, and future income
+bucket.</p>
+<p>Mental accounting has implications for intertemporal choices. For
+example, suppose there are two scenarios: In the first, consumers
+have the choice of receiving $10 today or $15 in a year. In the second, they have the
+choice of receiving $100 or $150 with the same timeline.
+Participants tend to choose differently for the two scenarios, and
+researchers have tried to explain this using mental accounting
+(Shefrin &amp; Thaler, 1988; Loewenstein &amp; Thaler, 1989). The
+participant might put that gain into the mental “saving” account
+when the amount is large but in the mental “checking” account when
+the amount is small. Effectively, this means that they would be
+foregoing consumption when the amount is small but foregoing
+interest when the amount is large. In that case, the consumer may
+wish to receive $8 now in order to have the money for spending but
+choose the $100 option because $20 is more than the interest that
+one can earn from $80 in two weeks.<span
+class="Apple-converted-space"> </span></p>
+<p>Additionally, classifying money into different mental wealth
+accounts (i.e. saving, checking) may enable people to save more.
+Since people are less likely to spend from the “home equity” or
+“future income” buckets, placing money in these buckets may help
+them save. Specifically, this might mean buying houses as investment
+and signing on job offers that give increasing salaries rather than
+a flat rate over some number of years.</p>
+<p>Finally, income is labeled based on its source, and people may have
+different spending rules for money from different sources.
+Typically, people match their spending criterion with how easy they
+obtain the income. For example, people might be less inclined to
+spend on a luxurious vacation using their salary money, but they are
+more likely to do so if the money came from a lottery win. This
+labeling of money shows that people do not have strict rules that
+govern how they spend money.</p>
+</div>
+<div class="section" id="third-component-making-financial-decisions-one-at-a-time-or-grouped-together">
+<h2>Third Component: Making Financial Decisions One At A Time Or Grouped Together<a class="headerlink" href="#third-component-making-financial-decisions-one-at-a-time-or-grouped-together" title="Permalink to this headline">¶</a></h2>
+<p>When analyzing financial decisions made by individuals it’s
+important to know whether they made decisions one at a time or
+grouped together in predicting their consumer outcomes. According to
+the theory of fungibility, money should have the same value no
+matter what it’s being used for. We see in many ways this becomes
+false when we look at mental accounting. People often put their
+costs into different groupings or categories which violates this
+principle because it puts a different value on money depending on
+what it’s being spent for. For example, an individual may have
+different expenses laid out for housing, food, or clothes and are
+willing to put different budgets on each when in reality the money
+all has the same value. When these different groupings are made,
+there are different reference points for spending which leads to
+people spending more even though they feel well organized.</p>
+<p>When individuals establish groupings to their spending, such as
+money allocated for housing or electric bills, they begin to spend
+in a group specific way. Depending on the framing of each group,
+people are willing to spend more on things when it fits into a
+category with a higher budget.</p>
+<p>The value of gains and losses and how we frame decisions moving
+forward is very important in our financial decisions. When analyzing
+the framing of gains and losses it is very important to consider the
+value function. This shows how events are perceived and coded in
+decision making. We see that the value function is defined by a
+certain reference point when analyzing gains and losses. For
+example, when individuals have larger losses paired with small gains
+they often feel better about the situation, which is referred to as
+hedonic framing (Thaler, 1999). An example of this would be with
+investing. Say an investor lost $5,000 but also made $1,000 they
+would feel better than just losing $4,000. Even though they have
+lost the same amount of money they feel better about the first
+situation because they are framed to appreciate gains. Likewise,
+people often cancel out losses when they can pair them with large
+gains.</p>
+<p>The article “Individual Differences in Mental Accounting’’ by
+Stephan Muehlbacher and Erich Kirchler presents three studies that
+apply a Likert-type scale to assess how much individuals engage in
+mental accounting practices. Their work showed that when individuals
+use categories for how they spend, a loss in a certain category,
+like housing for example, will lead to less spending in that
+category in the future when we compare this to spending without
+categories. Also, when an individual has two separate gains, they
+often look at the value as greater than the actual combined value
+is. Likewise, when people have already been losing a lot, a little
+more loss tends to not seem as serious as that same value of a loss
+without prior losing.</p>
+<p>An important concept related to this topic is myopic loss aversion.
+To understand myopic loss aversion, we must first understand loss
+aversion as a whole. Loss aversion refers to the tendency to prefer
+to avoid potential losses versus obtaining gains. In other words, a
+person would avoid risking $70 in order to potentially win $50. This
+seems similar to the concept of risk aversion with the main
+difference being that with loss aversion, the utility of a monetary
+payoff is determined by previous experiences. Myopic loss aversion
+refers to the theory that the more frequently we evaluate our
+portfolio, the more likely we are to observe a loss and subject
+ourselves to loss aversion (Thaler, 1999). This means that when
+individuals analyze their money and put labels on what it’s spent
+on, they become more likely to spend less in categories where there
+is risk of losing money based on past experiences.</p>
+<p>When you take these individuals, who are loss-averse, we see that
+they are more willing to take risks if many bets are paired together
+versus if they consider each on their own. This relates well to the
+theories previously discussed because we know that individuals tend
+to view losses as less aversive if they’re paired with gains and
+also tend to feel less bad about a small particular loss when
+they’ve already been losing. Gneezy and Potters showed in a 1997
+study that individuals are more risk seeking when they are shown
+30-year return rates when investing versus when they’re shown 1-year
+return rates. This is because individuals see the gains clumped into
+one final gain and the losses along the way don’t seem as
+significant versus losses in the short run are more severe if they
+aren’t paired with big gains.</p>
+<p>The implications of these mental accounting principles are
+important. How we value and spend our money is vital to our
+long-term financial well-being. It’s important to understand the
+ways people tend to value money and how we can better act to fully
+maximize our finances. By furthering their knowledge on money
+spending practices, people can be better prepared to be financially
+intelligent with their money and maximize its potential.</p>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Muehlbacher, S., &amp; Kirchler, E. (2019, December 3). <em>Individual
+Differences in Mental Accounting</em>. Frontiers.
+<a class="reference external" href="https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02866/full">https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02866/full</a>.<span
+class="Apple-converted-space"> </span></p></li>
+<li><p>Thaler, R. (1985). <em>Mental Accounting and Consumer Choice</em>.
+Marketing Science. <a class="reference external" href="https://www.jstor.org/stable/183904?seq=1">https://www.jstor.org/stable/183904?seq=1</a>.<span
+class="Apple-converted-space"> </span></p></li>
+<li><p>Thaler, R. H. (1999). <em>Mental Accounting Matters</em>. Journal of
+Behavioral Decisions Making.
+<a class="reference external" href="https://people.bath.ac.uk/mnsrf/Teaching%202011/Thaler-99.pdf">https://people.bath.ac.uk/mnsrf/Teaching 2011/Thaler-99.pdf</a>.<span
+class="Apple-converted-space"> </span></p></li>
+<li><p>Thaler, R. H. (2017, October 9). <em>Integrating Economics With
+Psychology</em> . Kungl. Vetenskaps Akademien.
+<a class="reference external" href="https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2017.pdf">https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2017.pdf</a>.<span
+class="Apple-converted-space"> </span></p></li>
+<li><p>Kahneman, D. and Tversky, A. ‘Choices, values, and frames’. <em>The
+American Psychologist</em>, 39 (1984), 341-350. Keren, G. ‘Additional
+tests of utility theory under unique and repeated conditions’.
+<em>Journal of Behavioral Decision Making</em>, 4 (1991), 297-304.</p></li>
+<li><p>Thaler R. H. “Mental Accounting and Consumer Choice”, <em>Marketing
+Science,</em> <strong>4</strong> (1985), 199-214.</p></li>
+<li><p>Loewenstein, George, and Richard H. Thaler. 1989. “Anomalies:
+Intertemporal Choice.” <em>Journal of Economic Perspectives</em>, 3 (4):
+181-193.</p></li>
+<li><p>Shefrin, Hersh, and Richard H. Thaler, “The Behavioral Life-Cycle
+Hypothesis,” <em>Economic Inquiry, October</em> 1988, <em>26</em>, 609-643.</p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="illusory_correlations.html" title="previous page">Illusory correlations</a>
+    <a class='right-next' id="next-link" href="option_paralysis.html" title="next page">When Less is More: Option Paralysis</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Psych 154 community<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
