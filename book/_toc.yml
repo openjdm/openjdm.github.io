@@ -1,2 +1,29 @@
-- file: landing-page
-- file: page1
+format: jb-book
+root: index
+parts:
+  - caption: Heuristics and biases
+    chapters:
+    - file: anchoring_and_adjustment.md
+    - file: availability_bias.md
+    - file: sunk_cost.md
+    - file: hindsight_bias.md
+    - file: illusory_correlations.md
+  - caption: Consumer decision making
+    chapters:
+    - file: mental_accounting.md
+    - file: option_paralysis.md
+    - file: psychology_of_spending.md
+  - caption: Varieties of judgment and decision making
+    chapters:
+    - file: affective_forecasting
+    - file: decisions_under_pressure.md
+    - file: political_decision_making.md
+  - caption: Neuroscientific approaches
+    chapters:
+    - file: neural_basis_of_simple_decisions.md
+    - file: neuroforecasting.md
+    - file: neuromarketing.md
+  - caption: Computational approaches
+    chapters:
+    - file: jdm_and_ai.md
+    - file: reinforcement_learning.md
