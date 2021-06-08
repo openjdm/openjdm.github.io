@@ -1,6 +1,6 @@
 # The Anchoring and Adjustment Heuristic
 
-Barby Hernandez Cantu & Charles Hicks
+Barbara Hernandez & Charles Hicks
 
 What factors do you take into
 consideration when making an estimate? Do you rely on your previous
