@@ -15,13 +15,13 @@ heuristics can be useful and quick, as we cannot analyze and research
 every small decision in our lives. At the same time, shortcuts make us
 susceptible to personal biases and influences. These can limit our
 neutral perspective and lead to “severe and systematic errors” (Tversky
-and Kahnemann, *Judgement under Uncertainty*, 1124).
+and Kahnemann, 1974, 1124).
 
 This chapter explores the often-applied heuristics of availability. It
 is the cognitive decision rule through which people judge probability
 and frequency of an event or classification by availability, i.e. the
 “ease with which relevant instances come to mind” (Tversky and
-Kahnemann, *Availability*, 207). Availability heuristics can not only
+Kahnemann, 1973, 207). Availability heuristics can not only
 lead to easier and quicker decisions, but also biased and incorrect
 judgement. This cognitive decision rule was first labeled by researchers
 in psychology Amos Tversky and Daniel Kahnemann in 1973. They examined
@@ -294,15 +294,15 @@ and Tversky findings.
 
 ## References
 
-Carroll**,** John. “The effect of imagining an event on expectations for
-the event: An interpretation in terms of the availability heuristic".
+Carroll, John (1978). The effect of imagining an event on expectations for
+the event: An interpretation in terms of the availability heuristic.
 *Journal of Experimental Social Psychology*. **14** (1): 88–96.
 
 Gabrielcik, A., & Fazio, R. H. (1984). Priming and Frequency Estimation:
 A Strict Test of the Availability Heuristic. Personality and Social
 Psychology Bulletin, 10(1), 85–89.
 
-Kahneman, Daniel. *Thinking, Fast and Slow*. 2011. Print.
+Kahneman, Daniel (2011). *Thinking, Fast and Slow*. 
 
 Riddle, Karyn (2010). "Always on My Mind: Exploring How Frequent,
 Recent, and Vivid Television Portrayals Are Used in the Formation of
