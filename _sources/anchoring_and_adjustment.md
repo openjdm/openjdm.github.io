@@ -42,8 +42,7 @@ multiplication.*
 
   
 
-The answer to this multiplication
-was 40, 320. How did you do?
+The correct answer to this multiplication was 40,320. How did you do?
 
 
 This example is a short version of the experiment carried out by Tversky
@@ -166,50 +165,44 @@ and ways the content can be applied to the real world.
 
   
 
-**Chapter Questions:**
+## Review Questions
 
-1.  a.<span class="Apple-tab-span"> </span>What is the anchoring and
-    adjustment heuristic?<span class="Apple-converted-space"> </span>
-2.  b.<span class="Apple-tab-span"> </span>What are some studies
-    conducted on the topic? What did they show?
-3.  c.<span class="Apple-tab-span"> </span>What are the two types of
-    anchors people can be exposed to? Do these make a difference in the
-    calculation of final results? Why or why not?
-4.  d.<span class="Apple-tab-span"> </span>What are the ways in which
-    individuals modify their decisions?<span
-    class="Apple-converted-space"> </span>
-5.  e.<span class="Apple-tab-span"> </span>What are some real-world
-    examples of this heuristic that were not mentioned in this chapter?
-6.  f.<span class="Apple-tab-span"> </span>Why does this heuristic
-    matter?
+1.  What is the anchoring and adjustment heuristic?
+2.  What are some studies conducted on the topic? What did they show?
+3.  What are the two types of anchors people can be exposed to? Do these make a difference in the
+calculation of final results? Why or why not?
+4.  What are the ways in which individuals modify their decisions?
+5.  What are some real-world examples of this heuristic that were not mentioned in this chapter?
+6.  Why does this heuristic matter?
 
-  
 
-  
 
 Additional readings:
 
--   <span class="s2">-<span class="Apple-tab-span"> </span>[<span
-    class="s1">Anchoring Bias - Biases & Heuristics | The Decision
-    Lab</span>](https://thedecisionlab.com/biases/anchoring-bias/#:~:text=Anchoring%20bias%20happens%20because%20the,anchor%2Dand%2Dadjust%20hypothesis.&text=Tversky%20and%20Kahneman%27s%20explanation%20works,an%20anchor%20on%20their%20own.)</span>
+-   [Anchoring Bias - Biases & Heuristics | The Decision
+    Lab](https://thedecisionlab.com/biases/anchoring-bias/#:~:text=Anchoring%20bias%20happens%20because%20the,anchor%2Dand%2Dadjust%20hypothesis.&text=Tversky%20and%20Kahneman%27s%20explanation%20works,an%20anchor%20on%20their%20own.)
 
 ## References
--     
--   Epley, N., & Gilovich, T. (2001). Putting Adjustment Back in the
-    Anchoring and Adjustment Heuristic: Differential Processing of
-    Self-Generated and Experimenter-Provided Anchors. *Psychological
-    Science*, *12*(5), 391–396. [<span
-    class="s3">https://doi.org/10.1111/1467-9280.00372</span>](https://doi.org/10.1111/1467-9280.00372)
--   Etchells, E. (2015, June). Anchoring Bias With Critical Implications
-    \[PSNet\]. *Web M&M Cases and Commentaries*. [<span
-    class="s3">https://psnet.ahrq.gov/web-mm/anchoring-bias-critical-implications</span>](https://psnet.ahrq.gov/web-mm/anchoring-bias-critical-implications)
--   Mussweiler, T., & Strack, F. (1999). Comparing Is Believing: A
-    Selective Accessibility Model of Judgmental Anchoring. *European
-    Review of Social Psychology*, *10*(1), 135–167. [<span
-    class="s3">https://doi.org/10.1080/14792779943000044</span>](https://doi.org/10.1080/14792779943000044)
--   Senay, I., & Kaphingst, K. A. (2009). Anchoring-and-Adjustment Bias
-    in Communication of Disease Risk. *Medical Decision Making*,
-    *29*(2), 193–201. [<span
-    class="s3">https://doi.org/10.1177/0272989X08327395</span>](https://doi.org/10.1177/0272989X08327395)
--   Tversky, A., & Kahneman, D. (1974). *Judgment under Uncertainty:
-    Heuristics and Biases*. *185*, 10.
+
+Epley, N., & Gilovich, T. (2001). Putting Adjustment Back in the
+Anchoring and Adjustment Heuristic: Differential Processing of
+Self-Generated and Experimenter-Provided Anchors. *Psychological
+Science*, *12*(5), 391–396. [<span
+class="s3">https://doi.org/10.1111/1467-9280.00372</span>](https://doi.org/10.1111/1467-9280.00372)
+
+Etchells, E. (2015, June). Anchoring Bias With Critical Implications
+\[PSNet\]. *Web M&M Cases and Commentaries*. [<span
+class="s3">https://psnet.ahrq.gov/web-mm/anchoring-bias-critical-implications</span>](https://psnet.ahrq.gov/web-mm/anchoring-bias-critical-implications)
+
+Mussweiler, T., & Strack, F. (1999). Comparing Is Believing: A
+Selective Accessibility Model of Judgmental Anchoring. *European
+Review of Social Psychology*, *10*(1), 135–167. [<span
+class="s3">https://doi.org/10.1080/14792779943000044</span>](https://doi.org/10.1080/14792779943000044)
+
+Senay, I., & Kaphingst, K. A. (2009). Anchoring-and-Adjustment Bias
+in Communication of Disease Risk. *Medical Decision Making*,
+*29*(2), 193–201. [<span
+class="s3">https://doi.org/10.1177/0272989X08327395</span>](https://doi.org/10.1177/0272989X08327395)
+
+Tversky, A., & Kahneman, D. (1974). *Judgment under Uncertainty:
+Heuristics and Biases*. *185*, 10.
