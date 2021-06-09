@@ -2,11 +2,7 @@
 
 Matthew Radovan
 
-PSYCH 154
-
-  
-
-**Decision support systems**
+## Decision support systems
 
 Decision support systems are defined as the inclusion of computerized
 algorithms in the human decision making process for more optimal
@@ -26,7 +22,7 @@ opposed to commands).
 
   
 
-**Rise of Deep Learning AI**
+## The Rise of Deep Learning AI
 
 However, the decision support system paradigm has undergone major shifts
 within the past decade, in part due to the rise of deep neural networks
@@ -106,7 +102,7 @@ rather than make the decision itself.
 
   
 
-**Impact of AI**
+## Impact of AI
 
 As previously mentioned, the processes and outcomes of decisions made by
 the combination of AI and human - joint decisions - have only been
@@ -189,7 +185,7 @@ concern in a scan), often after the human observes the AI make mistakes.
 
   
 
-**Designing AI**
+## Designing AI
 
 One method to improve humans’ trust calibration is to expose the
 confidence levels of AI’s predictions to the human.<span
@@ -249,8 +245,7 @@ the fact that the AI alone had a higher accuracy than the joint decision
 outcomes.
 
   
-
-**Summary**
+## Conclusions
 
 Artificial intelligence-based decision support systems have largely been
 the focus of decision support systems in the past few years.<span
@@ -268,7 +263,7 @@ systems is in its infancy due to the relative newness of neural
 network-based AI, and designing AI to be part of an effective decision
 support system continues to be an open problem.
 
-**References**
+## References
 
   
 
@@ -301,7 +296,7 @@ doi:10.7189/jogh.08.020303
 
 Rastogi, Charvi, et al. “Deciding Fast and Slow: The Role of Cognitive
 Biases in AI-Assisted Decision-Making.” ArXiv:2010.07938 \[Cs\], Oct.
-2020. arXiv.org, [<span
+1.    arXiv.org, [<span
 class="s1">http://arxiv.org/abs/2010.07938</span>](http://arxiv.org/abs/2010.07938).
 
   
