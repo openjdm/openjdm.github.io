@@ -42,8 +42,7 @@ multiplication.*
 
   
 
-The answer to this multiplication
-was 40, 320. How did you do?
+The correct answer to this multiplication was 40,320. How did you do?
 
 
 This example is a short version of the experiment carried out by Tversky
