@@ -33,7 +33,7 @@ when they encounter this nudge.
 
 ### Priming
 
-*Priming* occurs when exposure to one stimulus affects an individual's
+Priming occurs when exposure to one stimulus affects an individual's
 evaluation of a later stimulus.<sup>1</sup> In an early study on
 internet priming, Mandel and Johnson demonstrate that the color of
 websites and graphics on welcome pages can significantly affect
@@ -57,7 +57,7 @@ possible.<sup>3</sup>
 
 ### Decoy Effects
 
-The *decoy effect* is when a company includes an additional pricing or
+The decoy effect is when a company includes an additional pricing or
 product option to make the real pricing or product look more attractive
 by comparison.<sup>4</sup> The effect was first documented by Huber et.
 al in a wide-ranging 1981 study of consumer preferences in cars,
@@ -74,7 +74,7 @@ class="Apple-converted-space"> </span>
 
 ### Illusion of Scarcity
 
-An *illusion of scarcity* is when companies highlight or artificially
+An illusion of scarcity is when companies highlight or artificially
 inflate how close a product is to no longer being available to encourage
 consumers to “act now.”<sup>7</sup> In an early documentation of this
 effect, Worchel et al. found that subjects rated the attractiveness of
@@ -131,7 +131,7 @@ gifts from corporations.<span class="Apple-converted-space"> </span>
 
 ### Social Proof
 
-*Social proof* is a concept popularized by Psychology and Marketing
+Social proof is a concept popularized by Psychology and Marketing
 professor Robert Cialdini, which states that people who are unsure what
 to do in a given situation will copy the actions of their
 peers.<sup>15</sup> Companies can take advantage of consumers’ desire
@@ -154,7 +154,7 @@ significant engagement.<sup>17\ </sup>
 
 ## Anchoring
 
-*Anchoring bias* is the tendency for people to give excessive weight to
+Anchoring bias is the tendency for people to give excessive weight to
 the first indicator they are given about the value of an
 item.<sup>18</sup> Companies can exploit anchoring bias by initially
 listing their products at artificially high prices before discounting

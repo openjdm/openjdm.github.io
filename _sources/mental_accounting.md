@@ -202,7 +202,8 @@ more likely to do so if the money came from a lottery win. This
 labeling of money shows that people do not have strict rules that
 govern how they spend money.
 
-## Third Component: Making Financial Decisions One At A Time Or Grouped Together
+## Third Component: Individual vs. grouped decisions
+
 When analyzing financial decisions made by individuals it’s
 important to know whether they made decisions one at a time or
 grouped together in predicting their consumer outcomes. According to
@@ -292,29 +293,36 @@ intelligent with their money and maximize its potential.
 
 ## References
 
--   Muehlbacher, S., & Kirchler, E. (2019, December 3). *Individual
-    Differences in Mental Accounting*. Frontiers.
-    https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02866/full.<span
-    class="Apple-converted-space"> </span>
--   Thaler, R. (1985). *Mental Accounting and Consumer Choice*.
-    Marketing Science. https://www.jstor.org/stable/183904?seq=1.<span
-    class="Apple-converted-space"> </span>
--   Thaler, R. H. (1999). *Mental Accounting Matters*. Journal of
-    Behavioral Decisions Making.
-    https://people.bath.ac.uk/mnsrf/Teaching%202011/Thaler-99.pdf.<span
-    class="Apple-converted-space"> </span>
--   Thaler, R. H. (2017, October 9). *Integrating Economics With
-    Psychology* . Kungl. Vetenskaps Akademien.
-    https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2017.pdf.<span
-    class="Apple-converted-space"> </span>
--   Kahneman, D. and Tversky, A. 'Choices, values, and frames'. *The
-    American Psychologist*, 39 (1984), 341-350. Keren, G. 'Additional
-    tests of utility theory under unique and repeated conditions'.
-    *Journal of Behavioral Decision Making*, 4 (1991), 297-304.
--   Thaler R. H. “Mental Accounting and Consumer Choice”, *Marketing
-    Science,* **4** (1985), 199-214.  
--   Loewenstein, George, and Richard H. Thaler. 1989. "Anomalies:
-    Intertemporal Choice." *Journal of Economic Perspectives*, 3 (4):
-    181-193.
--   Shefrin, Hersh, and Richard H. Thaler, “The Behavioral Life-Cycle
-    Hypothesis,” *Economic Inquiry, October* 1988, *26*, 609-643.
+Muehlbacher, S., & Kirchler, E. (2019, December 3). *Individual
+Differences in Mental Accounting*. Frontiers.
+https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02866/full.<span
+class="Apple-converted-space"> </span>
+
+Thaler, R. (1985). *Mental Accounting and Consumer Choice*.
+Marketing Science. https://www.jstor.org/stable/183904?seq=1.<span
+class="Apple-converted-space"> </span>
+
+Thaler, R. H. (1999). *Mental Accounting Matters*. Journal of
+Behavioral Decisions Making.
+https://people.bath.ac.uk/mnsrf/Teaching%202011/Thaler-99.pdf.<span
+class="Apple-converted-space"> </span>
+
+Thaler, R. H. (2017, October 9). *Integrating Economics With
+Psychology* . Kungl. Vetenskaps Akademien.
+https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2017.pdf.<span
+class="Apple-converted-space"> </span>
+
+Kahneman, D. and Tversky, A. 'Choices, values, and frames'. *The
+American Psychologist*, 39 (1984), 341-350. Keren, G. 'Additional
+tests of utility theory under unique and repeated conditions'.
+*Journal of Behavioral Decision Making*, 4 (1991), 297-304.
+
+Thaler R. H. “Mental Accounting and Consumer Choice”, *Marketing
+Science,* **4** (1985), 199-214.  
+
+Loewenstein, George, and Richard H. Thaler. 1989. "Anomalies:
+Intertemporal Choice." *Journal of Economic Perspectives*, 3 (4):
+181-193.
+
+Shefrin, Hersh, and Richard H. Thaler, “The Behavioral Life-Cycle
+Hypothesis,” *Economic Inquiry, October* 1988, *26*, 609-643.

@@ -25,7 +25,7 @@ through the complexities of governing. What research shows is that these
 individuals largely rely on heuristics, which have concrete effects on
 optimality of outcomes.
 
-## Mass Public  
+## Voter decisions
 
 While some of the most engaged citizens directly campaign or volunteer
 for various organizations, the most important and direct participation
@@ -79,9 +79,7 @@ suggesting that a more holistic, critical approach yields ‘better’
 outcomes, especially if this causes additional confusion (Gigerenzer &
 Pachuk, 2011).
 
-<span class="s1">**Political Elites: (Jaden)**</span>
-
-  
+## Political elite decisions
 
 The judgments and decisions made by the political elite have a
 tremendous effect on the natural world and the overall well-being of our
@@ -101,8 +99,6 @@ Politics is not a simple topic and deciphering what systems should be in
 place to maximize society should only be a task for the most
 informed.<span class="Apple-converted-space"> </span>
 
-  
-
 According to Ivan Cerovac’s paper titled “Elite Decision Making,” the
 elite are less prone to loss aversion and are better at utilizing
 heuristics in an effective manner when given complex topics (Cerovac,
@@ -116,8 +112,6 @@ complex situations, they also must consider a surplus of information
 that would take a substantial amount of time to consider all options in
 the decision.
 
-  
-
 Some may think that the political elite don’t follow the principles of
 heuristics as much as the ordinary citizen due to their expertise in the
 subject, however the elite often use heuristics when dealing with
@@ -125,9 +119,8 @@ prominent decisions. The heuristics that are often seen among the elite
 in political decision-making are availability, anchoring and adjustment,
 and representativeness.
 
-  
-
-1)<span class="Apple-tab-span"> </span>The availability heuristic, like
+### Availability
+The availability heuristic, like
 other heuristics, is a mental shortcut to derive a decision but differs
 from other heuristics by relying on immediate ideas that come to the
 individual when evaluating their judgment of a situation. Essentially
@@ -147,8 +140,8 @@ These two politicians would propose significantly opposing policies when
 addressing the issue which creates an even greater divide in the world.
 
   
-
-2)<span class="Apple-tab-span"> </span>Anchoring and adjustment is
+### Anchoring and adjustment
+Anchoring and adjustment is
 another cognitive heuristic where an individual starts with an initial
 idea, this is the anchor, and then makes adjustments based on the anchor
 until they reach their decisions. Anchoring and adjustment is used by
@@ -162,8 +155,8 @@ generally more effective at executing their desires.<span
 class="Apple-converted-space"> </span>
 
   
-
-3)<span class="Apple-tab-span"> </span>The representativeness heuristic
+### Representativeness
+The representativeness heuristic
 bias occurs when the similarity of ideas influences the final judgment.
 Essentially the human cognition compares the likelihood of a judgment to
 their perception of an existing prototype for that event. This is seen
@@ -182,9 +175,7 @@ class="Apple-converted-space"> </span>
 
   
 
-<span class="s1">**Effects of Heuristics:**</span>
-
-<span class="s1"></span>  
+## Effects of Heuristics
 
 One might expect that legislative elites strive to effectively utilize
 heuristics to make the most accurate and efficient decisions that would
@@ -210,13 +201,7 @@ heuristics, we would be better equipped to optimize our judgments,
 ultimately allowing the elite politicians to come up with the best
 decision for the whole population.
 
-  
-
-  
-
-<span class="s1">**Conclusion:**</span>
-
-  
+## Conclusion
 
 Ultimately, political judgement and decision making has massive
 consequences on day-to-day livelihood as well as societal and global
@@ -228,22 +213,12 @@ for decision making. Clearly, political elites are tasked with a
 challenging task, and self-interest and many mental shortcuts definitely
 play a key role as we show via multiple examples.
 
-  
-
-  
-
-  
-
-  
 
 Bibliography
 
-  
 
 Bartels, Larry M. 2005. “Homer Gets a Tax Cut: Inequality and Public
 Policy in the American Mind.” Perspectives on Politics 3 (1): 15–31.
-
-  
 
 Campbell, A., & University of Michigan. (1960). The American voter. New
 York: Wiley.
@@ -259,33 +234,23 @@ class="Apple-converted-space"> </span>
 Gigerenzer, Gerd, Ralph Hertwig, and Thorsten Pachuk. 2011. Heuristics:
 The Foundations of Adaptive Behavior. Oxford: Oxford University Press.
 
-  
-
 Lavine, Howard G., Christopher D. Johnston, and Marco R. Steenbergen.
 1.    The Ambivalent Partisan: How Critical Loyalty Promotes Democracy.
 New York: Oxford University Press.
-
-  
 
 Mansbridge, Jane, James Bohman, Simone Chambers, David Estlund, Andreas
 Føllesdal, Archon Fung, Christina Lafont, Bernard Manin, and José L.
 Marti. 2010. “The Place of Self-Interest and the Role of Power in
 Deliberative Democracy.” Journal of Political Philosophy 18 (1): 64–100.
 
-  
-
 Miler, K. C. (2009). The Limitations of Heuristics for Political Elites.
 *Political Psychology*, *30*(6), 863–894.
 https://doi.org/10.1111/j.1467-9221.2009.00731.x<span
 class="Apple-converted-space"> </span>
 
-  
-
 Nyhan, Brendan, and Jason Reifler. 2010. “When Corrections Fail: The
 Persistence of Political Misperceptions.” *Political Behavior* 32 (2):
 303–330.
-
-  
 
 Popkin, S. L. (1994). *The reasoning voter: Communication and persuasion
 in presidential campaigns*. Chicago: University of Chicago Press.

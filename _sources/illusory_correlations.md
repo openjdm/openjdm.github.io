@@ -286,8 +286,8 @@ to think that attractive people are nicer and less attractive people are
 less nice, although there is actually no correlation between the two
 attributes. Several papers have made use of illusory correlations as one
 of the theories that can be used to explain the halo effect. For
-example, Chapmans' 1969 illusory correlations study (Chapman & Chapman,
-1)    whereby illusory correlation was an obstacle for clinicians to
+example, Chapmans' 1969 illusory correlations study,
+in which illusory correlation was seen as an obstacle for clinicians to
 determine the sexual orientations of their clients, is talked about in
 the “Ubiquitous Halo” paper (Cooper, 1981) as well as in “Nature and
 Consequences of Halo Error: A Critical Analysis” (Murphy, Jako, Anhalt,
@@ -337,7 +337,7 @@ in mind when trying to determine what kind of mistakes a person may have
 made in their appraisal of a situation, and where the beliefs and
 assumptions that led to the mistake resulted from. 
 
-References:
+## References
 
 Chapman L.J. (1967). Illusory correlation in observational report. *Journal of Verbal Learning and
 Verbal Behavior*, 6 (1) , pp. 151-155.
