@@ -63,10 +63,14 @@ uncertainty about the future. We then decide what actions we should take
 using this table, generally using some kind of system that takes the
 action with the highest expected value most of the time, and tests out
 other actions to make sure our estimates for them are correct a small
-amount of the time (Sutton and Barto 2018). (Licensed under creative
-commons. Originally published at [<span
+amount of the time (Sutton and Barto 2018). 
+
+
+![Q-learning matrix](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Q-Learning_Matrix_Initialized_and_After_Training.png/590px-Q-Learning_Matrix_Initialized_and_After_Training.png)
+
+(A example of the Q-learning matrix across training. Originally published at [<span
 class="s2">https://en.wikipedia.org/wiki/File:Q-Learning\_Matrix\_Initialized\_and\_After\_Training.png</span>](https://en.wikipedia.org/wiki/File:Q-Learning_Matrix_Initialized_and_After_Training.png)
-by LearnDataSci, 2018. No changes made beside resizing)
+by LearnDataSci, 2018. Licensed under a Creative Commons Attribution 4.0 License; No changes made.)
 
   
 
@@ -217,12 +221,9 @@ of the two can accelerate breakthroughs in other fields.
 
   
 
-  
-
-<span class="s3">(Licensed under creative commons. Originally published
-at [<span
+*Caption*: A depiction of the Q-learning matrix across training.  Reproduced [<span
 class="s1">https://en.wikipedia.org/wiki/Reinforcement\_learning\#/media/File:Reinforcement\_learning\_diagram.svg</span>](https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg)
-by Megajuice, 2017. No changes made)</span>
+by Megajuice, 2017 under a Creative Commons Attribution 4.0 License. No changes made)</span>
 
   
 
