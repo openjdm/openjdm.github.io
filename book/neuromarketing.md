@@ -2,7 +2,7 @@
 
 Isabel Dibble & Brandon Truong
 
-<span class="Apple-tab-span"> </span>As more and more portions of modern
+As more and more portions of modern
 life are built to revolve around commerce, marketing, and communication,
 there is an increasing need to understand what is going on in the
 interactions thereof. When you see an advertisement, you’re interfacing
@@ -42,10 +42,9 @@ of understanding in the field of marketing, they primarily rely on
 qualitative behavioral and self-reports. The field of neuroscience
 offers itself as an appealing tool in uncovering components that affect
 humans’ cognitive processes, that can aid in understanding the “why” and
-“how” a consumer interacts or is attracted to a product.<span
-class="Apple-converted-space"> </span>
+“how” a consumer interacts or is attracted to a product.
 
-<span class="Apple-tab-span"> </span>In general, the goal of
+In general, the goal of
 neuroscience is to understand the brain by identifying structures and
 the functions of those brain structures. Specifically through the
 advancement of neuroimaging technology, neuroscience has opened a more
@@ -80,9 +79,9 @@ result and see what happens in the brain when this behavior is
 exhibited, digging into the process by which this happens -- the how and
 why, rather than just the behaviors themselves.
 
-METHODS
+## Methods of neuromarketing
 
-<span class="Apple-tab-span"> </span>As stated in the introduction,
+As stated in the introduction,
 traditional tools in the marketing field have a limitation of relying on
 people’s self-reports to describe their feelings and preferences towards
 a product. The value of neuromarketing helps draw away from this
@@ -98,14 +97,14 @@ responding to stimuli -- the correlative learnings we have do not
 necessarily teach us real causative properties of “hidden” preferences.
 For the goals of this paper, this section will instead broadly focus on
 the popular neuroscientific tools used in the neuromarketing field
-(Kottier, 2014).<span class="Apple-converted-space"> </span>
+(Kottier, 2014).
 
-<span class="Apple-tab-span"> </span>The two main neuroscientific
+The two main neuroscientific
 methods used in neuromarketing are functional magnetic resonance imaging
 (fMRI) and electroencephalography (EEG). We will explain and compare
-each of these methods below.<span class="Apple-converted-space"> </span>
+each of these methods below.
 
-**Functional magnetic resonance imaging (fMRI):**
+### Functional magnetic resonance imaging (fMRI)
 
 When there is neural activity in a specific area of the brain, there is
 an increase in the level of oxygenation in the blood in that area of the
@@ -115,11 +114,11 @@ illustrate with high spatial resolution, an accurate depiction of an
 activated brain region. This is helpful in terms of neuromarketing to
 identify brain areas that are being activated in response to a product
 (Kottier, 2014), as researchers can examine and correlate the areas of
-the brain to a stimulus.<span class="Apple-converted-space"> </span>
+the brain to a stimulus.
 
-**Electroencephalography (EEG):**
+### Electroencephalography (EEG)
 
-**<span class="Apple-tab-span"> </span>**While the fMRI is advantageous
+While the fMRI is advantageous
 because of its ability to clearly display activated brain regions, EEG
 is special in regards to its precise timing in capturing electrical
 signals in the brain. Thus, EEG has a high temporal resolution, but low
@@ -128,13 +127,13 @@ discern *when* a person is responding to a product due to the electrical
 signals firing and the EEG capturing those signals immediately (Kottier,
 2014)
 
-**What areas of the brain are important to understand for
+## What areas of the brain are important to understand for
 neuromarketing?**
 
 An exciting advantage with the emergence of neuromarketing is using
 neuroimaging data such as fMRI and EEG to more accurately pinpoint
 preferences of consumers. But where in the brain do researchers
-study?<span class="Apple-converted-space"> </span>
+study?
 
 Neuromarketing relies heavily on the neuroscientific research
 understanding the basic brain mechanisms that illustrate humans’
@@ -145,16 +144,16 @@ predict people’s preferences (Glimcher, 2013, p. 373). In the next
 section of this chapter, a few experiments within the neuromarketing
 field will be described that illustrate how measuring activity in these
 two brain regions leads to predictions about people’s values on
-goods.<span class="Apple-converted-space"> </span>
+goods.
 
-USE CASES
+## Use cases
 
 As stated in the methods section, neuromarketing gleans neuroscientific
 insights to learn how consumers react and feel towards products based on
 neuroimaging reflecting activity in certain brain areas. In this section
 of the chapter, various experiments will be discussed to provide a
 better glimpse at the types of research conducted in the field of
-neuromarketing.<span class="Apple-converted-space"> </span>
+neuromarketing.
 
 To begin, a seminal paper that sparked more research in neuromarketing
 is a study that examines the neural responses underlying behavioral
@@ -168,8 +167,8 @@ for one of the brands over the other. Therefore, the researchers were
 curious to examine how exactly people neurally respond to these products
 when they are not aware of what brand they are drinking versus when they
 are aware. In the study, participants were lying in a fMRI scanner,
-drinking Coca Cola or Pepsi (McClure et al., 2004).<span
-class="Apple-converted-space"> </span>
+drinking Coca Cola or Pepsi (McClure et al., 2004).
+
 
 The results from these two experiments suggest two, independent brain
 areas involved in producing preferences. From the blind test, the
@@ -188,8 +187,8 @@ three brain areas seem to be separate from the vmPFC activity, since
 vmPFC activity was found to be unaffected by the brand knowledge
 (McClure et al., 2004). In summary, this paper identified distinct
 neural responses to sensory and culture information when examining
-behavioral preferences for Coca Cola versus Pepsi soda.<span
-class="Apple-converted-space"> </span>
+behavioral preferences for Coca Cola versus Pepsi soda.
+
 
 Another study worth describing sought to identify what kinds of
 neurophysiological measures predict the success of advertisements. While
@@ -205,7 +204,7 @@ identify regions in the brain that reflect key traditional advertising
 measures of liking, purchase intent, and recognition (Venkatraman et
 al., 2014).
 
-<span class="Apple-tab-span"> </span>A main result from the study found
+A main result from the study found
 activity in the dlPFC and vmPFC reflecting the liking measure. This
 finding is consistent with other studies that argue liking represents
 both cognitive and affective processes, which respectively is associated
@@ -220,10 +219,9 @@ experiment infer that the signals from the hippocampus may relate to a
 higher chance of remembering the stimulus, the advertisement, at a later
 test. While this is the claim made in the paper, a caveat is that
 inferring brain signals from a stimulus requires further investigations
-before making strong conclusions.<span
-class="Apple-converted-space"> </span>
+before making strong conclusions.
 
-<span class="Apple-tab-span"> </span>When comparing the effects of
+When comparing the effects of
 traditional and neurophysiological methods, the researchers used a
 dependent variable of advertisement elasticity, which roughly measures
 the effectiveness of an advertisement on influencing a percent change in
@@ -241,10 +239,9 @@ still be useful in explaining the variance of advertisement elasticity.
 In general, this paper and others support the future of neuromarketing
 consisting of neurophysiological measures complementing traditional
 measures in order to glean the best predictors to attract consumers and
-convert them into buying a product (Venkatraman et al., 2014). <span
-class="Apple-converted-space"> </span>
+convert them into buying a product (Venkatraman et al., 2014).
 
-ETHICAL AND CULTURAL IMPLICATIONS
+## Ethical and cultural implications
 
 The onset of neuromarketing both as a research tool and a tool employed
 in industry often brings up strong ethical concerns and cultural
@@ -309,7 +306,7 @@ presence, the better understanding we have in general across
 neuromarketing can aid in informing, regulating, and ensuring
 neurological safety across all forms of marketing.
 
-CONCLUSIONS AND FUTURE
+## Conclusions and future directions
 
 Although many important findings have been discovered, the field of
 neuromarketing is still in early days. Measurements like fMRI and EEG
@@ -359,7 +356,7 @@ human-computer interaction -- and more -- provide an exciting frontier
 for expansive investigation and learnings.<span
 class="Apple-converted-space"> </span>
 
-REFERENCES
+## References
 
 Di Geronimo, Linda, et al. “UI Dark Patterns and Where to Find Them: A
 Study on Mobile Applications and User Perception.” Proceedings of the
