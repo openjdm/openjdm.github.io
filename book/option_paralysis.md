@@ -1,4 +1,4 @@
-# When Less is More: Option Paralysis
+# Option Paralysis: When Less is More
 
 Real Woods & Darnell Carson
 
@@ -12,7 +12,6 @@ influence your likeliness to stop at the booth? And how does it
 impact the likelihood that you’ll end up buying one of the jams?
 
 This is precisely what researchers Mark Lepper and Sheena Iyengar
-–from Stanford University and Columbia University, respectively –
 set out to discover (Iyengar & Lepper, 2000). With the help of some
 research assistants, they set up shop in a Menlo Park grocery store
 and asked people to stop at their displays of “exotic” jams, meaning
@@ -29,13 +28,14 @@ attractiveness of selections” did not influence subsequent buying
 behavior. They found the opposite: people presented with fewer
 choices were more likely to buy one of the jams.
 
-Underlying this experiment was the ***choice overload* hypothesis.**
+Underlying this experiment was the *choice overload hypothesis*.
 This chapter will define choice overload, also known as “option
 paralysis,” and provide some examples of how it manifests in our
 decision-making.
+
 ## Option Paralysis
 
-**Option paralysis**, or **overchoice**, is a state characterized by
+Option paralysis, or *overchoice*, is a state characterized by
 too many choices causing an impaired ability to decide due to
 internally conflicting desires or a conflicting unknown about the
 value that each selection might fulfill. Intuitively, we assume more
@@ -92,8 +92,10 @@ decision-making. When there is too much complexity, consumers may
 put off or opt-out of the decision.
 
 ## Examples
+
 ### Analysis Paralysis
-**Analysis paralysis** is a state that is very closely
+
+Analysis paralysis is a state that is very closely
 linked to overchoice. It describes the act of overthinking or
 overanalyzing a situation so much that you become unable to make a
 decision. The person thinking about the decision may be so worried
@@ -112,7 +114,8 @@ the end, very few can come to a final decision to buy a jam, unsure
 that their choice will be the correct one.
 
 ### Buyer’s Remorse
-**Buyer’s remorse** refers to
+
+Buyer’s remorse refers to
 the sense of regret a consumer makes after a purchase. This regret
 is not limited to purchases of choosing between many options;
 buyer’s remorse can also come from purchasing expensive items.
@@ -153,7 +156,8 @@ right one, given the number of similarly appealing options.
 ## Combatting Option Paralysis
 
 ### Choice Architecture
-**Choice architecture** is concerned with the ways
+
+Choice architecture is concerned with the ways
 choices are presented to consumers and how those presentations end
 up impacting the decision-making process. Option paralysis is just
 one of the outcomes of choice architecture, and understanding how it
@@ -199,30 +203,34 @@ decision-making process.
 
 ## References
 
-1.  Iyengar, Sheena S.; Lepper, Mark R. (2000). "When choice is
-    demotivating: Can one desire too much of a good thing?" (PDF).
-    Journal of Personality and Social Psychology. 79 (6): 995–1006.
-    doi:10.1037/0022-3514.79.6.995. PMID 11138768. Archived from the
-    original (PDF) on 2013-11-30.
-2.  Kurien, R., Paila, A. R., & Nagendra, A. (2014). Application of
-    Paralysis Analysis Syndrome in Customer Decision Making. Procedia
-    Economics and Finance, 11, 323–334. [<span
-    class="s5">https://doi.org/10.1016/s2212-5671(14)00200-7</span>](https://doi.org/10.1016/s2212-5671(14)00200-7)
-3.  <span class="Apple-converted-space"> </span>Miller, George A.
-    (1956). "The magical number seven, plus or minus two: some limits on
-    our capacity for processing information". Psychological Review. 63
-    (2): 81–97. CiteSeerX 10.1.1.308.8071. doi:10.1037/h0043158. PMID
-    13310704.<span class="Apple-converted-space"> </span>
-4.  Scheibehenne, B., Todd, P. M., & Greifeneder, R. (2010). Can there
-    ever be too many options? A meta‐analytic review of choice overload.
-    Journal of Consumer Research, 37(3), 409-425. doi:10.1086/651235
-5.  Sweeney, Jillian; Douglas Hausknecht; Geoffrey Soutar (May 2000).
-    "Cognitive Dissonance after Purchase: A Multidimensional Scale".
-    Psychology & Marketing. 17 (5): 369–385.
-    doi:10.1002/(sici)1520-6793(200005)17:5&lt;369::aid-mar1&gt;3.0.co;2-g
-6.  Townsend, Claudia; Kahn, Barbara E. (2014). "The "Visual Preference
-    Heuristic": The Influence of Visual versus Verbal Depiction on
-    Assortment Processing, Perceived Variety, and Choice Overload".
-    Journal of Consumer Research. 40 (5): 993–1015. doi:10.1086/673521.
-    S2CID 6758197.
-7.    
+Iyengar, Sheena S.; Lepper, Mark R. (2000). "When choice is
+demotivating: Can one desire too much of a good thing?" (PDF).
+Journal of Personality and Social Psychology. 79 (6): 995–1006.
+doi:10.1037/0022-3514.79.6.995. PMID 11138768. Archived from the
+original (PDF) on 2013-11-30.
+
+Kurien, R., Paila, A. R., & Nagendra, A. (2014). Application of
+Paralysis Analysis Syndrome in Customer Decision Making. Procedia
+Economics and Finance, 11, 323–334. [<span
+class="s5">https://doi.org/10.1016/s2212-5671(14)00200-7</span>](https://doi.org/10.1016/s2212-5671(14)00200-7)
+
+Miller, George A.
+(1956). "The magical number seven, plus or minus two: some limits on
+our capacity for processing information". Psychological Review. 63
+(2): 81–97. CiteSeerX 10.1.1.308.8071. doi:10.1037/h0043158. PMID
+13310704.
+
+Scheibehenne, B., Todd, P. M., & Greifeneder, R. (2010). Can there
+ever be too many options? A meta‐analytic review of choice overload.
+Journal of Consumer Research, 37(3), 409-425. doi:10.1086/651235
+
+Sweeney, Jillian; Douglas Hausknecht; Geoffrey Soutar (May 2000).
+"Cognitive Dissonance after Purchase: A Multidimensional Scale".
+Psychology & Marketing. 17 (5): 369–385.
+doi:10.1002/(sici)1520-6793(200005)17:5&lt;369::aid-mar1&gt;3.0.co;2-g
+
+Townsend, Claudia; Kahn, Barbara E. (2014). "The "Visual Preference
+Heuristic": The Influence of Visual versus Verbal Depiction on
+Assortment Processing, Perceived Variety, and Choice Overload".
+Journal of Consumer Research. 40 (5): 993–1015. doi:10.1086/673521.
+S2CID 6758197.
