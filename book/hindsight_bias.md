@@ -2,10 +2,6 @@
 
 Skyler Jones & Celeste Wijnbelt
 
-  
-
-**Introduction**
-
 “I knew that they’d win that game,” you say after the final buzzer has
 sounded. Despite your confidence in your comment, your initial thoughts
 *beforehand* were that there was a 50/50 chance that the team would
@@ -26,8 +22,7 @@ believes “it had to happen.” Finally, in the foreseeability level, the
 individual attributes the outcome to their inherently subjective belief
 of personal ability and knowledge; they “knew it would happen.”
 Combining all three levels, hindsight bias stretches across a range of
-situations, making it very common.<span
-class="Apple-converted-space"> </span>
+situations, making it very common.
 
 Hindsight bias occurs across all age groups and is a robust phenomenon
 that can have significant consequences related to judgement and decision
@@ -49,13 +44,9 @@ significant contributor to hindsight bias, as it can often lead
 individuals to perceive their judgments as more knowledgeable than they
 actually are.
 
-  
+## Components of Hindsight Bias
 
-**Relations to Hindsight Bias**
-
-  
-
-**Theory of Mind<span class="Apple-converted-space"> </span>**
+### Theory of Mind
 
 Some scholars believe that hindsight bias is the result of the brain
 rendering old information inaccessible after updating with newly
@@ -63,14 +54,7 @@ acquired information (Fischhoff, 1975), while other accounts maintain
 that hindsight bias occurs due to a biased restructuring of the
 beginning situation, where the outcome is the cue (Pohl). Another
 suggestion, however, is that hindsight bias could stem from another
-phenomenon: theory of mind ([Daniel M.
-Bernstein](https://www.ncbi.nlm.nih.gov/pubmed/?term=Bernstein%20DM%5BAuthor%5D&cauthor=true&cauthor_uid=17650144),
-[Cristina
-Atance](https://www.ncbi.nlm.nih.gov/pubmed/?term=Atance%20C%5BAuthor%5D&cauthor=true&cauthor_uid=17650144),
-[Andrew N.
-Meltzoff](https://www.ncbi.nlm.nih.gov/pubmed/?term=Meltzoff%20AN%5BAuthor%5D&cauthor=true&cauthor_uid=17650144),
-and [Geoffrey R.
-Loftus](https://www.ncbi.nlm.nih.gov/pubmed/?term=Loftus%20GR%5BAuthor%5D&cauthor=true&cauthor_uid=17650144),
+phenomenon: theory of mind (Bernstein et al.,
 2007). Theory of mind is the ability of individuals to attribute mental
 states and conclusions of situations to others and themselves, serving
 as a cornerstone of interactions between people. Another critical thing
@@ -104,11 +88,8 @@ bias and theory of mind reveal that the sparsity of theory of mind in
 children could be an origin of the persistent hindsight bias we see in
 all age groups.<span class="Apple-converted-space"> </span>
 
-  
 
-**Cognitive Dissonance<span class="Apple-converted-space"> </span>**
-
-  
+### Cognitive Dissonance
 
 Hindsight bias holds several parallels to cognitive dissonance.
 Cognitive dissonance is the uncomfortable feeling that is thought to
@@ -123,8 +104,7 @@ back for the sweater. As a result, the woman convinces herself that she
 does like the sweater afterall and decides to keep it. The dissonance in
 this situation occurs when the woman chose to keep the sweater even
 though she didn’t particularly like it. To mitigate the dissonance, she
-convinced herself that she does, in fact, like the sweater.<span
-class="Apple-converted-space"> </span>
+convinced herself that she does, in fact, like the sweater.
 
 This series of decisions is reflected in Alafair S. Burke’s paper
 *Improving Prosecutorial Decision Making: Some Lessons of Cognitive
@@ -145,14 +125,9 @@ and decisions in the present moment, hindsight affects how one reflects
 on the past. In whole, the comparison of these two phenomena have
 allowed us to gain a better understanding of our decision making
 processes, and will continue to be useful as we discover the potential
-problems that can arise under these biases.<span
-class="Apple-converted-space"> </span>
+problems that can arise under these biases.
 
-  
-
-**The Problem of Hindsight Bias**
-
-  
+## The Problem of Hindsight Bias
 
 The consequences of hindsight bias can hinder our ability to effectively
 gather information and learn from it. Fischhoff brings up that
@@ -180,24 +155,16 @@ hindsight bias creates a reluctance to adopt a different approach or
 perspective on an issue, since the individuals who ‘knew it all along,’
 feel like there is no reason to consider any other perspectives.
 Consequently, the individual learns less or--in some
-cases--nothing.<span class="Apple-converted-space"> </span>
-
+cases--nothing.
   
-
-  
-
-**Debiasing**
-
-  
-
-**Ways to Debias**
+## Ways to debias
 
 Hindsight bias often involves people, who already know the true outcome
 of an event, believing that the event was relatively inevitable. As a
 result, one of the most common ways to combat hindsight bias is to argue
 against the reported outcome and attempt to convince oneself that the
-event could have had a different end result (<span class="s1">Gilovich,
-Griffin & Kahneman, 2002</span>). When a subject argues against the
+event could have had a different end result (Gilovich,
+Griffin & Kahneman, 2002). When a subject argues against the
 reported outcome of an event, they are concurrently reminding themselves
 of their original thinking patterns. This process will naturally combat
 hindsight bias, as it allows one to rediscover their previous argument.
@@ -207,15 +174,13 @@ be counterproductive. Across his studies, Nobert Schwarz found that when
 the ease of accessibility to these alternative options decreases-- or if
 people struggle to accumulate ideas-- they take this as meaning there
 are not many examples to be generated (Sanna & Schwarz, 2003) . This
-process plays off of Tversky and Khaneman’s availability heuristic.<span
-class="Apple-converted-space">  </span>If one has a hard time coming up
+process plays off of Tversky and Khaneman’s availability heuristic. 
+If one has a hard time coming up
 with ideas that oppose the outcome, the process can backfire and they
 will be more engulfed in their biased thinking patterns than before and
 believe to an even greater extent that the outcome was inevitable.
 
-  
-
-**Social Applications**
+## Social Applications
 
 As discussed previously, hindsight bias can be apparent in both
 professional and academic settings. Whether it be a doctor trying to
@@ -228,13 +193,9 @@ complete understanding of what truly went through the minds of the
 decision-makers at the time. De-biasing techniques, such as arguing
 against the reported outcome and making a decision journal, ensure that
 hindsight bias does not limit one's focus and accurate interpretations
-can still be made. <span class="Apple-converted-space"> </span>
+can still be made. 
 
-  
-
-  
-
-**Recap**
+## Conclusions
 
 Hindsight bias is a complicated phenomenon that preys on people’s
 overconfident judgements of a past event. The psychological motivators
@@ -257,51 +218,37 @@ power, but stands no match for someone who is well aware of its effects
 and possesses the proper tools to fight it.<span
 class="Apple-converted-space"> </span>
 
-  
-
-**References**
-
-  
+## References
 
 Ackerman, R., Bernstein, D. M., & Kumar, R. (2020). “Metacognitive
 hindsight bias.” *Memory & Cognition*, *48*(5), 731. [<span
 class="s2">https://doi.org/10.3758/s13421-020-01012-w</span>](https://doi.org/10.3758/s13421-020-01012-w)<span
 class="Apple-converted-space"> </span>
 
-  
-
 Ash, I. (2017).“Can Exposure to Post-Outcome Information ‘Debias’ the
 Hindsight Bias?” *Proceedings of the Annual Meeting of the Cognitive
 Science Society*, [<span
 class="s2">https://escholarship.org/uc/item/3jr8164k</span>](https://escholarship.org/uc/item/3jr8164k)
 
-<span class="s3">Ber</span>nstein, D. M., Atance, C., Meltzoff, A. N.,
+Bernstein, D. M., Atance, C., Meltzoff, A. N.,
 Loftus, G.R., (2007). “Hindsight bias and developing theories of mind.”
 *Child development* vol. 78,4 (2007): 1374-94.<span
 class="Apple-converted-space"> </span>
-
 <span
 class="s4"><https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3649066/></span><span
 class="s5"><span class="Apple-converted-space"> </span></span>
-
-  
 
 Burke, A. S. (2005). Improving Prosecutorial Decision Making: Some
 Lessons of Cognitive Science. *William and Mary Law Review*, *47*(5),
 1587–1634.
 
-  
-
 DeBono, K. G. (2019). Cognitive dissonance. *Salem Press Encyclopedia of
 Health*.
-
-  
 
 Fischhoff, B. (1975). “Hindsight Is Not Equal to Foresight: The Effect
 of Outcome Knowledge on Judgment under Uncertainty.” *Journal of
 Experimental Psychology: Human Perception and Performance*, vol. 1, no.
 3, Aug. 1975, pp. 288–299.
-
 <span
 class="s4"><https://psycnet-apa-org.stanford.idm.oclc.org/fulltext/1976-00159-001.pdf></span><span
 class="s5"><span class="Apple-converted-space"> </span></span>
@@ -314,13 +261,9 @@ class="Apple-converted-space"> </span>
 Freeman, M. P. (2010). *Hindsight: the promise and peril of looking
 backward*. Oxford University Press.
 
-  
-
 Sanna, L. J., & Schwarz, N. (2003). Debiasing the hindsight bias: The
 role of accessibility experiences and (mis)attributions. *Journal of
 Experimental Social Psychology (Print)*, *39*(3), 287–295.
-
-  
 
 Van Boekel, M., Varma, K., & Varma, S. (2017). A retrieval-based
 approach to eliminating hindsight bias. *Memory*, *25*(3), 377–390.
