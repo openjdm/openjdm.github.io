@@ -2,7 +2,6 @@
 
 Austin Brotman & Kyler Presho
 
-Introduction
 
 We encounter perceptual decisions every day. Is this shirt red or
 orange? Which direction is that bird flying? Am I driving faster or
@@ -17,8 +16,6 @@ Efforts on this front have uncovered probable mechanisms facilitating
 information representation, evidence accumulation, and termination of
 decisions in several areas of the brain, as well as theoretical models
 of how perceptual decisions are made.
-
-  
 
 To better illustrate the decision making process, we will contextualize
 the course of a perceptual decision with an experimental scenario
@@ -38,14 +35,13 @@ decision’s underlying representation and interpretation, the process of
 integrating information, and termination.
 
   
-
-  
+![example of coherence](images/dd_coherence.png)
 
 Caption: Examples of moving dot stimuli at different correlation levels.
 Arrows indicate motion. Correlated and uncorrelated dots are
 distinguished for the purposes of this example.
 
-  
+![example of procedure](images/dd_procedure.png)
 
 Caption: Stages of the motion discrimination task. First, the subject
 fixates on a fixation point. Next, the moving dot stimulus is displayed
