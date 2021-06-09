@@ -2,10 +2,6 @@
 
 *Evangeline Hong & Isabelle Levent*
 
-  
-
-**OVERVIEW**
-
 *Spoiler Alert: The following describes a scene from Season 2 of The
 Good Place.*
 
@@ -18,8 +14,7 @@ room. The Judge swiftly condemns him to lifelong torture for taking so
 long, upon which Chidi comically responds: “But did I at least choose
 the right one?”
 
-<span class="Apple-converted-space"> <span class="Apple-tab-span">
-</span></span>In the context of judgment and decision-making (JDM),
+In the context of judgment and decision-making (JDM),
 Chidi exemplifies exactly what not to do. But setting aside the comedic
 exaggerations, Chidi’s struggles capture a fundamental tension in
 judgement and decision making (JDM) broadly, but especially under time
@@ -47,8 +42,7 @@ would come at a steep cost in the amount of effort. As a result, JDM
 under time pressure forces decision-makers to take adaptive approaches
 towards one (or more) of these dimensions.
 
-<span class="Apple-converted-space"> <span class="Apple-tab-span">
-</span></span>There are three main adaptive responses: changing the
+There are three main adaptive responses: changing the
 speed of processing, changing the amount of information being processed,
 and changing the pattern of processing (Payne et al. 1996). First,
 individuals may accelerate their processing by simply spending less time
@@ -71,8 +65,7 @@ alternatives are evaluated and compared). This adaptation seeks to more
 efficiently allocate the limited resources to process information that
 can really make a difference in the accuracy of the subsequent choice.
 
-<span class="Apple-converted-space"> <span class="Apple-tab-span">
-</span></span>Time pressure can also be considered in the realm of risky
+Time pressure can also be considered in the realm of risky
 decision making: traders make decisions in split seconds as new
 information comes in, negotiators try to reach agreements before a
 deadline, bidders place bets up until the last minute [(Kocher et al.,
@@ -88,7 +81,7 @@ and choosing safer options [<span class="s2">(Young et al.,
 2012)</span>](https://www.zotero.org/google-docs/?BMw3A4).<span
 class="Apple-converted-space"> </span></span>
 
-<span class="Apple-tab-span"> </span>Outside a laboratory, risky
+Outside the laboratory, risky
 decisions are not generally presented as gambles. When assessing risk,
 people often look for a risk-diffusing operator (RDO), an action that
 would reduce the risk of a situation: taking a vaccine when going to a
@@ -109,8 +102,7 @@ class="Apple-converted-space"> </span>
 
   
 
-**Adaptation: Different Decision Making Strategies Under Time Pressure
-<span class="Apple-converted-space"> </span>**
+## Adaptation: Different Decision Making Strategies Under Time Pressure
 
 While people generally do a good job of adapting their JDM strategies
 based on the context of the time pressure, failures do arise and often
@@ -133,8 +125,6 @@ calculates the expected utility by summing the product of the attribute
 value and weight for each option [(Payne et al.,
 1996)](https://www.zotero.org/google-docs/?ny8GV7).<span
 class="Apple-converted-space"> </span>
-
-<span class="Apple-converted-space"> </span>
 
 Other common strategies that people use to guide their JDM process under
 time pressure include (Bettman et al. 1998):
@@ -196,10 +186,9 @@ time pressure include (Bettman et al. 1998):
 
   
 
-**CONSUMER CHOICE**
+## Consumer choice
 
-<span class="Apple-converted-space">        <span
-class="Apple-tab-span"> </span></span>Consumer choice refers to the
+Consumer choice refers to the
 selection of products and services by consumers and is a classic context
 in which decision-making has been studied. Behind each consumer
 decision, there is some degree of uncertainty (the utility to be derived
@@ -222,8 +211,7 @@ pressure, consumers felt much more confident about their decisions when
 they were presented with a breadth of information rather than a depth of
 information about a limited number of options (Jacoby et al. 1994).
 
-<span class="Apple-converted-space"> <span class="Apple-tab-span">
-</span></span>Another notable change is increased selectivity in
+Another notable change is increased selectivity in
 information processing. Under time pressure, consumers strategically
 prioritize particular attributes to evaluate rather than going through
 an exhaustive laundry list of product features. One common filtration
@@ -235,8 +223,7 @@ feature reasonably reflects information about the quality, popularity,
 or other specific attributes that they no longer have to individually
 reason about.
 
-<span class="Apple-converted-space"> <span class="Apple-tab-span">
-</span></span>Time pressure elicits many adaptations from individuals as
+Time pressure elicits many adaptations from individuals as
 they reason about their consumer choices: from computational shifts in
 approaching the problem (breadth over depth) to implementational shifts
 in executing the strategic shift (filtering of information). These
@@ -254,10 +241,7 @@ under tighter constraints. To better understand how individuals take on
 these challenges, we turn to experts who operate and specialize in JDM
 under time pressure.
 
-  
-
-**The Recognition Primed Decision Model<span
-class="Apple-converted-space"> </span>**
+## The Recognition Primed Decision Model
 
 Gary Klein, a leading figure in the field of naturalistic decision
 making, proposed that experts use different strategies than novices and
@@ -268,8 +252,7 @@ respective fields–and developed a new theory for expert decision making
 under time pressure: the Recognition-Primed Decision model. This model
 focuses on the experience of the decision maker, tactics such as
 intuition and mental simulation, and a decision-making strategy that
-emphasizes coming to conclusions without direct comparisons.<span
-class="Apple-converted-space"> </span>
+emphasizes coming to conclusions without direct comparisons.
 
 Klein emphasizes the importance of the decision maker’s level of
 expertise. Experts in a field are able to “see the invisible” [(Klein,
@@ -313,11 +296,9 @@ that for expert decision makers, the first decision is often the right
 one [(Klein, 2017)](https://www.zotero.org/google-docs/?EmCAad).<span
 class="Apple-converted-space"> </span>
 
-<span class="Apple-tab-span"> </span>
+## Conclusion
 
-**Conclusion<span class="Apple-converted-space"> </span>**
-
-**<span class="Apple-tab-span"> </span>**People are under time pressure
+People are under time pressure
 all the time in their daily lives both personally and professionally.
 The studies discussed indicate that time pressure impacts decision
 making, whether or not one is always cognizant of the change. Normative
@@ -346,47 +327,8 @@ choices more quickly [(Klein,
 2017)](https://www.zotero.org/google-docs/?t9bS25).<span
 class="Apple-converted-space"> </span>
 
-  
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-**Bibliography**
+## References
 
 [Bettman, J. R., Luce, M. F., & Payne, J. W. (1998). Constructive
 Consumer Choice Processes. *JOURNAL OF CONSUMER RESEARCH*, *25*,
@@ -439,6 +381,4 @@ making under time pressure, modeled in a prospect theory framework.
 *Organizational Behavior and Human Decision Processes*, *118*(2),
 179–188.
 https://doi.org/10.1016/j.obhdp.2012.03.005](https://www.zotero.org/google-docs/?QONL44)
-
-<span class="s4"><span class="Apple-tab-span"> </span></span>  
 
