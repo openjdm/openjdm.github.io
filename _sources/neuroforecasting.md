@@ -71,6 +71,9 @@ neuroforecasting studies as well as a systematic review to
 demonstrate neural regions, and perhaps brain circuits, implicated
 in this field.
 
+![Image of relevant brain areas](images/neuroforecasting_areas.png)
+
+
 Fig 1: Brief Overview of Brain Areas Implicated in Neuroforecasting
 Research. More opaque regions (OFC and Insula) represent brain
 regions that are deeper in the brain. Generated Brain Image is a
@@ -93,11 +96,6 @@ cortex (mPFC) + NAcc activity forecasted aggregate downloaded songs
 2 years later. x Their research was one of the first to demonstrate
 that neural activity may provide hidden information and could be
 more reliable than self-report measures. 
-
-Berns, G. S., & Moore, S.
-E. (2012). A neural predictor of cultural popularity. *Journal of
-Consumer Psychology*, *22*(1), 154–160.
-https://doi.org/10.1016/j.jcps.2011.05.001
 
 Knutson and colleagues (2007) used event-related fMRI to measure
 neural activity while individuals completed tasks related to gain
@@ -134,16 +132,6 @@ associated with product preference. High prices were associated with
 both increased insula activity and decreased mOFC activity. Insula
 activity predicted a decision to not buy the product while NAcc and
 mOFC activity predicted decisions to buy the product.
-
-*Fig. 2. From Knutson and Genevsky, 2018:
-“Affective-integration-motivation (AIM) framework aligned with
-proposed gradient of choice generalization. Ascending circuits
-(right) implement component functions that integrate affective and
-other responses to motivate choice (center). Although higher
-integrative circuits may promote choice consistency within
-individuals, lower affective circuits may show broader
-generalization in forecasting choice across individuals (left).*
-
 
 In a systematic review, Knutson and Genevsky found that in 8 studies
 forecasting aggregate choice with functional MRI before 2017, the
@@ -233,13 +221,14 @@ Neural Measures to Predict Real-World Outcomes. *Current directions
 in psychological science*, *22*(1), 45–50. [<span
 class="s3">https://doi.org/10.1177/0963721412469394</span>](https://doi.org/10.1177/0963721412469394)
   
-Berns, G. S., & Moore, S. E. (2012). A neural predictor of cultural
-popularity. *Journal of Consumer Psychology*, *22*(1), 154–160.
-https://doi.org/10.1016/j.jcps.2011.05.001<span
-class="Apple-converted-space"> </span>
+
+Berns, G. S., & Moore, S.
+E. (2012). A neural predictor of cultural popularity. *Journal of
+Consumer Psychology*, *22*(1), 154–160.
+https://doi.org/10.1016/j.jcps.2011.05.001
 
 Bernheim, B.D. (2008). *Neuroeconomics: a sober (but hopeful)
-appraisal*. AEJ: Microeconomics, in press.
+appraisal*. AEJ: Microeconomics.
  
 Falk, E. B., Berkman, E. T., & Lieberman, M. D. (2012). From neural
 responses to population behavior: neural focus group predicts
