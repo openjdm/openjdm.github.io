@@ -48,7 +48,7 @@ fixates on a fixation point. Next, the moving dot stimulus is displayed
 around the fixation point. Finally, the participant indicates a decision
 by directing an eye movement to one of the targets.
 
-Representation of Information
+## Representation of Information
 
 Regardless of the stage of the decision making process, it is important
 to understand the way neural activity represents information. The most
@@ -110,7 +110,7 @@ an estimation of spike rate even during gaps in a single neuron’s spikes
 (Shadlen and Kiani, 2013). This is clearly desirable given the time
 sensitive nature of many perceptual decisions.
 
-Interpretation as a Decision Variable
+## Interpretation as a Decision Variable
 
 One important way of interpreting the neural dynamics discussed above is
 by transformation into a decision variable (DV). This is a quantity over
@@ -162,7 +162,7 @@ correlates: signals that seem highly correlated with the decision
 performance of a subject may be byproducts rather than causes of the
 eventual decision.
 
-Evidence Accumulation
+## Evidence Accumulation
 
 A crucial factor in decision making is the ability to evaluate the
 relevant evidence at-hand in order to make the best perceived decision.
@@ -200,7 +200,7 @@ Diffusion Model (Ratcliff and McCoon, 2008) and the Leaky Competitive
 Accumulator Model (Usher and McClelland, 2001).<span
 class="Apple-converted-space"> </span>
 
-Termination
+## Termination
 
 Finally, a decision in progress must terminate to be realized as a
 decision. Functioning as the stopping rule based on relevant evidence
@@ -237,7 +237,7 @@ class="Apple-converted-space"> </span>
 
   
 
-References
+## References
 
 Newsome, W. T., Britten, K. H. & Movshon, J. A. (1989).<span
 class="Apple-converted-space">  </span>Neuronal correlates of a
