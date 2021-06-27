@@ -4,7 +4,7 @@ Melina Seligman-Tovar & Chelsea Trattner
 
 This chapter will focus on the role of sunk cost in consumer decision
 making. Sunk cost refers to a cost that has been incurred and cannot be
-recovered, yet the impacts of this cost extend far beyond one’s initial
+recovered, yet the impacts of this cost extend far beyond its initial
 interpretation. We will begin our chapter by further defining sunk cost
 generally. We will then move on to identifying many applications of sunk
 cost, as the role of sunk cost is prevalent, yet different depending on
@@ -29,7 +29,7 @@ of how the effect can be mitigated.
 
 ## What is Sunk Cost?
 
-The sunk cost effect can be defined as the tendency individuals have to
+The sunk cost effect can be defined as the tendency of individuals to
 continue pursuing a certain endeavor once they have made some sort of
 investment into the endeavor. This investment can take various forms,
 some of which include money, time, and effort. The investment causes
@@ -54,7 +54,7 @@ to give a better idea of its many forms and outcomes. These examples
 elucidate the fact that the sunk cost effect can apply to various
 domains, and thus is a salient behavior to learn about and consider.
 
-Take a girl named Grace who just received tickets to a 4 hour outdoor
+Take a girl named Grace who just received tickets to a 4-hour outdoor
 concert. Now say that Grace convinces her friend to purchase a ticket,
 at a full \$20, in order to accompany Grace to the concert. Both girls
 are very excited, and greatly looking forward to seeing some of their
@@ -72,7 +72,7 @@ This is because, as previously mentioned, the only aspect that should
 influence decisions is incremental costs, not sunk costs. The \$20 is
 already a sunk cost that can not be recovered whether the friend attends
 the concert or not, and thus the money should not influence Grace’s
-friend’s decision. Rather, the idea of suffering through a 4 hour
+friend’s decision. Rather, the idea of suffering through a 4-hour
 outdoor hail storm should deter the friend from attending, just as it
 did for Grace. In this example, the friend ends up going by herself and
 continues the costly endeavor, as the sunk cost of \$20 provided her a
@@ -118,19 +118,19 @@ The previous examples indicate the ways in which the sunk cost effect
 can impact the decision makers themselves. However, costs can also be
 borne by individuals other than the original decision maker. In fact,
 people often tend to alter their own choices based on other peoples’
-past investments. This possibility is outlined in Oliviola’s (year)
+past investments. This possibility was outlined in Oliviola’s (2018)
 study.
 
-The paper contains eight experiments in which two key factors are
-varied. One is the presence (or size) of the sunk cost, and the second
-is whether the decision maker themselves or another individual incurred
+The paper contained eight experiments in which two key factors were
+varied. One was the presence (or size) of the sunk cost, and the second
+was whether the decision maker themselves or another individual incurred
 the sunk cost before the decision was made. In one of the experiments,
 the following imaginary scenario was introduced: The participant was
 told that they had obtained a 6-month membership to a tennis club that
 either they had paid for or their friend had paid for. Unfortunately,
 the participant recently sprained their arm, making playing tennis
-incredibly painful for them. Participants were told that their friends
-had purchased the membership for \$900 (sunk cost), or had received the
+incredibly painful for them. Participants were told either that their friends
+had purchased the membership for \$900 (sunk cost), or that they had received the
 membership for free (no sunk cost). They were then asked to indicate
 whether they would continue to play tennis regardless of the pain or
 stop playing until the injury improved. Participants also knew that
@@ -168,9 +168,9 @@ Girl Scouts troop, then the individual will be far more likely to agree
 to place a Girl Scout bumper sticker on their car. These techniques are
 similar to the sunk cost effect in that prior commitments bear a great
 influence on future purchases. However, a key difference between the
-sunk cost effect and the two techniques is that “compliance is the
-dependent variable within the two techniques” (Arkes and Blumer, 1985,
-p. 138). Compliance does not usually play a role in the sunk cost
+sunk cost effect and the two techniques is that these two techniques 
+focus on compliance as their main dependent measure (Arkes and Blumer, 1985,
+p. 138), whereas compliance does not usually play a role in the sunk cost
 effect.
 
 Another theory similar to the sunk cost effect is cognitive dissonance
@@ -190,8 +190,7 @@ dissonance theory resemble many similarities to the sunk cost effect.
 However, there are notable differences between the two that make each
 theory unique and applicable to different contexts.
 
-## Role of Sunk Cost in Decision to Stay or Leave a
-Subscription Product/Service
+## Role of Sunk Cost in Decision to Stay or Leave a Subscription Product/Service
 
 Sunk cost is a widely studied variable because it is so dynamic. Based
 on the decision at hand, sunk cost can encompass many factors such as
@@ -205,7 +204,8 @@ to leave or stay with a company. Due to the immense variety of decisions
 that we face, we would like to focus specifically on a consumer’s
 decision to stay or leave a subscription-based service. This
 service/product can be one of various things: food delivery platform,
-SaaS platform, music subscription, fitness service, etc. We believe this
+software-as-a-service (SaaS) platform, music subscription, fitness service, etc. 
+We believe this
 addresses a gap in current sunk cost and consumer choice literature.
 Research lacks discussion on the impact of sunk cost on a service that
 has such a unique temporal element. With subscription services, there is
@@ -235,14 +235,14 @@ lesson to think more critically about their future decisions (Bornstein
 plan, the decision maker is reminded of the consequences of their poor
 decision (Bornstein & Chapman, 1995). Let’s consider the following
 example to relate this argument to a subscription service. Bill decided
-to purchase his local online newspaper’s basic subscription for $3.00
+to purchase his local online newspaper’s basic subscription for \$3
 every month for one year. After one week, he found a state news source
 he likes much more than the local paper. Instead of purchasing a new
 subscription to the state paper, he decides to continue with the local
 paper for the remainder of the month in order to teach himself a lesson.
 Next time, he promises to be more thorough when investigating other
 providers before committing to a subscription. If Bill had purchased a
-subscription to the state news source knowing that the $3 spent were
+subscription to the state news source knowing that the \$3 spent were
 irrecoverable, the lesson he learned may not be as strongly
 reinforced.
 
@@ -429,7 +429,7 @@ money, time, or effort. The impact of a positive affect varies only
 slightly across the three different experiments.
 
 
-
+![example of sunk cost](images/sunkcost.png)
 *This chart shows people’s decisions to follow through with a decision
 or investment due to the sunk cost effect, which is mitigated in the
 positive affect condition (in green).*
