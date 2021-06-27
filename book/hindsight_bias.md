@@ -14,11 +14,11 @@ This “knew it all along” phenomenon is more commonly known as hindsight
 bias, the tendency for people to believe that they could have accurately
 predicted the outcome of a past event. Studies reveal three primary
 forms of hindsight bias: memory distortion, inevitability, and
-foreseeability (Roese, 2012). In the memory distortion level, there is a
+foreseeability (Roese, 2012). In memory distortion there is a
 focus on the falsely gathered understanding of earlier judgement; in
-other words, the individual “said it would happen.” In the inevitability
-level, there is a belief that the past was predetermined; the individual
-believes “it had to happen.” Finally, in the foreseeability level, the
+other words, the individual “said it would happen.” Inevitability refers to 
+a belief that the past was predetermined; the individual
+believes “it had to happen.” Finally, in foreseeability the
 individual attributes the outcome to their inherently subjective belief
 of personal ability and knowledge; they “knew it would happen.”
 Combining all three levels, hindsight bias stretches across a range of
@@ -27,15 +27,14 @@ situations, making it very common.
 Hindsight bias occurs across all age groups and is a robust phenomenon
 that can have significant consequences related to judgement and decision
 making in the future based on past assumptions. In adults, hindsight
-bias has shown to impact decision making in a wide range of areas
+bias has been shown to impact decision making in a wide range of areas
 ranging from medical and legal decisions to minor judgements of personal
 experiences. In each case, the decision maker, backed by knowledge of a
-certain outcome, overestimates the likelihood of said outcome. While it
-is known *where* hindsight bias and other decisions occur from a
-physiological standpoint, what’s less decided on is why exactly
-hindsight bias happens. Early studies conducted by Baruch Fischhoff
+certain outcome, overestimates the likelihood of said outcome. 
+
+Early studies conducted by Baruch Fischhoff
 (1975) suggest that a strong component of hindsight bias is “creeping
-determinism,” or a term used to describe the tendency for individuals to
+determinism,” a term used to describe the tendency for individuals to
 deem observed outcomes as inevitable (Fischhoff, 1975). The reasoning
 behind this is the propensity for individuals to flatter themselves, so
 to speak, by claiming that they knew something was to happen all along,
@@ -55,10 +54,10 @@ that hindsight bias occurs due to a biased restructuring of the
 beginning situation, where the outcome is the cue (Pohl). Another
 suggestion, however, is that hindsight bias could stem from another
 phenomenon: theory of mind (Bernstein et al.,
-2007). Theory of mind is the ability of individuals to attribute mental
+2007). Theory of mind (ToM) is the ability of individuals to attribute mental
 states and conclusions of situations to others and themselves, serving
 as a cornerstone of interactions between people. Another critical thing
-to note about ToM (theory of mind) is its sparsity among children.
+to note about ToM is its sparsity among children.
 Children below the age of 4 often have difficulty understanding that
 others experience things different from their own reality (Bernstein,
 2007), which is oftentimes revealed by ‘false belief tests.’ Bernstein
@@ -86,8 +85,7 @@ these types of biases in judgement persist throughout whole lives, not
 just occurring in one stage. However, the similarities between hindsight
 bias and theory of mind reveal that the sparsity of theory of mind in
 children could be an origin of the persistent hindsight bias we see in
-all age groups.<span class="Apple-converted-space"> </span>
-
+all age groups.
 
 ### Cognitive Dissonance
 
@@ -108,12 +106,12 @@ convinced herself that she does, in fact, like the sweater.
 
 This series of decisions is reflected in Alafair S. Burke’s paper
 *Improving Prosecutorial Decision Making: Some Lessons of Cognitive
-Science,* as stated “the desire to avoid cognitive dissonance can cause
+Science,* which stated “the desire to avoid cognitive dissonance can cause
 people to adjust their beliefs to maintain existing self-perceptions”
 (Burke, 2005). Similar to hindsight bias, cognitive dissonance aims to
 bring one’s beliefs and actions into balance. As humans, we want to
-believe that our actions reflect our internal values--<span
-class="Apple-converted-space">  </span>and when this is not the case, we
+believe that our actions reflect our internal values-- 
+and when this is not the case, we
 do everything in our power to realign them (Burke, 2005). While
 cognitive dissonance and hindsight bias hold many similarities, a few
 key differences must also be mentioned. Cognitive dissonance occurs
@@ -130,7 +128,7 @@ problems that can arise under these biases.
 ## The Problem of Hindsight Bias
 
 The consequences of hindsight bias can hinder our ability to effectively
-gather information and learn from it. Fischhoff brings up that
+gather information and learn from it. Fischhoff proposes that
 unrecognized hindsight bias can hinder us from effectively judging the
 past and learning from it (Fischhoff, 1975), which highlights the
 potential negative impact that hindsight bias can have on our overall
@@ -202,7 +200,7 @@ overconfident judgements of a past event. The psychological motivators
 of this bias have yet to be fully understood, however, some argue that
 it stems from the brain failing to uphold previous resolutions once
 updated with new information; others firmly believe that ToM (theory of
-mind) plays a major role. No matter what might be causing it-- it is
+mind) plays a major role. No matter what might be causing it, it is
 clear that hindsight bias has multiple dangers, the biggest one being
 that it will often prohibit decision makers from seeing the possibility
 of another path. As a result, hindsight bias often prohibits people from
@@ -210,7 +208,7 @@ learning anything from their previous experiences and forcing them to
 make faulty judgments in the future. Thankfully, there are ways to
 prevent hindsight bias and ensure that your feelings about a decision
 are not based off of the real-life outcome; these include reminding
-yourself why you made a particular choice in the first place, which can
+one's self why they made a particular choice in the first place, which can
 be done by creating a decision journal. All in all, hindsight bias can
 affect people of all ages and life stages, and when given the
 opportunity will thoroughly skew one’s memory. This bias holds great
