@@ -222,7 +222,7 @@ Chapman conducted a study where participants examined a series of
 scenarios and then gave a response to either continue the original plan
 or switch (Bornstein & Chapman, 1995). From the experiments, the authors
 found that participants had a few rational reasons as to why they
-decided to continue the original plan. I will now explain these reasons
+decided to continue the original plan. We will now explain these reasons
 and how they relate to a customer's decision to stay or leave a
 subscription service.
 
@@ -231,7 +231,7 @@ learn-a-lesson argument. In this argument, we view a decision maker as
 both a teacher and a learner. The decision maker reasons that they are
 continuing with a failed plan because they believe it will teach them a
 lesson to think more critically about their future decisions (Bornstein
-& Chapman, 1995). The logic lies in that when sticking with a failed
+& Chapman, 1995). The logic is that when sticking with a failed
 plan, the decision maker is reminded of the consequences of their poor
 decision (Bornstein & Chapman, 1995). Let’s consider the following
 example to relate this argument to a subscription service. Bill decided
@@ -247,15 +247,15 @@ irrecoverable, the lesson he learned may not be as strongly
 reinforced.
 
 Another reason to continue with a failed service is to appear as a good
-decision maker. Bornstein and Chapman found that participants attributed
+decision maker. Bornstein and Chapman (1995) found that participants attributed
 an increased importance for this as the investment of the decision
-increased (Bornstein & Chapman, 1995). By making the decision to leave a
+increased. By making the decision to leave a
 company or switch to another provider, a decision maker can feel as
-though it is an admission that the initial decision was poorly made
-(Bornstein & Chapman, 1995). Let’s examine how this rational
+though it is an admission that the initial decision was poorly made. 
+Let’s examine how this rational
 justification can be seen in a subscription service setting. An IT
-employee selects a document signing provider for their company. This
-person spent ample time doing their research. Due to the necessity of
+employee selects a document-signing provider for their company after 
+spending ample time doing their research. Due to the necessity of
 signing and transferring documents virtually, this was an important
 decision for the firm. In a few months, the IT employee discovers a
 superior service to the one they had originally selected. This
@@ -279,7 +279,7 @@ one of six conditions that focused on sunk cost, consumer-brand
 relationship, and availability of product alternatives. After the
 participants read news articles about their brand, they were measured on
 consumer attitude, brand relationship and behavioral intent (Steinman &
-Jacobs, 2015). The findings in the study supports that a high sunk cost
+Jacobs, 2015). The findings in the study showed that a high sunk cost
 caused participants to be less likely to leave the brand. Furthermore,
 when a violation of customer-brand relationship was present,
 participants with high sunk costs indicated hesitancy to switch to an
@@ -316,7 +316,7 @@ decision-making.
 
 From miniscule daily decisions to vast historical decisions, the sunk
 cost effect pushes decision makers to follow through with their
-decisions despite negative circumstances. It may seem as if the sunk
+decisions despite negative consequences. It may seem as if the sunk
 cost effect can have unavoidable negative impacts in various situations.
 In part, this is true. Even some of the most efficient and knowledgeable
 decision makers continue to experience the sunk cost effect in their
@@ -335,7 +335,7 @@ Affect Attenuates Sunk Cost Bias by Enhancing Cognitive Flexibility'' by
 Kyle Emich and Jin Pyone (2018) highlights the fact that positive affect
 “cues more diverse and extensive thoughts and associations, creating a
 more complex and broader context for cognitive activity” (Emich & Pyone,
-2018, p. 579). People with positive affects can find common properties
+2018, p. 579). People with positive affect can find common properties
 between various stimuli and consider the world from multiple
 perspectives. When individuals foster a positive outlook, they are more
 likely to perceive the world through a more open and diverse
@@ -351,7 +351,7 @@ have an increased “attention to disparate stimuli related to a focal
 problem and ability to appropriately weigh the applicability of that
 information” (Emich and Pyone, 2018, p. 580). With this ability, their
 integration of information becomes far more efficient. In fact, Emich
-and Pyone (2018) note that people with positive affects perform better
+and Pyone (2018) note that people with positive affect perform better
 on Duncker’s Candle task, which requires participants to overcome
 functional fixedness. The sunk cost effect is rooted in the fact that
 individuals do not properly weigh the benefits and detriments of a
@@ -417,7 +417,7 @@ This impact of positive affect on decision making is additionally shown
 in studies involving sunk time and sunk effort, proving that positive
 affect can have a beneficial impact across various contexts. 
 
-The chart below displays the responses from the students who decided to
+Figure 1 displays the responses from the students who decided to
 commit to the investment in each experiment, separating them by the
 affect condition they were in. The high blue bars indicate the
 substantially higher likelihood for individuals to invest in a decision
@@ -428,11 +428,10 @@ bars, show a much lower likelihood to make the investments despite sunk
 money, time, or effort. The impact of a positive affect varies only
 slightly across the three different experiments.
 
-
 ![example of sunk cost](images/sunkcost.png)
-*This chart shows people’s decisions to follow through with a decision
+*Figure 1*. This chart shows people’s decisions to follow through with a decision
 or investment due to the sunk cost effect, which is mitigated in the
-positive affect condition (in green).*
+positive affect condition (in green).
 
 ## Conclusion
 
@@ -446,8 +445,8 @@ surrounding the impact of sunk cost on a customer’s decision to leave a
 subscription based service. We hope to provide interesting insights into
 how the mechanisms underlying sunk costs are present in the many
 services we use. The implications of the sunk cost effect can be
-substantial, however, a positive affect can be used to combat it.
-Employing a positive affect allows individuals to see their decisions
+substantial, however, positive affect can be used to combat it.
+Employing positive affect allows individuals to see their decisions
 through multiple perspectives, and weigh their decisions in a less
 fixated manner. Through reading this chapter, one can understand the
 definition of the sunk cost effect, its application in multiple domains,
@@ -459,8 +458,6 @@ and the ways in which its impact can be mitigated.
 Arkes, Hal R, and Catherine Blumer. “The Psychology of Sunk Cost.”
 *Organizational Behavior and Human Decision Processes*, vol. 35, no. 1,
 1985, doi:10.1016/0749-5978(85)90049-4.
-
-  
 
 Bornstein, B. H., & Chapman, G. B. (1995). Learning lessons from sunk
 costs. *Journal of Experimental Psychology: Applied,* *1*(4), 251-269.
