@@ -5,13 +5,13 @@ parts:
     chapters:
     - file: sunk_cost.md
     - file: mental_accounting.md
-    - file: option_paralysis.md
     - file: psychology_of_spending.md
+    - file: option_paralysis.md
   - caption: Heuristics and biases
     chapters:
-    - file: anchoring_and_adjustment.md
-    - file: availability_bias.md
     - file: hindsight_bias.md
+    - file: availability_bias.md
+    - file: anchoring_and_adjustment.md
     - file: illusory_correlations.md
   - caption: Varieties of judgment and decision making
     chapters:
