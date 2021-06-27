@@ -4,7 +4,8 @@ Shelly Deng & Brandon McGorty
 
 In behavioral economics, mental accounting refers to the set of
 rules describing how individuals value and spend money based on the
-money’s origin and on how one labels the money. For example, people
+money’s origin and on how one labels the money (Thaler, 1985, 1999). 
+For example, people
 may treat money intended for one category of purchases differently
 than money intended for another category. In evaluating and making
 financial decisions using mental accounting, people evaluate between
@@ -52,22 +53,22 @@ how gains and losses are viewed and how individuals perform hedonic
 editing to maximize utility. Additionally, we need to understand
 transaction theory and how time affects financial decisions.
 
-
 First, we will use the value function from prospect theory to model
 the utility. The value function has three key features: gains and
 losses are thought of in relation to a reference point (usually the
 status quo), the value function is piecewise where the gain function
 is concave and the loss function is convex, and the value function
-adheres to loss aversion principles.
+adheres to loss aversion principles, such that the slope for losses is
+steeper than the slope for gains.
 
 Given a set of outcomes within the same mental account, individuals
 tend to perform hedonic framing to maximize utility (or pleasure)
-although there are exceptions to the hedonic framing hypothesis\*.
+although there are exceptions to the hedonic framing hypothesis.
 Generally, there are four principles of hedonic framing. First,
-individuals tend to segregate gains, which makes sense since the
-gain function is concave. Indeed, 64% of the research participants
-believe that someone who won two lottery tickets with the total
-value of \$75 is happier than someone who won a single lottery worth
+individuals tend to segregate gains, which makes sense because the
+gain function is concave. Indeed, 64% of research participants
+believed that someone who won two lottery tickets with the total
+value of \$75 would be happier than someone who won a single lottery worth
 \$75 (Thaler, 1985, 1999). Second, individuals integrate losses.
 Because the loss function is convex, losing \$30 and then losing \$20
 is less preferred than losing \$50 at once. In fact, credit cards may
@@ -78,11 +79,11 @@ larger gains, individuals can view the two outcomes as a single
 smaller gain, and this allows them to reduce the psychological
 penalty of loss aversion. Finally, people tend to segregate small
 gains from larger losses. For example, the majority of research
-subjects believe that Person A who has to pay \$175 to repair a car
-is less happy than Person B who has to pay \$200 to repair a car but
+subjects believed that Person A who has to pay \$175 to repair a car
+would be less happy than Person B who has to pay \$200 to repair a car but
 who won \$25 from an office football pool (Thaler, 1985).
 Intuitively, this makes sense because such segregation allows Person
-B to see the small winning as a silver lining. From the value
+B to see the small winning as a "silver lining". From the value
 function, this also makes sense since the gain function is the
 steepest at the origin. Combining small gains with larger losses
 would reduce the magnitude of displeasure. However, this reduction
@@ -90,8 +91,8 @@ is less than the gain of utility from segregation of the smaller
 gain from the larger loss.
 
 Utility affects how individuals evaluate financial decisions. When
-making a purchase, consumers get acquisition utility as well as
-transaction utility. Acquisition utility is the measure of the value
+making a purchase, consumers obtain *acquisition utility* as well as
+*transaction utility*. Acquisition utility is the measure of the value
 of the good relative to the price, and transaction utility is the
 measure of the value of the good as determined by the perceived
 value of the “deal” (Thaler, 1999). Thus, individuals may make
@@ -132,14 +133,14 @@ activated, and they become more inclined to purchase a ticket in one
 scenario than the other. 
 
 ## Second Component: Budgeting
-Mental accounting influences how people budget. Budgeting happens in
+Mental accounting also influences how people budget. Budgeting happens in
 three ways or levels. First, expenditures are grouped into budgets.
 For example, it is common to have separate budgets for food,
 housing, entertainment, and more. Second, wealth is allocated into
 different mental wealth accounts, and some common ones include
 checking, saving, and rainy-day. Finally, income is divided based on
 source. For example, it can be regular income (i.e. salary) or
-windfall (i.e. winning the lottery). These labeling of money can
+windfall (i.e. winning the lottery). The labeling of money can
 thus reduce flexibility in how money is spent.
 
 The grouping of expenditure into budgets involves two steps: booking
@@ -155,8 +156,7 @@ in real life include the purchasing of iCloud storage or subscribing
 to Spotify. While individuals may budget expenditures to reduce
 spending (i.e. setting a maximum on a certain type of goods), being
 mindful of small expenses to ensure booking and posting of all
-expenses is necessary for effective execution of reducing
-spending.
+expenses is necessary for effective reduction of spending.
 
 Wealth is often automatically placed into different accounts. People
 have different spending habits for different wealth accounts, and
@@ -180,10 +180,9 @@ when the amount is large but in the mental “checking” account when
 the amount is small. Effectively, this means that they would be
 foregoing consumption when the amount is small but foregoing
 interest when the amount is large. In that case, the consumer may
-wish to receive \$8 now in order to have the money for spending but
-choose the \$100 option because \$20 is more than the interest that
-one can earn from \$80 in two weeks.<span
-class="Apple-converted-space"> </span>
+wish to receive \$10 now in order to have the money for spending but
+choose the \$150 option because \$50 is more than the interest that
+one can earn from \$100 in two weeks.
 
 Additionally, classifying money into different mental wealth
 accounts (i.e. saving, checking) may enable people to save more.
@@ -221,8 +220,8 @@ people spending more even though they feel well organized.
 
 When individuals establish groupings to their spending, such as
 money allocated for housing or electric bills, they begin to spend
-in a group specific way. Depending on the framing of each group,
-people are willing to spend more on things when it fits into a
+in a group-specific way. Depending on the framing of each group,
+people are willing to spend more on things when they fit into a
 category with a higher budget.
 
 The value of gains and losses and how we frame decisions moving
@@ -232,8 +231,8 @@ value function. This shows how events are perceived and coded in
 decision making. We see that the value function is defined by a
 certain reference point when analyzing gains and losses. For
 example, when individuals have larger losses paired with small gains
-they often feel better about the situation, which is referred to as
-hedonic framing (Thaler, 1999). An example of this would be with
+they often feel better about the situation, as discussed above.
+An example of this would be with
 investing. Say an investor lost \$5,000 but also made \$1,000 they
 would feel better than just losing \$4,000. Even though they have
 lost the same amount of money they feel better about the first
@@ -245,14 +244,16 @@ The article “Individual Differences in Mental Accounting'' by
 Stephan Muehlbacher and Erich Kirchler presents three studies that
 apply a Likert-type scale to assess how much individuals engage in
 mental accounting practices. Their work showed that when individuals
-use categories for how they spend, a loss in a certain category,
-like housing for example, will lead to less spending in that
-category in the future when we compare this to spending without
+used categories for how they spend, a loss in a certain category,
+like housing for example, led to less spending in that
+category in the future compared to spending without
 categories. Also, when an individual has two separate gains, they
 often look at the value as greater than the actual combined value
 is. Likewise, when people have already been losing a lot, a little
 more loss tends to not seem as serious as that same value of a loss
 without prior losing.
+
+### Myopic loss aversion
 
 An important concept related to this topic is myopic loss aversion.
 To understand myopic loss aversion, we must first understand loss
@@ -280,8 +281,10 @@ study that individuals are more risk seeking when they are shown
 30-year return rates when investing versus when they’re shown 1-year
 return rates. This is because individuals see the gains clumped into
 one final gain and the losses along the way don’t seem as
-significant versus losses in the short run are more severe if they
+significant versus losses in the short run that are more severe if they
 aren’t paired with big gains.
+
+## Conclusion
 
 The implications of these mental accounting principles are
 important. How we value and spend our money is vital to our
