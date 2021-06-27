@@ -4,7 +4,7 @@ Real Woods & Darnell Carson
 
 **In A Bit of a Jam**
 > Imagine this: You walk into your local grocery store on a Saturday
-afternoon, ready to shop. As you enter, you are beckoned over a
+afternoon, ready to shop. As you enter, you are beckoned to a
 display table and asked to taste test from a selection of jams.
 Depending on the day, the researchers could present you with as few
 as six jams or as many as 24! How does the number of options
@@ -40,12 +40,12 @@ too many choices causing an impaired ability to decide due to
 internally conflicting desires or a conflicting unknown about the
 value that each selection might fulfill. Intuitively, we assume more
 choices are better because they allow us to analyze the differential
-value between each alternative and gear your decision toward the
-choice that best fulfills your desires. But, how many choices are
-too many? What happens when, in analyzing your options, you find
+value between each alternative and gear our decisions toward the
+choice that best fulfills our desires. But, how many choices are
+too many? What happens when, in analyzing one's options, they find
 that multiple choices might bring the same fulfillment, might
-fulfill different desires equally, or you simply can not entirely
-grasp what you desire. Option paralysis can lead to other psychological outcomes,
+fulfill different desires equally, or they simply can not entirely
+grasp what they desire. Option paralysis can lead to other psychological outcomes,
 such as *analysis paralysis* (see below) and *buyer’s remorse* (see
 below).
 
@@ -66,7 +66,7 @@ set of choices before, they have likely learned which option is best
 suited for them. This was behind the reasoning of removing defaults
 from the jam study. The researchers didn’t want people to base their
 choices on flavors with which they were likely familiar. This is not
-to say that option paralysis is impossible if you have previously
+to say that option paralysis is impossible if one has previously
 experienced the same set of choices. The individual may have
 different preferences the next time around, or they may have never
 decided.
@@ -81,10 +81,10 @@ harder. We can only process so many items simultaneously, and our
 options can be under even more pressure if there are other
 constraints like a time crunch.
 
-To make a purchase, they must first select an assortment of
+To make a purchase, one must first select an assortment of
 products, and then they must choose from that assortment. Variety
 and complexity impact the consumer’s final decision on which product
-to buy, if at all (Townsend & Khan, 2014). Variety is the positive
+to buy, or whether to buy at all (Townsend & Khan, 2014). Variety is the positive
 aspect of this process because consumers want more options when
 trying to decide. Complexity, however, is the negative aspect of
 this process because too much variety increases the complexity of
@@ -97,13 +97,13 @@ put off or opt-out of the decision.
 
 Analysis paralysis is a state that is very closely
 linked to overchoice. It describes the act of overthinking or
-overanalyzing a situation so much that you become unable to make a
+overanalyzing a situation so much that one becomes unable to make a
 decision. The person thinking about the decision may be so worried
 about whether their decision is the best decision that they never
 come to one in the first place (Kurien et al., 2014).
 
-We see this because so few
-people decided to take the jams in the study we’ve been discussing.
+We see this in the fact that so few
+people decided to take the jams in the study by Iyengar and Lepper.
 They were presented with many more jams at the display than people
 in the limited-choice condition but sampled about the same number of
 jams, just under two jams. Already, the table, they are faced with
@@ -121,8 +121,8 @@ is not limited to purchases of choosing between many options;
 buyer’s remorse can also come from purchasing expensive items.
 Buyer’s remorse stems from the cognitive dissonance that comes from
 having to make difficult decisions (Sweeney et al., 2000). Many
-factors affect buyer’s remorse, but let’s focus on the role
-overchoice plays.
+factors affect buyer’s remorse, but we will focus on the role of 
+overchoice.
 
 Let’s revisit our jam
 experiment from the beginning of the chapter. You walk into your
@@ -131,7 +131,7 @@ or 24 in number. Afterward, you have the opportunity to go and buy
 the jams. Given your display exposure, how likely are you to buy the
 jam, and how satisfied are you with your purchase afterward?
 
-According to the 2000 Iyengar &
+According to the 2000 Iyengar and 
 Lepper study, 30% of the people who visited the 6-jam display bought
 a jam, significantly higher than the 3% of people who saw the 24-jam
 display that purchased a jam. It could be that the people presented
@@ -142,7 +142,7 @@ The people in the
 limited-choice condition were more likely to buy the jam and were
 more likely to be satisfied with their choice. In a similar study
 with chocolates, researchers found that people presented with more
-extensive choices were much more dissatisfied with their decisions
+extensive choices were more dissatisfied with their decisions
 than those in limited choice conditions.
 
 Here, overchoice has led to the
@@ -167,13 +167,13 @@ that can impact decision-making. Other things that impact this
 process include descriptions of the options or the presence of
 “defaults.”
 
-The researchers made sure to remove flavors we may consider to be
+Iyengar and Lepper made sure to remove flavors we may consider to be
 “defaults,” like grape and strawberry in the jam study. They were
 worried that these flavors would affect the study’s findings because
-people would just default to jam options they are used to instead of
+people would simply default to familiar jam options instead of
 trying more “exotic” flavors. By removing these options, they
 removed the ability of people to default to what they already knew,
-and we got a better sense of how decision-making works for similarly
+and obtained a better sense of how decision-making works for similarly
 appealing unknowns.
 
 Manipulating the choice architecture in experiments allows
@@ -197,9 +197,7 @@ decision-making. Studying choice architecture and how people respond
 to changes in the ways choices are presented can help us better
 understand how to achieve the results for which we are aiming. The
 tough decisions that these situations present can be alleviated with
-the help of heuristics and past knowledge. In the next chapter, you
-learn about sunk cost and how that also factors into the
-decision-making process.
+the help of heuristics and past knowledge. 
 
 ## References
 
