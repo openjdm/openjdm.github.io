@@ -5,12 +5,12 @@ parts:
     chapters:
     - file: anchoring_and_adjustment.md
     - file: availability_bias.md
-    - file: sunk_cost.md
     - file: hindsight_bias.md
     - file: illusory_correlations.md
   - caption: Consumer decision making
     chapters:
     - file: mental_accounting.md
+    - file: sunk_cost.md
     - file: option_paralysis.md
     - file: psychology_of_spending.md
   - caption: Varieties of judgment and decision making

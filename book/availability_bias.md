@@ -7,27 +7,27 @@ for?”, “Is it gonna rain later? Should I carry an umbrella with me?”,
 “What should I invest into?”**
 
 We act based on more or less serious decisions every day. With our
-beliefs about uncertain events and our personal assessment of ambitious
+beliefs about uncertain events and our personal assessment of ambiguous
 situations we take shortcuts for choosing quickly all the time. Our
 brain uses a limited number of heuristic principles to reduce complex
-judgmental situations to make it easier to evaluate decision. These
+judgments and ease decision making. These
 heuristics can be useful and quick, as we cannot analyze and research
 every small decision in our lives. At the same time, shortcuts make us
 susceptible to personal biases and influences. These can limit our
 neutral perspective and lead to “severe and systematic errors” (Tversky
 and Kahnemann, 1974, 1124).
 
-This chapter explores the often-applied heuristics of availability. It
+This chapter explores the often-applied availability heuristic. It
 is the cognitive decision rule through which people judge probability
 and frequency of an event or classification by availability, i.e. the
 “ease with which relevant instances come to mind” (Tversky and
-Kahnemann, 1973, 207). Availability heuristics can not only
-lead to easier and quicker decisions, but also biased and incorrect
-judgement. This cognitive decision rule was first labeled by researchers
-in psychology Amos Tversky and Daniel Kahnemann in 1973. They examined
+Kahnemann, 1973, 207). Availability heuristics can
+lead to easier and quicker decisions, but can also result in biased and incorrect
+judgements. This cognitive decision rule was first labeled by researchers
+in psychology Amos Tversky and Daniel Kahnemann, who examined
 human heuristics and biases in a series of papers. In this series they
-introduced the cognitive shortcuts humans make with the assessing of
-availability in ten experiments. Kahnemann and Tversky are groundbreaking researchers of cognitive
+introduced the cognitive shortcuts humans make through an assessment of
+availability across ten experiments. Kahnemann and Tversky are groundbreaking researchers of cognitive
 heuristics in decision making. Their pioneering role in the field of
 judgement and decision making led to Kahnemann winning the Nobel Prize
 in Economics in 2002, 6 years after Amos Tversky’s death.
@@ -58,12 +58,12 @@ and quantity estimates yielding predictable errors. The following
 passages will summarize three such classes of tasks.
 
 The first class of estimation tasks where the availability heuristic led
-subjects astray was in mental construction tasks. Subjects were given
+subjects astray involved mental construction. Subjects were given
 the task of estimating how many ways a two-person subcommittee could be
 chosen from a group of ten people, then given the task of estimating how
 many ways an eight-person subcommittee could be chosen from a group of
 ten people. Any two-person subcommittee corresponds to exactly one
-eight-person subcommittee of all the people you previously excluded, so
+eight-person subcommittee of all the people who were previously excluded, so
 that these two quantities are mathematically identical. Despite this,
 respondents systematically gave larger answers for the number of
 possible two-person subcommittees than for the number of eight-person
@@ -96,61 +96,46 @@ is clear where to look, as they have already been grouped. Not so for
 third letters; thus the less available example is erroneously judged as
 less frequent.
 
-## Why and how Availability Heuristics Lead to ERRORS
+## Why and how Availability Heuristics Lead to Errors
 
+![sketch of availability heuristic](images/availability.jpg)
 *Fig 1: Sketched model of a person judging a
 situation by the information hey can
 easily retrieve, here what they are presented by media.
 
 ### Heuristics do not care about source reliability
 
-Imagination
-of an event alone has an effect on our perception of reality. Due to
+Imagination of an event alone has an effect on our perception of reality. Due to
 availability bias, simply imagining an event already leads to an
-increase in our “subjective likelihood” (Carroll 88) for its occurrence.
+increase in our “subjective likelihood” (Carroll, 1978) for its occurrence.
 While availability heuristics rely on our memory for forming an opinion
 about frequency, that is also the part where our judgement is most
 susceptible to errors, shortcuts and bias. This interference in our
 probability judgement even occurs as we are confronted with hypothetical
-or even obviously not actually happened events
+or even obviously nonexistent events.
 
-In 1976 John
-Carroll introduced a study of two experiments, showing that imagining an
-event could, in itself, sufficiently lead to a person experiencing it to
+In 1978 John
+Carroll published a study with two experiments showing that imagining an
+event could, in itself, sufficiently lead to a person to later judge it to
 be more likely. Carrol refers to work by Neisser from the same year, who
 proposed similarities in psychological processes between the activity of
 the brain imagining an object and directly seeing an object. In both
 mechanisms, an “anticipatory schema” modifies information and
-expectations, and samples the given input related to the objec. In his
+expectations, and samples the given input related to the object. In his
 work, Carroll let participants imagine the event of either Ford or
 Carter winning the 1976 Presidential Election. In a second experiment
-participating students from the University of Pittsburgh are asked to
+participating students from the University of Pittsburgh were asked to
 imagine a good or bad season for their university’s football team. The
 participants were fully aware it was a highly hypothetical scenario.
 After imagining the given situation, the first experiment’s participants
 were asked which candidate they see to be more likely to eventually win
 the election. For the second experiment the participants evaluated
-firstly, if they thought that the football season of the given team was
-going to be a “good” one and secondly, they were supposed to give
-predictions for a postseason bowl bid. Only the instructions to imagine
-a specific event were enough to increase the expectation for the
+first whether they thought that the football season of the given team was
+going to be a “good” one and secondly, they were asked to give
+predictions for a postseason bowl bid. The instructions to imagine
+a specific event increased the expectation for the
 imagined outcome in reality.
 
-Participants
-had to imagine conditions, which seem to be capable of producing the
-event. Consequently, The event seems to be objectively easier to
-retrieve. This information is used in the heuristics of availability, to
-judge its likelihood. This interference in judging a certain probability
-or frequency can give even only posing a problem or asking a question
-the power to change the belief of a subject. The shortcut our brain
-makes to judge and evaluate a situation quickly using availability
-heuristics is not only susceptible to unconsciously occurring biases and
-errors. We can actively try to imagine possible scenarios over and over
-again and we can also be influenced by other parties’ suggestions of
-possible events, proposed as a problem or brought into consideration by
-asking a question about a possible occurrence. These suggestions can
-directly come from other people, but we also experience it often in the
-daily influence of TV, news and media in general.
 
 ### Impact of the media
 
@@ -160,8 +145,8 @@ events present, and therefore changes our perception of recency, all
 factors on which our assessment of availability depends. Even
 advertising takes advantage of the availability bias. It does not matter
 if we may not like the way a specific product is promoted or might even
-perceive it sometimes as annoying. Still, advertisements--even annoying
-advertisements for products we hate serve the role of announcing the
+perceive it sometimes as annoying. Still, advertisements -- even annoying
+advertisements for products we dislike -- serve the role of announcing the
 existence of a product. Problems about which we were unaware become
 visible through ads. The next time we buy something, we can see
 ourselves confronted with a problem we have an easily available solution
@@ -173,7 +158,7 @@ happening.
 
 According to
 cultivation theory, one of the most prominent mass communication models,
-people see our social reality as more congruent with the reality
+people see their social reality as more congruent with the reality
 presented by television, as they spend more time consuming TV (Potter
 and Riddle cited by Riddle 156). On a cognitive level, availability
 heuristics can explain this effect. With a more often and recent
@@ -184,7 +169,7 @@ impact on accessibility.
 
 Research by Karyn
 Riddle (2010) has investigated the influence of TV on social reality
-judgement, participants had to watch a specific television program. The
+judgement. Participants were assigned to watch a specific television program. The
 exposure to violent programs differed between the groups of
 participating students in frequency, recency, and vividness. Frequency
 and vividness had a strong influence on the participants’ social
@@ -202,7 +187,7 @@ Pioneering
 research on people’s perception of risks was conducted by Paul Slovic
 and Sarah Lichtenstein in 1985. They conducted a survey in which
 participants were asked to judge which of two causes of death were more
-frequent. Results of the study are also presented in Paul Kahnemann’s
+frequent. Results of the study are also presented in Daniel Kahnemann’s
 book *Thinking Fast and Slow*. In Slovic and Lichtenstein’s study, 80%
 of participants judged accidental death as more likely than strokes,
 even though strokes actually cause twice as many deaths. Tornadoes were
@@ -219,7 +204,7 @@ availability bias” (Slovic and Liechtenstein, 1985, cited by Kahnemann
 These evaluations
 clearly show how estimates of deaths are influenced by media coverage.
 At the same time, the media do not shape what the public is interested
-in. Rather, the media is biased toward the public demand for “novelty and poignancy”
+in. Rather, the media are biased toward the public demand for “novelty and poignancy”
 (Kahnemann 138). Unusual events attract more attention than reports of
 people dying of heart disease, asthma, or diabetes. Our expectations
 about the frequency of occurrences are distorted by prevalence and
@@ -244,9 +229,8 @@ disaster. Already in pharaonic Egypt, societies tracked the high-water
 mark of floods to be prepared for the assumedly worst possible case
 (Kahnemann 137). The same still seems to be true for our modern methods
 of managing safety measurements against floods. Tversky and Kahnemann
-cite in their 1973 published paper the work *Hazard and choice
-perception in flood plain management* by Robert Kates (1962). Kates
-points out a basic reliance on experience to be a major limitation to
+cite in their 1973 published paper the work by Robert Kates (1962), who 
+pointed out a basic reliance on experience to be a major limitation to
 use improved flood hazard information. Furthermore he writes, “Recently
 experienced floods appear to set an upper bound to the size of loss with
 which managers believe they ought to be concerned.” (Kates 140 cited by
@@ -275,7 +259,7 @@ Kahneman and Tversky did not thoroughly investigate the mechanism by
 which availability operates. To interrogate this, the following study
 was conducted.
 
-Schwarz et al requested of two groups of subjects that they recall
+Schwarz et al asked two groups of subjects tho recall
 either N = 6 or N = 12 examples of times they were assertive. In this
 way, the subjects should have easily available examples of times they
 were assertive, and as such we might anticipate that those who generated

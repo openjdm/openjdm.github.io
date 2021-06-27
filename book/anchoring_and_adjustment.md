@@ -7,8 +7,9 @@ consideration when making an estimate? Do you rely on your previous
 experiences, do you think about whether a guess is reasonable, do you
 compare values? What about the information you were previously exposed
 to? In this chapter, we will discuss the anchoring and adjustment
-heuristic, by which individuals’ estimations are based on an initial
-value they do not sufficiently account for (Tversky and Kahneman 1974). We will summarize a few articles that discuss this heuristic and
+heuristic, by which individuals’ estimations are biased on an initial
+value they do not sufficiently account for (Tversky and Kahneman 1974). 
+We will summarize several articles that discuss this heuristic and
 explain how this bias can be found in the medical field.
 
 ## Estimating Unknown Events
@@ -56,10 +57,10 @@ the first multiplication to have a higher average estimate while those
 who were exposed to the second multiplication calculated a lower average
 response. To explain the results of their experiment, the authors note
 that individuals may make a few estimates that serve as a baseline and
-do not change their computations enough (1128). Essentially, what the
+do not change their computations enough. Essentially, what the
 authors are trying to demonstrate is that individuals will use the first
-information they observe to calculate a final value but do not
-sufficiently adjust their estimates.
+information they observe to calculate a final value, without 
+sufficiently adjusting their estimates.
 
 A second experiment carried out by Tversky and Kahneman (1974) asked
 participants to spin a wheel and based on the value the wheel fell on,
@@ -78,16 +79,13 @@ selecting information that convinces them that the anchor provided is
 the same as the correct response (Mussweiler and Strack 1999).
 Essentially, this theory suggests that when we are given an anchor, our
 decision making is more focused on finding information that confirms
-that value than on finding information that provides a different
+that value than on finding information that supports a different
 response.
 
 Like Tversky and Kahneman’s study, Mussweiler and Strack’s research
 looked at externally-generated anchors. However, what happens when
-individuals generate their own anchors? In the following article, we
-look at research that explores how the anchoring and adjustment
-heuristic is manifested in internally-generated anchors.
-
-In their article, Nicholas Epley and Thomas Gilovich (2001) studied
+individuals generate their own anchors? 
+Nicholas Epley and Thomas Gilovich (2001) studied
 individuals’ anchoring and adjustment mechanisms when anchors are
 created by participants. Epley and Gilovich challenged Mussweiler and
 Strack’s theory on selective accessibility, arguing that since
@@ -103,7 +101,7 @@ used anchors in their reasoning. The researchers found higher
 rates of anchoring and adjustment for self-generated values than for
 those that were external, suggesting that the anchoring and
 adjustment heuristic is present when individuals generate the anchors
-themselves than when they are created by researchers.
+themselves, as well as when the anchors are provided by the researcher.
 
 These three articles have provided an overview of initial conception of
 how anchors, regardless of how relevant they are, are used by
@@ -123,8 +121,7 @@ approximations. While this speaks to our ability to make quick
 estimations, it also exposes some faults in our cognitive processes that
 are explored in the following section.
 
-  
-## Real World Implications*
+## Real World Implications
 
 Although heuristics can help us
 make quick judgments or make complicated decisions on a daily basis,
@@ -161,8 +158,6 @@ heuristic emphasizes the important role exposure to information can have
 in coming to an estimation or judgment. In this final section, we have
 some questions to think back on the content presented in this chapter
 and ways the content can be applied to the real world.
-
-  
 
 ## Review Questions
 
