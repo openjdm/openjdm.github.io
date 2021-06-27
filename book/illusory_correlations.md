@@ -111,8 +111,8 @@ create novel stimuli that the participants had never encountered before,
 so they invented two groups of people: Group A and Group B. By creating
 new groups instead of testing participants on existing groups that are
 differentiated by race or gender or class etc., the researchers could be
-sure that the results wouldn’t be skewed due to the participants
-pre=conceived beliefs and associations connected to each group. Group A
+sure that the results wouldn’t be skewed due to the participants'
+pre-conceived beliefs and associations connected to each group. Group A
 and Group B were assigned actions that were coded as “desirable” or
 “undesirable”. Hamilton and Gifford showed each group multiple times to
 the participants, and every time each group was assigned four
@@ -121,15 +121,14 @@ desirable actions were shown more often than undesirable ones.
 Researchers therefore measure both Group B and undesirable behaviors as
 “distinctive”. At the end of the study, participants had to report how
 many of the statements reflected the behavior of each group, and how
-many of the statements were undesirable. To support Hamilton and
-Gifford’s hypothesis, participants would need to show that they
-developed an illusory correlation by overestimating how often the two
+many of the statements were undesirable. Hamilton and
+Gifford’s hypothesis predicted that participants would overestimate how often the two
 distinctive events occurred together. This happened - participants reported that the
 undesirable actions were attributed to Group B, the smaller group, much
 more often than they actually had. Their bias in estimating the
 occurrence of undesirable vs desirable behaviors as it relates to
 occurrence of each group led them to perceive each group differently.
-This has huge implications for the formation of stereotyping in real
+This has important implications for the formation of stereotyping in real
 world scenarios, as we will touch on later.
 
 ## Expectancy-based Correlations
@@ -161,8 +160,8 @@ in the stimulus sets created. This means that the participants perceived
 relationships that would be expected on the basis of their stereotypic
 expectancies. A similar second experiment was conducted but in which
 neutral traits were paired more frequently with the group as compared to
-the stereotypical traits. The results for this second experiment shows
-that the stereotypical traits are still more frequently associated with
+the stereotypical traits. The results for this second experiment showed
+that the stereotypical traits were still more frequently associated with
 their groups, which would mean that relationships mentioned are
 perceived as stronger if they confirm a stereotype even though they
 might actually appear as often in the evidence.
@@ -190,7 +189,7 @@ more easily stored and retrieved if it belongs to an existing schema.
 Hence, when traits are stereotypical or expected for a particular group,
 they are both encoded and retrieved more effectively from memory.
 
-## Other
+## Reconciling expectancy-based and distinctiveness-based effects
 
 The expectancy-based correlations and distinctive-based correlation
 effects seem to contradict each other since the subject’s prior
@@ -203,7 +202,7 @@ where traits are stereotypical or expected of the social groups, and
 incongruent effects would refer to examples for which the traits seem to
 be incompatible with the associated groups. In 1996, Garcia-Marques and
 Hamilton tried to explain this contradiction via the TRAP (Twofold
-Retrieval by Associative Pathways) model. In summary, the model propends
+Retrieval by Associative Pathways) model. In summary, the model proposes
 that retrieval processes occur through either free recall and frequency
 estimation, which themselves depend on different processes. Free recall
 initiates an exhaustive search through memory for the target object.
@@ -225,7 +224,7 @@ Such correlations can explain stereotype threats in humans on the
 negative side, and possibly halo effects which can sometimes be positive
 but negative at other times.
 
-Let’s first consider stereotype threat. Stereotype threat is defined as
+Let’s first consider stereotype threat, which is defined as
 the socially-premised psychological threat experienced by someone who is
 in a situation or doing things for which there exists a negative
 stereotype about that person’s social group belonging and they thus
@@ -236,12 +235,12 @@ from it even today. The original experiment for stereotype threat comes
 from that same paper, and it showed that African American subjects
 underperformed on a test when it was viewed as an indication of their
 intellectual ability but they did similarly to their White peers when it
-was not viewed as a non-indication of intellectual ability. This showed
+was not viewed as a indication of intellectual ability. This showed
 that the existence of social stereotypes can impede performance in
 academic fields, and possibly in many other fields too. How do those
 stereotypes happen in the first place?
 
-The “paired distinctiveness”
+The “paired distinctiveness” concept 
 that came up in the Hamilton research has implications for the creation
 of stereotyping. As a reminder, participants viewed undesirable behavior
 as infrequent and unusual, and they viewed Group B as infrequent and
@@ -288,7 +287,7 @@ attributes. Several papers have made use of illusory correlations as one
 of the theories that can be used to explain the halo effect. For
 example, Chapmans' 1969 illusory correlations study,
 in which illusory correlation was seen as an obstacle for clinicians to
-determine the sexual orientations of their clients, is talked about in
+determine the sexual orientations of their clients, is discussed in
 the “Ubiquitous Halo” paper (Cooper, 1981) as well as in “Nature and
 Consequences of Halo Error: A Critical Analysis” (Murphy, Jako, Anhalt,
 1993). The cognitive distortions and errors in judgement in the papers
@@ -329,7 +328,7 @@ because of the tendency of our brains to make such generalizations based
 on limited and irrelevant information like previous associations and
 infrequent events, meaning that this prioritization of speed leaves a
 margin of neglect when it comes to accuracy. Even though these mental
-connections are being formed subconsciously, they can end up manifesting
+connections are being formed unconsciously, they can end up manifesting
 as strongly held beliefs that inaccurately portray an outside
 individual’s traits, and in a greater sense are generalized onto large
 groups of people. Illusory correlations should be a factor that is kept
