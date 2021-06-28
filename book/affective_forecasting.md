@@ -12,7 +12,6 @@ happiness remain intact? Although many expect that achieving their goals
 will grant them life-long happiness, this happiness tends to diminish
 more quickly than one might expect.
 
-
 Failures in affective forecasting may occur when people try to predict
 their emotions after a variety of different events. For example, one
 study conducted by Dunn et. al. (2003) asked students to predict their
@@ -27,13 +26,11 @@ happiness. These studies demonstrate how people tend to believe that
 certain events will have a larger, and often longer, effect on their
 emotions than they truly do.
 
-
 Though we have tried to unlock the dynamics of emotions after a decision
 that could help us understand the emotional drive in making present and
 future decisions, research has found one factor after another that
-demonstrates why predicting emotions—affective forecasting —is so
+demonstrates why predicting emotions — affective forecasting — is so
 challenging.
-
 
 ## Immune Neglect
 
@@ -56,7 +53,7 @@ competition or completing a passion project may be profound in the
 moment, but becomes less intense as time goes on. The psychological
 immune system works best when we are not paying attention to it, and
 thus people generally overlook the fact that their psychological immune
-system exists to regulate their emotions—people suffer from *immune
+system exists to regulate their emotions — people suffer from *immune
 neglect* which contributes to their tendency to overestimate the
 duration of their affective reactions. Immune neglect is the tendency
 for people to overlook the cognitive mechanisms that help them to cope
@@ -114,8 +111,8 @@ this phenomena, Wilson et. al. (2000) conducted a study where they asked
 college football fans to predict how the outcome of a college football
 game would affect their happiness. One group of participants was asked
 to complete a “prospective” diary of all the time they thought they
-might spend on future activities after the football game, as opposed to
-those who were merely asked to think about the football game outcome.
+might spend on future activities after the football game, whereas another
+group was merely asked to think about the football game outcome.
 They found that fans who completed the prospective diary were less
 likely to overpredict their emotions than the control group. These
 findings demonstrate how thinking about multiple events, rather than one
@@ -193,11 +190,11 @@ understanding would help us recalibrate our impact bias for future
 events, limiting the over exaggerated predictions of our events.
 
 But, this aforementioned learning, known as rationalized learning, in
-the human psyche is limited, as described in Wilson et al. (2003). And,
+the human psyche is limited, as described by Wilson et al. (2003). And,
 retrospective bias is a vital feedback tool for our learning of what is
 good or bad, what we enjoy or not so much, or what we believe is right
 or wrong. Overestimation of future positive events is a motivator,
-making rewards slightly larger to push you to keep working, while
+making rewards slightly larger to push one to keep working, while
 overestimation of future negative events may drive a person’s reasonable
 risk averse attitude. Fundamentally, impact bias is shaping our
 personalities by reinforcing events we positively react to by repetition
@@ -249,8 +246,7 @@ engagement with thoughts or events at a certain relative time point, a
 focus that is narrow or wide, or in the past, present or future.
 
 In their study, Buehler et al. (2001) found that people generally
-demonstrate that when an event is associated strongly to a certain time
-point, their emotions are generally stronger than when the event is
+demonstrate stronger emotions when an event is associated strongly to a certain time point than when the event is
 associated with past experiences. When presented with a choice in the
 future, not considering past experiences in their decision may generate
 unrealistic positive aspirations and motivate people to pursue the wrong
