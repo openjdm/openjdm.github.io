@@ -69,8 +69,7 @@ company comparing their standard product to a “lite” low-powered option
 to make it look more premium. In order to avoid the decoy effect,
 Psychologist Itamar Simonson found consumers should take time to decide
 what qualities (such as price, size, quantity, capabilities, etc) they
-want in a product before they start shopping.<sup>6</sup><span
-class="Apple-converted-space"> </span>
+want in a product before they start shopping.<sup>6</sup>
 
 ### Illusion of Scarcity
 
@@ -88,13 +87,12 @@ other users are about to buy the product you are interested in. While
 there has not been particular research on how consumers can respond to
 scarcity marketing specifically, general best-practices against impulse
 purchasing (such as making a list of items you want before you go
-shopping) are likely the best bet for conscious consumers.<span
-class="Apple-converted-space"> </span>
+shopping) are likely the best bet for conscious consumers.
 
 ### Endowment effect
 
 The endowment effect is the psychological phenomenon in which people
-price goods they already own as more expensive than they would if they
+price goods they already own as more valuable than they would if they
 did not own them.<sup>9</sup> Kahneman et al. documented the strength of
 the endowment effect by demonstrating that subjects place a higher value
 on mugs when the experimenters randomly assigned a mug to them than when
@@ -109,13 +107,12 @@ Decision Lab recommends that the most optimal strategy for avoiding the
 negative implications of the endowment effect is to price your goods as
 close to market value as possible.<sup>11,\ 12</sup> Whether you are
 buying or selling goods, then, comparing prices for similar goods across
-different marketplaces can reduce the endowment effect.<span
-class="Apple-converted-space"> </span>
+different marketplaces can reduce the endowment effect.
 
 ### Reciprocity
 
-Reciprocity’s psychological definition is no different from its layman
-one: it refers to the concept of people, organizations, or entities
+Reciprocity’s psychological definition is no different from its common
+definition: it refers to the concept of people, organizations, or entities
 providing one act or service in response to an equivalent act or
 service.<sup>13</sup> Businesses can take advantage of the norm of
 reciprocity by giving consumers small free gifts, causing them to feel
@@ -127,12 +124,12 @@ that recipients will remember and feel more inclined to support the
 brand in the future. While there has not been extensive research on how
 to counteract the social urge to reciprocate, common sense suggests that
 the best tactic for consumers would be to refuse or return unsolicited
-gifts from corporations.<span class="Apple-converted-space"> </span>
+gifts from corporations.
 
 ### Social Proof
 
-Social proof is a concept popularized by Psychology and Marketing
-professor Robert Cialdini, which states that people who are unsure what
+Social proof is a concept popularized by Robert Cialdini, 
+which states that people who are unsure what
 to do in a given situation will copy the actions of their
 peers.<sup>15</sup> Companies can take advantage of consumers’ desire
 for social proof by creating the perception that “everyone” (or everyone
@@ -152,7 +149,7 @@ found that users engage with visibly sponsored content at lower rates
 than organic content, although sponsored content still receives
 significant engagement.<sup>17\ </sup>
 
-## Anchoring
+### Anchoring
 
 Anchoring bias is the tendency for people to give excessive weight to
 the first indicator they are given about the value of an
@@ -171,8 +168,7 @@ shopping experiences and also gives consumers an addictive rush, which
 encourages them to shop more.<sup>19</sup> With this in mind, smart
 shoppers can save money by focusing on buying products they will use for
 the long-term rather than indexing their purchasing decisions on sales
-and promotions.<span class="Apple-converted-space"> </span>
-
+and promotions.
 
 ## Conclusion and Review
 
@@ -189,8 +185,7 @@ it is extremely difficult to resist these nudges, as consumers are
 working against their own psychology. Nudge theory is a powerful tool
 for affecting human behavior for both positive and negative ends. By
 understanding what nudges are and how businesses use them, consumers can
-maximize their budget and improve their spending habits.<span
-class="Apple-converted-space"> </span>
+maximize their budget and improve their spending habits.
 
 ## References
 
