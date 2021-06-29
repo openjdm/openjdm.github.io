@@ -1,6 +1,6 @@
 ## OpenJDM
 
-This book aims to provide an open-source introduction to some of the basic concepts from the psychology of judgment and decision making (commonly known as "JDM"). It was produced by the students in *Psychology 154: The Psychology of Judgment and Decision Making* at Stanford University, taught by Dr. Russell Poldrack in the spring quarter of 2021. Dr. Poldrack performed light editing on the final chapters in order to align their organization and format.
+This book aims to provide an open-source introduction to some of the basic concepts from the psychology of judgment and decision making (commonly known as "JDM"). It was produced by the students in [Psychology 154: The Psychology of Judgment and Decision Making](https://github.com/openjdm/openjdm.github.io/blob/main/syllabus/syllabus_2021.md) at Stanford University, taught by Dr. Russell Poldrack in the spring quarter of 2021. Dr. Poldrack performed light editing on the final chapters in order to align their organization and format.
 
 Additional contributions to this guide are welcome!
 
