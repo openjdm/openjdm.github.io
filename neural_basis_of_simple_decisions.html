@@ -327,7 +327,7 @@ of how perceptual decisions are made.</p>
 <p>To better illustrate the decision making process, we will contextualize
 the course of a perceptual decision with an experimental scenario
 frequently used to investigate the phenomenon: the direction
-discrimination task. A participant (often a monkey) is positioned in
+discrimination task (see Figure 1). A participant (often a nonhuman primate) is positioned in
 front of a cluster of moving dots. The movement of a subset of the dots
 is correlated, while the remainder move randomly. The participant is
 trained to judge which direction the correlated set of dots is moving
@@ -335,20 +335,20 @@ and indicate their decision via eye movement. During the experiment,
 researchers are able to record neural activity from the agent’s brain.
 An advantage to this experimental design is that researchers can vary
 the uncertainty of the environmental stimulus. They do so by varying the
-strength with which the dots’ movement is correlated. Additionally, they
+strength with which the dots’ movement is correlated (Figure 2). Additionally, they
 can model non-binary decisions by expanding the number of directions the
 dots are able to move. We will reference this scenario as we outline a
 decision’s underlying representation and interpretation, the process of
 integrating information, and termination.</p>
-<p><img alt="example of coherence" src="_images/dd_coherence.png" /></p>
-<p>Caption: Examples of moving dot stimuli at different correlation levels.
-Arrows indicate motion. Correlated and uncorrelated dots are
-distinguished for the purposes of this example.</p>
 <p><img alt="example of procedure" src="_images/dd_procedure.png" /></p>
-<p>Caption: Stages of the motion discrimination task. First, the subject
+<p><em>Figure 1</em>: Stages of the motion discrimination task. First, the subject
 fixates on a fixation point. Next, the moving dot stimulus is displayed
 around the fixation point. Finally, the participant indicates a decision
 by directing an eye movement to one of the targets.</p>
+<p><img alt="example of coherence" src="_images/dd_coherence.png" /></p>
+<p><em>Figure 2</em>: Examples of moving dot stimuli at different correlation levels.
+Arrows indicate motion. Correlated and uncorrelated dots are
+distinguished for the purposes of this example.</p>
 <div class="section" id="representation-of-information">
 <h2>Representation of Information<a class="headerlink" href="#representation-of-information" title="Permalink to this headline">¶</a></h2>
 <p>Regardless of the stage of the decision making process, it is important
@@ -370,7 +370,7 @@ that the recordings taken from individual neurons (selected for
 responsiveness to motion) were comparable in accuracy to the actual
 choices of the monkeys studied. Salzman et al. (1990) then found that
 altering neural firing rates of MT columns using microstimulation
-significantly and reliably pushes the distribution of decisions towards
+significantly and reliably pushed the distribution of decisions towards
 that column’s preferred direction. While the application area of this
 stimulation extends beyond a single neuron, evidence suggests the
 additional neurons activated are functionally similar to the target.
@@ -426,7 +426,7 @@ integration allows us to understand processing over timescales longer
 than an individual perceptual event as noted in Shadlen and Kiani
 (2013).</p>
 <p>Studies of the lateral intraparietal cortex (LIP) bear out the existence
-of these transformations. Shadlen and Newsome (1996) suggests a subset
+of these transformations. Shadlen and Newsome (1996) suggested that a subset
 of directionally sensitive neurons within LIP encode information that is
 neither a direct encoding of sensory information, nor directly
 responsible for moving a subject’s eyes. Instead, the firing rates of
@@ -480,19 +480,17 @@ experimental data. These models characterize the process of making a
 decision as a noisy accumulation of evidence from a starting point that
 terminates upon reaching a response criteria. Two examples are the Drift
 Diffusion Model (Ratcliff and McCoon, 2008) and the Leaky Competitive
-Accumulator Model (Usher and McClelland, 2001).<span
-class="Apple-converted-space"> </span></p>
+Accumulator Model (Usher and McClelland, 2001).</p>
 </div>
 <div class="section" id="termination">
 <h2>Termination<a class="headerlink" href="#termination" title="Permalink to this headline">¶</a></h2>
-<p>Finally, a decision in progress must terminate to be realized as a
+<p>Finally, a decision in progress must terminate in order to be realized as a
 decision. Functioning as the stopping rule based on relevant evidence
 and/or time, termination occurs after a decision variable reaches or
 crosses a certain threshold. In other words, once an agent is exposed to
 the necessary amount of relevant information or given enough time to
 make a decision, neural signals reach a level of activation that allows
-the decision-making process to end (terminate).<span
-class="Apple-converted-space"> </span></p>
+the decision-making process to end (terminate).</p>
 <p>Behavioral data produced by Shadlen &amp; Kiani (2013) appears to support
 this threshold-based theory of termination as well. In an experiment
 focused on using eye movement as decision-making criteria, they show
@@ -502,23 +500,20 @@ preceding eye movement (the decision being made). When the participants
 observed section of the LIP, the activation presumably passed an
 activation level or threshold that led to the actual decision being
 made–but when the monkeys chose the other available option, this
-threshold was not crossed in that same area.<span
-class="Apple-converted-space"> </span></p>
+threshold was not crossed in that same area.</p>
 <p>This mechanism, although simple, is essential to the decision-making
 process. It allows an agent to take their interpretation of the DV,
 time, and accumulated evidence and produce an actual decision or action.
 Without setting a threshold for neural activation, there would be no
 reason for the brain to stop evaluating new data and as such may never
-come to make an actual decision.<span
-class="Apple-converted-space"> </span></p>
+come to make an actual decision.</p>
 </div>
 <div class="section" id="references">
 <h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
 <p>Newsome, W. T., Britten, K. H. &amp; Movshon, J. A. (1989).<span
 class="Apple-converted-space">  </span>Neuronal correlates of a
 perceptual decision. <em>Nature</em>, 341(6237):52–54. <a class="reference external" href="https://doi.org/10.1038/341052a0.C"><span
-class="s1">https://doi.org/10.1038/341052a0.C</span></a>.<span
-class="Apple-converted-space"> </span></p>
+class="s1">https://doi.org/10.1038/341052a0.C</span></a>.</p>
 <p>Salzman, D., Britten, K. H., &amp; Newsome, W. T. (1990).<span
 class="Apple-converted-space">  </span>Cortical microstimulation
 influences perceptual judgements of motion direction. <em>Nature</em>,
@@ -540,12 +535,10 @@ class="s1">https://doi.org/10.1038/nn1683</span></a></p>
 <p>Katz, L. N., Yates, J. L., Pillow, J. W., &amp; Huk, A. C. (2016).
 Dissociated functional significance of decision-related activity in the
 primate dorsal stream. <em>Nature</em>, 535(7611), 285–288. <a class="reference external" href="https://doi.org/10.1038/nature18617"><span
-class="s1">https://doi.org/10.1038/nature18617</span></a><span
-class="Apple-converted-space"> </span></p>
+class="s1">https://doi.org/10.1038/nature18617</span></a></p>
 <p>Shadlen, M. N., &amp; Kiani, R. (2013). Decision making as a window on
 cognition. <em>Neuron</em>, 80(3):791–806. <a class="reference external" href="https://doi.org/10.1016/j.neuron"><span
-class="s1">https://doi.org/10.1016/j.neuron</span></a><span
-class="Apple-converted-space"> </span></p>
+class="s1">https://doi.org/10.1016/j.neuron</span></a></p>
 <p>Shadlen, M. N. &amp; Newsome, W. T. (1996).<span
 class="Apple-converted-space">  </span>Motion perception: seeing and
 deciding. <em>Proceedings of the National Academy of Sciences</em>,
@@ -560,12 +553,10 @@ during decision-making. <em>Science</em>, 349(6244), 184–187.</p>
 <p>Ratcliff, R., &amp; McKoon, G. (2008). The Diffusion Decision Model: Theory
 and Data for Two-Choice Decision Tasks. <em>Neural Computation</em>, 20 (4):
 873–922. <a class="reference external" href="https://doi.org/10.1162/neco.2008.12-06-420"><span
-class="s1">https://doi.org/10.1162/neco.2008.12-06-420</span></a><span
-class="Apple-converted-space"> </span></p>
+class="s1">https://doi.org/10.1162/neco.2008.12-06-420</span></a></p>
 <p>Usher, M., &amp; McClelland, J. L. (2001). The time course of perceptual
 choice: The leaky, competing accumulator model. <em>Psychological Review</em>,
-108(3):550-592. 10.1037/0033-295X.108.3.550<span
-class="Apple-converted-space"> </span></p>
+108(3):550-592. 10.1037/0033-295X.108.3.550</p>
 </div>
 </div>
 
