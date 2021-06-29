@@ -26,7 +26,7 @@ and the rationality of the decision-making process (Payne et al. 1996).
 In other words: looking back, did I make the best decision I could? The
 resources spent on a choice (“effort”) refer to how much cognitive
 energy and time were allocated to reach the final decision. Since
-investing more effort to learn and process your options tends to lead to
+investing more effort to learn and process one's options tends to lead to
 smarter and better decisions, the effort-accuracy model proposes that
 there is a compromise between effort and accuracy that the
 decision-maker must accept. This balancing act is particularly relevant
@@ -74,12 +74,11 @@ topic has produced mixed outcomes. Some argue that that time pressure
 unilaterally results in decreased risk taking, regardless of the type of
 choices presented. Others argue that the decision making response is
 more nuanced: when presented with situations that would result in gains,
-<span class="s1">people are more likely to be risk-seeking under time
+people are more likely to be risk-seeking under time
 pressure. When presented with situations that would result in losses,
 however, people are more likely to be loss averse, relying on heuristics
-and choosing safer options [<span class="s2">(Young et al.,
-2012)</span>](https://www.zotero.org/google-docs/?BMw3A4).<span
-class="Apple-converted-space"> </span></span>
+and choosing safer options [(Young et al.,
+2012)](https://www.zotero.org/google-docs/?BMw3A4).
 
 Outside the laboratory, risky
 decisions are not generally presented as gambles. When assessing risk,
@@ -87,20 +86,18 @@ people often look for a risk-diffusing operator (RDO), an action that
 would reduce the risk of a situation: taking a vaccine when going to a
 country with malaria, getting insurance, making duplicates of important
 documents. An experiment was done investigating whether time pressure
-increases the search for an RDO. Participants were presented with a
+increases the search for an RDO [(Huber & Kunz,
+2007)](https://www.zotero.org/google-docs/?8JP9ew). Participants were presented with a
 situation in which they ran a turtle conservation reserve, and had the
 choice of breeding the turles on the beach, where the water quality was
-subpar, or on a little island where the water quality was better, but
+subpar, or on a small island where the water quality was better, but
 there was the possibility of water mites infecting the turtle eggs.
 Under time pressure, participants focused on negative consequences of
 the risky choice and asked more questions about possible RDOs. The
 tendency was to find a way to mitigate risk, not to reject it outright.
 This provides better insight to the decision making process in the real
-world than black-and-white gambles and probabilities [(Huber & Kunz,
-2007)](https://www.zotero.org/google-docs/?8JP9ew).<span
-class="Apple-converted-space"> </span>
+world than black-and-white gambles and probabilities.
 
-  
 
 ## Adaptation: Different Decision Making Strategies Under Time Pressure
 
@@ -128,6 +125,10 @@ class="Apple-converted-space"> </span>
 
 Other common strategies that people use to guide their JDM process under
 time pressure include (Bettman et al. 1998):
+
+table, th, td {
+  border: 1px solid black;
+}
 
 <table class="t1" width="250.0%" data-cellspacing="0" data-cellpadding="0">
 <colgroup>
@@ -183,8 +184,6 @@ time pressure include (Bettman et al. 1998):
 </tr>
 </tbody>
 </table>
-
-  
 
 ## Consumer choice
 
@@ -247,8 +246,8 @@ Gary Klein, a leading figure in the field of naturalistic decision
 making, proposed that experts use different strategies than novices and
 that decision making in the real world is different from decision making
 in a laboratory. He interviewed nurses, pilots, software engineers,
-firefighters, economics professors, and soldiers–all experts in their
-respective fields–and developed a new theory for expert decision making
+firefighters, economics professors, and soldiers –- all experts in their
+respective fields -– and developed a new theory for expert decision making
 under time pressure: the Recognition-Primed Decision model. This model
 focuses on the experience of the decision maker, tactics such as
 intuition and mental simulation, and a decision-making strategy that
@@ -324,8 +323,7 @@ heuristics, but on years of experience. Under time pressure, their
 knowledge gives them an edge. They are able to create mental
 simulations, rely on instinct, and come to conclusions about possible
 choices more quickly [(Klein,
-2017)](https://www.zotero.org/google-docs/?t9bS25).<span
-class="Apple-converted-space"> </span>
+2017)](https://www.zotero.org/google-docs/?t9bS25).
 
 
 ## References
