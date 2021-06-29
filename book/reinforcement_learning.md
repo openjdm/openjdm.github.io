@@ -31,14 +31,14 @@ and Wagner were studying classical conditioning and not decision making,
 their theory of how conditioning affects how an animal (or human) judges
 the value of a particular situation has become the basis for the more
 complex formulations of how a human judges a situation and decides the
-optimal action. Their formula, called the Rescorla Wagner Model, has
+optimal action. Their formula, called the Rescorla-Wagner Model, has
 several complex parameters, but simplified for brevity posits the
 equation that:
 
 $$v\_X^{t+1} = v\_X^t + alpha(v\_X^{observed\_t} - v\_X^t)$$
 
 where $v\_X^{t}$ is the estimation of value of situation X at time t,
-$\\alpha$ is some constant between 0 and 1 that determines the tradeoff
+$\\alpha$ is a constant *learning rate* between 0 and 1 that determines the tradeoff
 between speed and stability of an estimate, and $v\_X^{observed\_t}$ is
 an observation of how valuable situation X is in a particular instance t
 (Rescorla and Wagner 1972). This basic premise has then been
@@ -54,8 +54,6 @@ reward, instead of just trying to estimate the particular value that a
 state has independent of what is then done in that state.<span
 class="Apple-converted-space"> </span>
 
-  
-
 In Q Learning, we build up a table of the expected value of taking every
 particular state-action pair in a given system, systematically
 downweighting expected values further in the future to represent our
@@ -65,13 +63,11 @@ action with the highest expected value most of the time, and tests out
 other actions to make sure our estimates for them are correct a small
 amount of the time (Sutton and Barto 2018). 
 
-
 ![Q-learning matrix](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Q-Learning_Matrix_Initialized_and_After_Training.png/590px-Q-Learning_Matrix_Initialized_and_After_Training.png)
 
 (A example of the Q-learning matrix across training. Originally published at [<span
 class="s2">https://en.wikipedia.org/wiki/File:Q-Learning\_Matrix\_Initialized\_and\_After\_Training.png</span>](https://en.wikipedia.org/wiki/File:Q-Learning_Matrix_Initialized_and_After_Training.png)
 by LearnDataSci, 2018. Licensed under a Creative Commons Attribution 4.0 License; No changes made.)
-
 
 More recently, as Q learning is used in more complex environments,
 building a table that contains all possible state-action pairs is
@@ -87,13 +83,10 @@ greatly increases the efficiency of the model, at the possible cost of
 accuracy. However, because the efficiency is so much greater, modern
 thinking is that this possible decrease in accuracy is worth it.
 
-  
-
 ## Computational methods overview
 
-
 One of the simplest types of computational reinforcement learning is
-called the Multi Armed Bandit. In this problem, let us imagine that we
+called the Multi Armed Bandit (MAB). In this problem, let us imagine that we
 have a machine with k possible levers, each of which, when pulled, will
 give a random reward with a specific mean. Before pulling any levers, we
 have no knowledge of what reward this might be, but we know we want to
@@ -114,9 +107,7 @@ reward of 3, our first 4 trials would have been the same, and our choice
 of always choosing lever 1 would be the correct one. This illustrates
 the basic premise of the MAB, which then prescribes complex mathematical
 formulas to optimize this exploration/exploitation tradeoff (Sutton and
-Barto 2018).<span class="Apple-converted-space"> </span>
-
-  
+Barto 2018).
 
 This then brings us to another important concept in computational
 reinforcement learning, which is the distinction between online and
@@ -141,8 +132,6 @@ more alike with how humans learn, online learning is more informative
 for studying human reinforcement learning and decision making than
 offline learning is.
 
-
-
 ## Influence of Computational Research on Dopamine Studies
 
 Reinforcement learning has its roots in animal learning in psychology,
@@ -151,9 +140,7 @@ them. The concept of reinforcement learning can be thought of as the
 strengthening of relationships between events that result in animal
 satisfaction and those animal responses, and the weakening of
 relationships between events that cause animal discomfort and those
-responses.<span class="Apple-converted-space"> </span>
-
-  
+responses.
 
 Reinforcement learning research is valuable because it is a parallel to
 animal decision-making and can help us understand our decision-making
@@ -170,8 +157,6 @@ both provide an explanation for animal behavior, help generate
 predictions based on optimal behavior, and suggest actions to achieve
 optimization.
 
-  
-
 Reinforcement learning models also help build an understanding of
 dopamine, a neurotransmitter involved in many neurological disorders
 including Parkinson’s disease, schizophrenia, and depression (Bhandari
@@ -181,9 +166,7 @@ thousands of people worldwide. Specifically, studies of animal brains
 via electrophysiological recordings, lesion studies, and pharmacological
 manipulations have linked reinforcement learning to particular neural
 substrates including dopamine while revealing that reward prediction
-errors exist (Niv 2009).<span class="Apple-converted-space"> </span>
-
-  
+errors exist (Niv 2009).
 
 The process in which reward prediction errors are generated is a key
 aspect of temporal difference learning, a reinforcement learning process
@@ -202,10 +185,7 @@ and temporal difference learning are both able to account for delayed
 rewards and discounted future rewards. Thus, examining the nuances in
 temporal difference prediction errors is useful because it allows us to
 better understand dopamine reward prediction errors, which helps
-pinpoint dopaminergic targets in a medical context.<span
-class="Apple-converted-space"> </span>
-
-  
+pinpoint dopaminergic targets in a medical context.
 
 Reinforcement learning has been powerful in bringing together
 computation, algorithm, and implementation, and the ways in which it has
@@ -214,69 +194,26 @@ invaluable (Niv 2009). As reinforcement learning and neurological
 research continue to inform one another, we may consider how the synergy
 of the two can accelerate breakthroughs in other fields.
 
-  
+## References
 
-  
+Dickinson A. (2010) Instrumental Conditioning. In: Stolerman I.P. (eds) Encyclopedia of Psychopharmacology. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-68706-1_343
 
-*Caption*: A depiction of the Q-learning matrix across training.  Reproduced [<span
-class="s1">https://en.wikipedia.org/wiki/Reinforcement\_learning\#/media/File:Reinforcement\_learning\_diagram.svg</span>](https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg)
-by Megajuice, 2017 under a Creative Commons Attribution 4.0 License. No changes made)</span>
-
-  
-
-  
-
-  
-
-  
-
-https://techvidvan.com/tutorials/reinforcement-learning/
-
-  
-
-  
-
-<span
-class="s1"><https://www.sciencedirect.com/science/article/pii/S0022249608001181></span><span
-class="s3"> (1)</span>
-
-<span
+Niv, Y (2009).  Reinforcement learning in the brain.  Journal of Mathematical Psychology.  53, 139-154. <span
 class="s1"><https://www.sciencedirect.com/science/article/pii/B9780125264303500039></span><span
 class="s3"> (2)</span>
 
-<span
-class="s1"><https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-68706-1_343></span><span
-class="s3"> (3)</span>
+Rescorla, R. A. and Wagner, A. R. (1972). A theory of Pavlovian conditioning: Variations in the effectiveness of reinforcement and nonreinforcement. In Black, A. H. and Prokasy, W. F., editors, Classical Conditioning II: Current Research and Theory. Appleton Century Crofts, New York. 
+
+Sutton, R. S. and Barto, A. G. (1998). Reinforcement Learning: An Introduction. Bradford Books, MIT Press, Cambridge, MA. 
+
+## Addtional readings
+
+https://techvidvan.com/tutorials/reinforcement-learning/
 
 <span
 class="s1"><https://www.webmd.com/mental-health/what-is-dopamine></span><span
 class="s3"> (4)</span>
 
-  
-
-<span
-class="s1"><https://www.researchgate.net/figure/Reward-prediction-error-responses-at-the-time-of-reward-right-and-reward-predicting_fig2_302578615></span>
-
-  
-
 <span class="s3">Good overview of reinforcement learning: [<span
 class="s1">https://www.sciencedirect.com/science/article/pii/B9780125264303500039</span>](https://www.sciencedirect.com/science/article/pii/B9780125264303500039)</span>
 
-  
-
-Neural correlates of RL:
-
-<span
-class="s1"><https://www.sciencedirect.com/science/article/pii/S0022249608001181></span>
-
-  
-
-Rescorla and Wagner’s original paper. The basis for a lot of modern
-thinking about RL:
-
-<span
-class="s1"><https://www.researchgate.net/publication/233820243_A_theory_of_Pavlovian_conditioning_Variations_in_the_effectiveness_of_reinforcement_and_nonreinforcement></span>
-
-  
-
-  
