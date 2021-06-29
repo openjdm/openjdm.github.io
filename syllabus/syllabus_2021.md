@@ -1,4 +1,4 @@
-# Psych 154: Judgment and Decision Making
+# Psych 154: Judgment and Decision Making (Spring 2021)
 
 *Instructor*: Professor Russ Poldrack  
 
