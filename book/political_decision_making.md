@@ -82,7 +82,7 @@ Pachuk, 2011).
 ## Political elite decisions
 
 The judgments and decisions made by the political elite have a
-tremendous effect on the natural world and the overall well-being of our
+major effect on the natural world and the overall well-being of our
 society. The elite are a select group of individuals who hold a
 disproportionate amount of power over government legislation and foreign
 affairs. The elite are trained politicians that are seen as best
@@ -97,7 +97,7 @@ imperative knowledge to make the best judgement when dealing with such
 complex decisions having an effect on such a vast amount of people.
 Politics is not a simple topic and deciphering what systems should be in
 place to maximize society should only be a task for the most
-informed.<span class="Apple-converted-space"> </span>
+informed.
 
 According to Ivan Cerovac’s paper titled “Elite Decision Making,” the
 elite are less prone to loss aversion and are better at utilizing
@@ -106,7 +106,7 @@ heuristics in an effective manner when given complex topics (Cerovac,
 reach a quick and efficient judgement during decision-making. Heuristics
 are necessary for decision making, especially among the political elite,
 because it allows one to take an excess of information to derive the
-appropriate decision.<span class="Apple-converted-space">  </span>Not
+appropriate decision. Not
 only do the political elite have to come up with decisions regarding
 complex situations, they also must consider a surplus of information
 that would take a substantial amount of time to consider all options in
@@ -126,39 +126,35 @@ from other heuristics by relying on immediate ideas that come to the
 individual when evaluating their judgment of a situation. Essentially
 the examples that we more readily recall are the ones our cognition
 views as most important. An example of this that relates to society and
-politics today is the BLM movement or Black Lives Matter. Political
+politics today is the Black Lives Matter (BLM) movement. Political
 elite may predict the necessary steps to address the social movement
 however fail to execute the appropriate policy. If a far-left politician
-was told to address the BLM movement, their cognition might instantly
+was told to address the BLM movement, they might instantly
 think of the passing of George Floyd and the multiple instances of
 police brutality. However, if a far-right politician was asked about
-their thoughts toward the BLM movement their initial cognition would
+their thoughts toward the BLM movement their initial thought would
 bring up the violent protests and riots members of the movement
 committed. The initial thought that they retrieve from memory proves
 what values they hold closest to them and how they feel about the topic.
 These two politicians would propose significantly opposing policies when
 addressing the issue which creates an even greater divide in the world.
-
   
 ### Anchoring and adjustment
 Anchoring and adjustment is
 another cognitive heuristic where an individual starts with an initial
-idea, this is the anchor, and then makes adjustments based on the anchor
-until they reach their decisions. Anchoring and adjustment is used by
+idea, which is the *anchor*, and then makes adjustments based on the anchor
+until they reach their decision. Anchoring and adjustment is used by
 the political elite when negotiating with foreign countries. The
 politicians that participate in foreign affairs might negotiate with
 more drastic offers to trick their counterpart into proposing a more
 agreeable offer, one that the initial politician was striving for. Based
 on the evidence we would propose that politicians that are less prone to
 anchoring are better equipped to consider different perspectives and are
-generally more effective at executing their desires.<span
-class="Apple-converted-space"> </span>
-
+generally more effective at executing their desires.
   
 ### Representativeness
-The representativeness heuristic
-bias occurs when the similarity of ideas influences the final judgment.
-Essentially the human cognition compares the likelihood of a judgment to
+The representativeness heuristic occurs when the similarity of ideas influences the final judgment.
+Essentially the decision maker compares the likelihood of a judgment to
 their perception of an existing prototype for that event. This is seen
 in politics when the political elite classifies officials of other
 countries. A politician would be more likely to jump to the judgment of
@@ -167,13 +163,9 @@ point to it being so. In an occurrence where an elite political group
 examines strict leadership and extreme control of a leader of a foeign
 country, due to the representative heuristic, they might be more likely
 to classify this leader as a dictator disregarding other necessary
-evidence (Steenbergen & Colombo, 2018).<span
-class="Apple-converted-space">  </span>This heuristic is used in our day
-to day lives more than we could imagine, in politics this is often the
-case with disputes between opposing parties.<span
-class="Apple-converted-space"> </span>
-
-  
+evidence (Steenbergen & Colombo, 2018). This heuristic is used in our day
+to day lives more than we could imagine, and in politics this is often the
+case with disputes between opposing parties.
 
 ## Effects of Heuristics
 
@@ -181,9 +173,7 @@ One might expect that legislative elites strive to effectively utilize
 heuristics to make the most accurate and efficient decisions that would
 benefit the majority. However, in scenarios where information is
 unrepresentative of the truth, which it often is, the judgment of the
-elite is often misled. The accessibility heuristic allows the elite
-legislative task to come up with a decision-making task that is
-manageable but is often negated when looking at the constituents’ policy
+elite is often misled. The accessibility heuristic allows elites to make decisions in a manageable way, but may conflict with the majority of constituents’ policy
 interests. A 2009 study conducted by psychologist Kristina Miler and her
 team at ‘The International Society of Political Psychology’ found that
 political leaders account for only a small portion of the relevant
@@ -208,13 +198,13 @@ consequences on day-to-day livelihood as well as societal and global
 trajectories. As a result, focusing on how the governed and those who
 govern make decisions is incredibly important. As the research shows,
 individuals and elites, amidst an incredibly complex, rapidly evolving,
-and incentive misladen environment, tend to largely rely on heuristics
+and incentive misleading environment, tend to largely rely on heuristics
 for decision making. Clearly, political elites are tasked with a
 challenging task, and self-interest and many mental shortcuts definitely
 play a key role as we show via multiple examples.
 
 
-Bibliography
+## Bibliography
 
 
 Bartels, Larry M. 2005. “Homer Gets a Tax Cut: Inequality and Public
