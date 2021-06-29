@@ -293,6 +293,16 @@
      Influence of Computational Research on Dopamine Studies
     </a>
    </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#references">
+     References
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#addtional-readings">
+     Addtional readings
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -338,13 +348,13 @@ and Wagner were studying classical conditioning and not decision making,
 their theory of how conditioning affects how an animal (or human) judges
 the value of a particular situation has become the basis for the more
 complex formulations of how a human judges a situation and decides the
-optimal action. Their formula, called the Rescorla Wagner Model, has
+optimal action. Their formula, called the Rescorla-Wagner Model, has
 several complex parameters, but simplified for brevity posits the
 equation that:</p>
 <div class="math notranslate nohighlight">
 \[v\_X^{t+1} = v\_X^t + alpha(v\_X^{observed\_t} - v\_X^t)\]</div>
 <p>where <span class="math notranslate nohighlight">\(v\_X^{t}\)</span> is the estimation of value of situation X at time t,
-<span class="math notranslate nohighlight">\(\\alpha\)</span> is some constant between 0 and 1 that determines the tradeoff
+<span class="math notranslate nohighlight">\(\\alpha\)</span> is a constant <em>learning rate</em> between 0 and 1 that determines the tradeoff
 between speed and stability of an estimate, and <span class="math notranslate nohighlight">\(v\_X^{observed\_t}\)</span> is
 an observation of how valuable situation X is in a particular instance t
 (Rescorla and Wagner 1972). This basic premise has then been
@@ -387,7 +397,7 @@ thinking is that this possible decrease in accuracy is worth it.</p>
 <div class="section" id="computational-methods-overview">
 <h2>Computational methods overview<a class="headerlink" href="#computational-methods-overview" title="Permalink to this headline">¶</a></h2>
 <p>One of the simplest types of computational reinforcement learning is
-called the Multi Armed Bandit. In this problem, let us imagine that we
+called the Multi Armed Bandit (MAB). In this problem, let us imagine that we
 have a machine with k possible levers, each of which, when pulled, will
 give a random reward with a specific mean. Before pulling any levers, we
 have no knowledge of what reward this might be, but we know we want to
@@ -408,7 +418,7 @@ reward of 3, our first 4 trials would have been the same, and our choice
 of always choosing lever 1 would be the correct one. This illustrates
 the basic premise of the MAB, which then prescribes complex mathematical
 formulas to optimize this exploration/exploitation tradeoff (Sutton and
-Barto 2018).<span class="Apple-converted-space"> </span></p>
+Barto 2018).</p>
 <p>This then brings us to another important concept in computational
 reinforcement learning, which is the distinction between online and
 offline learning. In offline learning, we are given a pre-existing
@@ -440,7 +450,7 @@ them. The concept of reinforcement learning can be thought of as the
 strengthening of relationships between events that result in animal
 satisfaction and those animal responses, and the weakening of
 relationships between events that cause animal discomfort and those
-responses.<span class="Apple-converted-space"> </span></p>
+responses.</p>
 <p>Reinforcement learning research is valuable because it is a parallel to
 animal decision-making and can help us understand our decision-making
 processes in the face of reward and punishment. Instrumental
@@ -464,7 +474,7 @@ thousands of people worldwide. Specifically, studies of animal brains
 via electrophysiological recordings, lesion studies, and pharmacological
 manipulations have linked reinforcement learning to particular neural
 substrates including dopamine while revealing that reward prediction
-errors exist (Niv 2009).<span class="Apple-converted-space"> </span></p>
+errors exist (Niv 2009).</p>
 <p>The process in which reward prediction errors are generated is a key
 aspect of temporal difference learning, a reinforcement learning process
 that extends the Rescorla-Wagner model to also account for the timing of
@@ -482,41 +492,31 @@ and temporal difference learning are both able to account for delayed
 rewards and discounted future rewards. Thus, examining the nuances in
 temporal difference prediction errors is useful because it allows us to
 better understand dopamine reward prediction errors, which helps
-pinpoint dopaminergic targets in a medical context.<span
-class="Apple-converted-space"> </span></p>
+pinpoint dopaminergic targets in a medical context.</p>
 <p>Reinforcement learning has been powerful in bringing together
 computation, algorithm, and implementation, and the ways in which it has
 facilitated our understanding of neurological investigations has been
 invaluable (Niv 2009). As reinforcement learning and neurological
 research continue to inform one another, we may consider how the synergy
 of the two can accelerate breakthroughs in other fields.</p>
-<p><em>Caption</em>: A depiction of the Q-learning matrix across training.  Reproduced <a class="reference external" href="https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg"><span
-class="s1">https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg</span></a>
-by Megajuice, 2017 under a Creative Commons Attribution 4.0 License. No changes made)</span></p>
-<p><a class="reference external" href="https://techvidvan.com/tutorials/reinforcement-learning/">https://techvidvan.com/tutorials/reinforcement-learning/</a></p>
-<p><span
-class="s1"><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0022249608001181">https://www.sciencedirect.com/science/article/pii/S0022249608001181</a></span><span
-class="s3"> (1)</span></p>
-<p><span
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p>Dickinson A. (2010) Instrumental Conditioning. In: Stolerman I.P. (eds) Encyclopedia of Psychopharmacology. Springer, Berlin, Heidelberg. <a class="reference external" href="https://doi.org/10.1007/978-3-540-68706-1_343">https://doi.org/10.1007/978-3-540-68706-1_343</a></p>
+<p>Niv, Y (2009).  Reinforcement learning in the brain.  Journal of Mathematical Psychology.  53, 139-154. <span
 class="s1"><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/B9780125264303500039">https://www.sciencedirect.com/science/article/pii/B9780125264303500039</a></span><span
 class="s3"> (2)</span></p>
-<p><span
-class="s1"><a class="reference external" href="https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-68706-1_343">https://link.springer.com/referenceworkentry/10.1007%2F978-3-540-68706-1_343</a></span><span
-class="s3"> (3)</span></p>
+<p>Rescorla, R. A. and Wagner, A. R. (1972). A theory of Pavlovian conditioning: Variations in the effectiveness of reinforcement and nonreinforcement. In Black, A. H. and Prokasy, W. F., editors, Classical Conditioning II: Current Research and Theory. Appleton Century Crofts, New York.</p>
+<p>Sutton, R. S. and Barto, A. G. (1998). Reinforcement Learning: An Introduction. Bradford Books, MIT Press, Cambridge, MA.</p>
+</div>
+<div class="section" id="addtional-readings">
+<h2>Addtional readings<a class="headerlink" href="#addtional-readings" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://techvidvan.com/tutorials/reinforcement-learning/">https://techvidvan.com/tutorials/reinforcement-learning/</a></p>
 <p><span
 class="s1"><a class="reference external" href="https://www.webmd.com/mental-health/what-is-dopamine">https://www.webmd.com/mental-health/what-is-dopamine</a></span><span
 class="s3"> (4)</span></p>
-<p><span
-class="s1"><a class="reference external" href="https://www.researchgate.net/figure/Reward-prediction-error-responses-at-the-time-of-reward-right-and-reward-predicting_fig2_302578615">https://www.researchgate.net/figure/Reward-prediction-error-responses-at-the-time-of-reward-right-and-reward-predicting_fig2_302578615</a></span></p>
 <p><span class="s3">Good overview of reinforcement learning: <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/B9780125264303500039"><span
 class="s1">https://www.sciencedirect.com/science/article/pii/B9780125264303500039</span></a></span></p>
-<p>Neural correlates of RL:</p>
-<p><span
-class="s1"><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0022249608001181">https://www.sciencedirect.com/science/article/pii/S0022249608001181</a></span></p>
-<p>Rescorla and Wagner’s original paper. The basis for a lot of modern
-thinking about RL:</p>
-<p><span
-class="s1"><a class="reference external" href="https://www.researchgate.net/publication/233820243_A_theory_of_Pavlovian_conditioning_Variations_in_the_effectiveness_of_reinforcement_and_nonreinforcement">https://www.researchgate.net/publication/233820243_A_theory_of_Pavlovian_conditioning_Variations_in_the_effectiveness_of_reinforcement_and_nonreinforcement</a></span></p>
 </div>
 </div>
 
