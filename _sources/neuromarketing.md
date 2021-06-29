@@ -6,8 +6,8 @@ As more and more portions of modern
 life are built to revolve around commerce, marketing, and communication,
 there is an increasing need to understand what is going on in the
 interactions thereof. When you see an advertisement, you’re interfacing
-with marketing stimuli that has been crafted to hopefully nudge you to
-buy it. Although this pattern seems age-old, we are still at the
+with marketing stimuli that have been crafted to hopefully nudge you to
+buy a particular item. Although this pattern seems age-old, we are still at the
 forefront of understanding how we interact with and are affected by
 marketing. Neuromarketing has emerged and grown exponentially over the
 past couple decades as a core intersection of business, decision-making,
@@ -109,8 +109,8 @@ each of these methods below.
 When there is neural activity in a specific area of the brain, there is
 an increase in the level of oxygenation in the blood in that area of the
 brain. Thus, identifying regions of increased blood oxygen indicates
-activity in the brain in response to a stimulus. The fMRI is able to
-illustrate with high spatial resolution, an accurate depiction of an
+activity in the brain in response to a stimulus. fMRI is able to
+illustrate, with high spatial resolution, an accurate depiction of an
 activated brain region. This is helpful in terms of neuromarketing to
 identify brain areas that are being activated in response to a product
 (Kottier, 2014), as researchers can examine and correlate the areas of
@@ -127,8 +127,7 @@ discern *when* a person is responding to a product due to the electrical
 signals firing and the EEG capturing those signals immediately (Kottier,
 2014)
 
-## What areas of the brain are important to understand for
-neuromarketing?**
+## What areas of the brain are important to understand for neuromarketing?**
 
 An exciting advantage with the emergence of neuromarketing is using
 neuroimaging data such as fMRI and EEG to more accurately pinpoint
@@ -353,8 +352,7 @@ granular, accurate, and informed readings of brain measurements to the
 effects of fMRI or EEG seem likely to be a core component of the field,
 but the integration with AI/ML, physiological response measurement,
 human-computer interaction -- and more -- provide an exciting frontier
-for expansive investigation and learnings.<span
-class="Apple-converted-space"> </span>
+for expansive investigation and learnings.
 
 ## References
 
@@ -377,7 +375,6 @@ Glimcher, P. W. (2013). Value-Based Decision Making. In Neuroeconomics:
 Decision Making and the Brain: Second Edition (pp. 373-391). Elsevier
 Inc.. [<span
 class="s1">https://doi.org/10.1016/B978-0-12-416008-8.00020-6</span>](https://doi.org/10.1016/B978-0-12-416008-8.00020-6)
-<span class="Apple-converted-space"> </span>
 
 Guixeres, J., Bigné, E., Ausín Azofra, J. M., Alcañiz Raya, M., Colomer
 Granero, A., Fuentes Hurtado, F., & Naranjo Ornedo, V. (2017a). Consumer
@@ -392,8 +389,7 @@ Fusion, 49, 69–78. https://doi.org/10.1016/j.inffus.2018.09.008
 McClure, S. M., Li, J., Tomlin, D., Cypert, K. S., Montague, L. M., &
 Montague, P. (2004). Neural Correlates of Behavioral Preference for
 Culturally Familiar Drinks. Neuron, 44(2), 379–387. [<span
-class="s1">https://doi.org/10.1016/j.neuron.2004.09.019</span>](https://doi.org/10.1016/j.neuron.2004.09.019)<span
-class="Apple-converted-space"> </span>
+class="s1">https://doi.org/10.1016/j.neuron.2004.09.019</span>](https://doi.org/10.1016/j.neuron.2004.09.019)
 
 Murphy, E. R., Illes, J., & Reiner, P. B. (2008). Neuroethics of
 neuromarketing. Journal of Consumer Behaviour, 7(4–5), 293–302.
@@ -412,9 +408,7 @@ Bollinger, B. K., Hershfield, H., Ishihara, M., & Winer, R. S. (2014).
 Predicting Advertising Success Beyond Traditional Measures: New Insights
 from Neurophysiological Methods and Market Response Modeling. SSRN
 Electronic Journal. Published. [<span
-class="s1">https://doi.org/10.2139/ssrn.2498095</span>](https://doi.org/10.2139/ssrn.2498095)<span
-class="Apple-converted-space"> </span>
-
+class="s1">https://doi.org/10.2139/ssrn.2498095</span>](https://doi.org/10.2139/ssrn.2498095)
   
 
   
